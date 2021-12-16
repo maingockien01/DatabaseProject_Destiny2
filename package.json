@@ -1,0 +1,39 @@
+{
+  "name": "db_connect",
+  "version": "0.0.0",
+  "description": "connect to db Postgresql In Amazon",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "testConnection": "connection/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherE0/DatabaseProject_Destiny2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherE0/DatabaseProject_Destiny2/issues"
+  },
+  "homepage": "https://github.com/ChristopherE0/DatabaseProject_Destiny2#readme",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "rimraf": "^3.0.2",
+    "sqlite3": "^4.2.0",
+    "the-traveler": "^1.0.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

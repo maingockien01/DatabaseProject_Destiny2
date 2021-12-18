@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-image: linear-gradient( grey,black   );
+}
+
+.main_page
+{
+    margin-left: 1rem;
+}
+.main_page .search_container
+{
+    display: flex;
+}
+
+.main_page .search_container #seach_weapon_input
+{
+    display: flex;
+    margin-right: 2rem; 
+}
+
+.main_page .search_container #seach_armor_input
+{
+    display: block;
+    margin-left: 4rem;
+}
+
+.main_page .search_container #seach_weapon_input #weapon_input
+{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 20rem;
+}
+
+.main_page .search_container #seach_armor_input #armor_input
+{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 20rem;
+}
+
+.main_page .apply_filter_container
+{
+    display: flex;
+}
+
+.main_page .apply_filter_container > * 
+{
+    margin-top: 4rem;
+    margin-right: 3rem;
+}
+
+.main_page .apply_filter_container select > *
+{
+    width: 8rem;
+    height: 2rem;
+    font-size: large;
+    text-align: center;
+}
+
+.main_page #apply_filter_button
+{
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 10rem;
+    background-color: azure;
+    border-radius: 1rem;
+    box-shadow: 20rem;
+
+}
+
+.main_page #apply_filter_button h2
+{
+    font-size: large;
+}
+
+.main_page #clear_filter_button
+{
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 10rem;
+    background-color: azure;
+    border-radius: 1rem;
+    box-shadow: 20rem;
+
+}
+
+.main_page #clear_filter_button h2
+{
+    font-size: large;
+}

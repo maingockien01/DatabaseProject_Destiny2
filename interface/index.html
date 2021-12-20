@@ -21,7 +21,7 @@
         <!-- text input container -->
         <div class="search_container">
             <div id="seach_weapon_input">
-                <strong style="font-size: 1.5rem;">Item Name</strong>
+                <strong style="font-size: 1.5rem;">Weapon Name</strong>
                 <input id="weapon_input" type="text" name="name">
             </div>
             
@@ -33,69 +33,147 @@
 
         <!-- filter container -->
         <div class="apply_filter_container">
+
             <div class="damage_type_list">
                 <h1>Damage Type </h1>
-                <select name=select_damage id="damage" multiple >
-                    <option value="Kinetic" onclick="checkSelect()">Kinetic</option>
-                    <option value="Arc" onclick="checkSelect()">Arc</option>
-                    <option value="Solar" onclick="checkSelect()">Solar</option>
-                </select>
+                <div class="selectBox" onclick="showDamageSelection()">
+                    <select>
+                        <option>SELECT DAMAGE TYPE</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+
+                <div class="checkboxes" id="checkboxes_damage">
+                    <label for="Rarity">
+                        <input type="checkbox" id="Rarity" name="damage" >Rarity
+                    </label>
+                    <label for="Arc">
+                        <input type="checkbox" id="Arc" name="damage" >Arc
+                    </label>
+                    <label for="Solar">
+                        <input type="checkbox" id="Solar" name="damage">Solar
+                    </label>    
+                </div>
             </div>
 
             <div class="slot_list">
                 <h1>Slot</h1>
-                <select name="select_slot" id="slot" multiple>
-                    <option value="Weapons" onclick="checkSelect()">Weapons</option>
-                    <option value="Kinetic" onclick="checkSelect()">Kinetic</option>
-                    <option value="Energy" onclick="checkSelect()">Energy</option>
-                    <option value="Power" onclick="checkSelect()">Power</option>
-                </select>
+                <div class="selectBox" onclick="showSlotSelection()">
+                    <select>
+                        <option>SELECT SLOT TYPE</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+
+                <div class="checkboxes" id="checkboxes_slot">
+                    <label for="Weapons">
+                        <input type="checkbox" id="Weapons" name="slot" >Weapons
+                    </label>
+                    <label for="Kinetic">
+                        <input type="checkbox" id="Kinetic" name="slot" >Kinetic
+                    </label>
+                    <label for="Energy">
+                        <input type="checkbox" id="Energy" name="slot">Energy
+                    </label>
+                    <label for="Power">
+                        <input type="checkbox" id="Power" name="slot">Power
+                    </label>
+                </div>
             </div>
 
             <div class="rarity_list">
                 <h1>Rarity</h1>
-                <select name="select_rarity" id="rarity" multiple>
-                    <option value="Exotic" onclick="checkSelect()">Exotic</option>
-                    <option value="Legendary" onclick="checkSelect()">Legendary</option>
-                    <option value="Rare" onclick="checkSelect()">Rare</option>
-                    <option value="Common" onclick="checkSelect()">Common</option>
-                    <option value="Basic" onclick="checkSelect()">Basic</option>
-                </select>
+                <div class="selectBox" onclick="showRaritySelection()">
+                    <select>
+                        <option>SELECT RARITY TYPE</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+
+                <div class="checkboxes" id="checkboxes_rarity">
+                    <label for="Exotic">
+                        <input type="checkbox" id="Exotic" name="rarity" >Exotic
+                    </label>
+                    <label for="Rare">
+                        <input type="checkbox" id="Rare" name="rarity">Rare
+                    </label>
+                    <label for="Legendary">
+                        <input type="checkbox" id="Legendary" name="rarity" >Legendary
+                    </label>
+                    
+                    <label for="Common">
+                        <input type="checkbox" id="Common" name="rarity">Common
+                    </label>
+                    <label for="Basic">
+                        <input type="checkbox" id="Basic" name="rarity">Basic
+                    </label>
+                </div>
             </div>
+
 
             <div class="weapon_types_list">
                 <h1>Weapon Types</h1>
-                <select name="select_weapons" id="weapon" multiple="multiple">
-                    <option value="Auto Rifles" onclick="checkSelect()">Auto Rifles</option>
-                    <option value="Combact Bows" onclick="checkSelect()">Combact Bows</option>
-                    <option value="Fusion Rifles" onclick="checkSelect()">Fusion Rifles</option>
-                    <option value="Grenade Launchers" onclick="checkSelect()">Grenade Launchers</option>
-                    <option value="Hand Cannons" onclick="checkSelect()">Hand Cannons</option>
-                    <option value="Machine Guns" onclick="checkSelect()">Machine Guns</option>
-                    <option value="Pulse Rifles" onclick="checkSelect()">Pulse Rifles</option>
-                    <option value="Rocket Launchers" onclick="checkSelect()">Rocket Launchers</option>
-                    <option value="Scout Rifles" onclick="checkSelect()">Scout Rifles</option>
-                    <option value="Shotguns" onclick="checkSelect()">Shotguns</option>
-                    <option value="Sidearms" onclick="checkSelect()">Sidearms</option>
-                    <option value="Sniper Rifles" onclick="checkSelect()">Sniper Rifles</option>
-                    <option value="Submachine Guns" onclick="checkSelect()">Submachine Guns</option>
-                    <option value="Swords" onclick="checkSelect()">Swords</option>                    
-                </select>
+                <div class="selectBox" onclick="showWeaponSelection()">
+                    <select>
+                        <option>SELECT WEAPONS TYPE</option>
+                    </select>
+                    <div class="overSelect"></div>
+                </div>
+
+                <div class="checkboxes" id="checkboxes_weapon">
+                    <label for="Auto Rifles">
+                        <input type="checkbox" id="Auto Rifles" name="weapon" >Auto Rifles
+                    </label>
+                    <label for="Combact Bow">
+                        <input type="checkbox" id="Combact Bow" name="weapon" >Combact Bow
+                    </label>
+                    <label for="Fusion Rifles">
+                        <input type="checkbox" id="Fusion Rifles" name="weapon" >Fusion Rifles
+                    </label>
+                    <label for="Grenade Launchers">
+                        <input type="checkbox" id="Grenade Launchers" name="weapon" >Grenade Launchers
+                    </label>
+                    <label for="Hand Cannons">
+                        <input type="checkbox" id="Hand Cannons" name="weapon" >Hand Cannons
+                    </label>
+                    <label for="Machine Guns">
+                        <input type="checkbox" id="Machine Guns" name="weapon" >Machine Guns
+                    </label>
+                    <label for="Pulse Rifles">
+                        <input type="checkbox" id="Pulse Rifles" name="weapon" >Pulse Rifles
+                    </label>
+                    <label for="Rocket Launchers">
+                        <input type="checkbox" id="Rocket Launchers" name="weapon" >Rocket Launchers
+                    </label>
+                    <label for="Scout Rifles">
+                        <input type="checkbox" id="Scout Rifles" name="weapon" >Scout Rifles
+                    </label>
+                    <label for="Shotguns">
+                        <input type="checkbox" id="Shotguns" name="weapon" >Shotguns
+                    </label>
+                    <label for="Sidearms">
+                        <input type="checkbox" id="Sidearms" name="weapon" >Sidearms
+                    </label>
+                    <label for="Sniper Rifles">
+                        <input type="checkbox" id="Sniper Rifles" name="weapon" >Sniper Rifles
+                    </label>
+                    <label for="Submachine Guns">
+                        <input type="checkbox" id="Submachine Guns" name="weapon" >Submachine Guns
+                    </label>
+                    <label for="Swords">
+                        <input type="checkbox" id="Swords" name="weapon" >Swords
+                    </label>
+                </div>
             </div>
             
         </div>
 
-        <div class="info_select_multiple">
-            <h2>Hold down ctrl in windows and command in mac to select multiple options</h2>
+        <div>
         </div>
 
-        <button id="apply_filter_button" type="button" onclick="getValue()">
+        <button id="apply_filter_button" type="button" onclick="getValues()">
             <h2>Apply Filters</h2>
         </button> 
-
-        <button id="clear_filter_button" type="button" onclick="clearAll()">
-            <h2>Clear Filters</h2>
-        </button>
             
     </div>
 
@@ -103,5 +181,6 @@
     <div class="display_requested_tables">
         <h1>DISPLAYING TABLES</h1>
     </div>
+
 
 </body>

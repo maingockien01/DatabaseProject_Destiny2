@@ -1,168 +1,163 @@
-/*function myFunction()
-{
-    document.getElementById("damage").multiple = true; 
-    let x = document.getElementById('damage').value;
-    let y = document.getElementById('slot').value;
-    let z = document.getElementById('rarity').value;
-    let w = document.getElementById('weapon').value;
-    let weapon = document.getElementById('weapon_input').value;
-    let armor = document.getElementById('armor_input').value;
-    console.log("Damage type: "+x);
-    console.log("Slot type: "+y);
-    console.log("Rarity type: "+z);
-    console.log("Weapon type: "+w);
-    console.log("Weapon Name: "+weapon);
-    console.log("Armor Name: "+armor);
-}*/
+var expanded = false;
 
-function getValue()
+function showDamageSelection() {
+  var checkboxes = document.getElementById("checkboxes_damage");
+  if (!expanded) {
+    checkboxes.style.display = "block";
+    expanded = true;
+  } else {
+    checkboxes.style.display = "none";
+    expanded = false;
+  }
+}
+
+function showSlotSelection() {
+    var checkboxes = document.getElementById("checkboxes_slot");
+    if (!expanded) {
+      checkboxes.style.display = "block";
+      expanded = true;
+    } else {
+      checkboxes.style.display = "none";
+      expanded = false;
+    }
+}
+
+function showRaritySelection() {
+    var checkboxes = document.getElementById("checkboxes_rarity");
+    if (!expanded) {
+      checkboxes.style.display = "block";
+      expanded = true;
+    } else {
+      checkboxes.style.display = "none";
+      expanded = false;
+    }
+}
+
+function showWeaponSelection() {
+    var checkboxes = document.getElementById("checkboxes_weapon");
+    if (!expanded) {
+      checkboxes.style.display = "block";
+      expanded = true;
+    } else {
+      checkboxes.style.display = "none";
+      expanded = false;
+    }
+}
+
+function getValues()
 {
-    let weapon = document.getElementById('weapon_input').value;
-    if(weapon!='')
+    const damage_list = []
+    var damage = document.getElementsByName("damage");
+    for(var checkbox of damage)
     {
-        console.log(weapon);
+        if(checkbox.checked)
+        {
+            if(damage_list.length===0)
+            {
+                damage_list.push(checkbox.id)
+            }
+            else{
+                for(let j=0;j<damage_list.length;j++)
+                {
+                    if(damage_list.indexOf(checkbox.id)=="-1")
+                    {
+                        damage_list.push(checkbox.id)
+                    }
+                }
+            }
+        }
+    }
+    console.log("Damage List: "+damage_list)
+
+    const slot_list = []
+    var slot = document.getElementsByName("slot");
+    for(var checkbox of slot)
+    {
+        if(checkbox.checked)
+        {
+            if(slot_list.length===0)
+            {
+                slot_list.push(checkbox.id)
+            }
+            else{
+                for(let j=0;j<slot_list.length;j++)
+                {
+                    if(slot_list.indexOf(checkbox.id)=="-1")
+                    {
+                        slot_list.push(checkbox.id)
+                    }
+                }
+            }
+        }
+    }
+    console.log("Slot List: "+slot_list);
+
+    const rarity_list = []
+    var rarity = document.getElementsByName("rarity");
+    for(var checkbox of rarity)
+    {
+        if(checkbox.checked)
+        {
+            if(rarity_list.length===0)
+            {
+                rarity_list.push(checkbox.id)
+            }
+            else{
+                for(let j=0;j<rarity_list.length;j++)
+                {
+                    if(rarity_list.indexOf(checkbox.id)=="-1")
+                    {
+                        rarity_list.push(checkbox.id)
+                    }
+                }
+            }
+        }
+    }
+    console.log("Rarity List: "+rarity_list);
+
+    const weapon_list = []
+    var weapon = document.getElementsByName("weapon");
+    for(var checkbox of weapon)
+    {
+        if(checkbox.checked)
+        {
+            if(weapon_list.length===0)
+            {
+                weapon_list.push(checkbox.id)
+            }
+            else{
+                for(let i=0;i<weapon_list.length;i++)
+                {
+                    if(weapon_list.indexOf(checkbox.id)=="-1")
+                    {
+                        weapon_list.push(checkbox.id)
+                    }
+                }
+            }
+            
+        }
+    }
+    console.log("Weapon List: "+weapon_list);
+
+    let weapon_name = document.getElementById('weapon_input').value;
+    if(weapon_name!='')
+    {
+        console.log("Weapon Name: "+weapon_name);
     }
     else
     {
-        weapon="null";
-        console.log(weapon);
+        weapon_name="null";
+        console.log("Weapon Name: "+weapon_name);
     }
     
-    let armor = document.getElementById('armor_input').value;
-    if(armor!='')
+    let armor_name = document.getElementById('armor_input').value;
+    if(armor_name!='')
     {
-        console.log(armor);
+        console.log("Armor Name: "+armor_name);
     }
     else{
-        armor="null"
-        console.log(armor);
-    }
-    
-    let weaponList = document.getElementById("weapon").options;
-    for(let i=0 ; i < weaponList.length; i++)
-    {
-        if(weaponList[i].selected==true)
-        {
-            console.log(weaponList[i].value)
-            //weaponList[i].selected=false
-        }
+        armor_name="null"
+        console.log("Armor Name: "+armor_name);
     }
 
-    let damageList = document.getElementById("damage").options;
-    for(let i=0 ; i < damageList.length; i++)
-    {
-        if(damageList[i].selected==true)
-        {
-            console.log(damageList[i].value)
-            //weaponList[i].selected=false
-        }
-    }
-
-    let rarityList = document.getElementById("rarity").options;
-    for(let i=0 ; i < rarityList.length; i++)
-    {
-        if(rarityList[i].selected==true)
-        {
-            console.log(rarityList[i].value)
-            //weaponList[i].selected=false
-        }
-    }
-
-    let slotList = document.getElementById("slot").options;
-    for(let i=0 ; i < slotList.length; i++)
-    {
-        if(slotList[i].selected==true)
-        {
-            console.log(slotList[i].value)
-            //weaponList[i].selected=false
-        }
-    }
-
-    
-}
-
-function clearAll()
-{
-    let weaponList = document.getElementById("weapon").options;
-    for(let i=0;i<weaponList.length;i++)
-    {
-        weaponList[i].selected=false;
-    }
-    let damageList = document.getElementById("damage").options;
-    for(let i=0;i<damageList.length;i++)
-    {
-        damageList[i].selected=false;
-    }
-    let rarityList = document.getElementById("rarity").options;
-    for(let i=0;i<rarityList.length;i++)
-    {
-        rarityList[i].selected=false;
-    }
-    let slotList = document.getElementById("slot").options;
-    for(let i=0;i<slotList.length;i++)
-    {
-        slotList[i].selected=false;
-    }
-}
-
-function checkSelect()
-{
-    let weaponList = document.getElementById("weapon").options;
-    for(let i=0 ; i < weaponList.length; i++)
-    {
-        weaponList[i].addEventListener("click",()=> {
-            if(weaponList[i].selected==true)
-            {
-                weaponList[i].selected=false;
-            }
-            else{
-                weaponList[i].selected=true;
-            }
-        })
-    }
-
-    let damageList = document.getElementById("damage").options;
-    for(let i=0 ; i < damageList.length; i++)
-    {
-        damageList[i].addEventListener("click",()=> {
-
-            if(damageList[i].selected==true)
-            {
-                damageList[i].selected=false;
-            }
-            else
-            {
-                damageList[i].selected=true;
-            }
-            
-        })
-    }
-
-    let slotList = document.getElementById("slot").options
-    for(let i=0 ; i < slotList.length; i++)
-    {
-        slotList[i].addEventListener("click",()=> {
-            if(slotList[i].selected==true)
-            {
-                slotList[i].selected=false;
-            }
-            else{
-                slotList[i].selected=true;
-            }
-        })
-    }
-
-    let rarityList = document.getElementById("rarity").options
-    for(let i=0 ; i < rarityList.length; i++)
-    {
-        rarityList[i].addEventListener("click", ()=> {
-            if(rarityList[i].selected==true)
-            {
-                rarityList[i].selected=false;
-            }
-            else{
-                rarityList[i].selected=true;
-            }
-        })
-    }
 }

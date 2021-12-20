@@ -87,18 +87,54 @@ body{
     font-size: large;
 }
 
-.main_page #clear_filter_button
-{
-    margin-top: 2rem;
-    height: 3.5rem;
-    width: 10rem;
-    background-color: azure;
-    border-radius: 1rem;
-    box-shadow: 20rem;
 
+.checkboxes
+{
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 0.5rem;
 }
 
-.main_page #clear_filter_button h2
+.checkboxes label:hover
 {
-    font-size: large;
+    background-color: gray;
+}
+
+.selectBox {
+    position: relative;
+  }
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}  
+  
+
+.checkboxes {
+    /* display: none; */
+    border: 1px #c01313 solid;
+    width: auto;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+
+.checkboxes label {
+    display: block;
+}
+
+select
+{
+    font-size: 25px;
+    border-radius: 0.5rem;
+    box-shadow: 20rem;
+}
+
+select:hover 
+{
+    background-color: aqua;
 }

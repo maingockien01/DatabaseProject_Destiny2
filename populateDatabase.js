@@ -16,9 +16,9 @@ const sqlFilepath = './populate.sql'
 fs.writeFile(sqlFilepath, `# CREATED AT ${Date.now()}\n`, { flag: 'w+' }, err => { if (err) console.log(err) })
 
 
+
 // Download the manifest
 
- 
 traveler.destiny2.getDestinyManifest().then(result => {
     traveler.destiny2.downloadManifest(result.Response.mobileWorldContentPaths.en, manitfestFilepath).then(async (filepath) => {
         const manifest = new Manifest(filepath);
@@ -41,14 +41,14 @@ const extractData = async (manifest) => {
     var data = {}
 
     await extractTable(manifest, "DestinyItemCategoryDefinition",
-        [sanitizeDisplayProperties, sanitizeKeepAttributes(['name', 'hash', 'grantDestinyItemType'])])
+        [sanitizeDisplayProperties, sanitizeKeepAttributes(['name', 'hash', 'grantDestinyItemType', 'groupedCategoryHashes'])])
         .then(extractedTable => {
             data.itemCategory = extractedTable
         })
 
     await extractTable(manifest, "DestinyInventoryItemDefinition",
         [sanitizeDisplayProperties,
-            sanitizeKeepAttributes(['equippingBlock', 'name', 'hash', 'flavorText', 'perks', 'itemType', 'classType', 'stats', 'inventory', 'perks', 'itemCategoryHashes'])])
+            sanitizeKeepAttributes(['description', 'inventory', 'itemTypeAndTierDisplayName', 'equippingBlock', 'name', 'hash', 'flavorText', 'perks', 'itemType', 'classType', 'stats', 'inventory', 'perks', 'itemCategoryHashes'])])
         .then(extractedTable => {
             data.inventoryItem = extractedTable
 
@@ -72,6 +72,8 @@ const extractData = async (manifest) => {
             data.tierType = extractedTable;
 
         })
+
+    //DamageType
     await extractTable(manifest, "DestinyDamageTypeDefinition",
         [sanitizeDisplayProperties, sanitizeKeepAttributes(['name', 'hash', 'description', 'enumValue'])])
         .then(extractedTable => {
@@ -113,34 +115,67 @@ const populate = (data) => {
         appendSQL(sql)
     })
 
+    const weaponTypeHash = [2, 3, 4] //Subtype of Weapon (hash 1) - Result from web api
     appendSQL('# INSERT WeaponType')
     data.itemCategory.map(object => {
-        if (object.grantDestinyItemType === 3) {
+        if (weaponTypeHash.includes(object.hash)) {
             const sql = `INSERT INTO WeaponType (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
         }
+
+
+
     })
 
     appendSQL('# INSERT AmmoType')
     data.presentationNode.map(object => {
         if (['Primary', 'Heavy', 'Special'].includes(object.name)) {
-            
+
             const sql = `INSERT INTO AmmoType (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
         }
     })
 
+    appendSQL('# INSERT Mods')
+    data.inventoryItem.map(object => {
+        const modsHash = 59
+        if (object.itemCategoryHashes && object.itemCategoryHashes.includes(modsHash)) {
+
+            const sql = `INSERT INTO Mods (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+            appendSQL(sql)
+        }
+    })
+
+    appendSQL('# INSERT Frame')
+    data.sandbox.map(object => {
+        if (object.name && object.name.includes("Frame")) {
+
+            const sql = `INSERT INTO Frames (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+            appendSQL(sql)
+        }
+    })
+
+
+    appendSQL('# INSERT Perks')
+    data.inventoryItem.map(object => {
+        if (object.perks && object.perks.length > 0) {
+            const tierTypeHash = object.inventory.tierTypeHash;
+            const sql = `INSERT INTO Perks (type, id, description, ttID) VALUES (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(object.description)}, ${prepare(tierTypeHash)});`
+            appendSQL(sql)
+        }
+
+    })
 
     appendSQL('# INSERT Weapon')
     data.inventoryItem.map(object => {
         if (object.itemType === 3) {
             const ammoType = object.equippingBlock.ammoType
 
-            const sql = `INSERT INTO Weapon (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)}));`
+            const sql = `INSERT INTO Weapon (type, id) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
 
-        }
 
+        }
 
     })
 
@@ -193,14 +228,14 @@ const sanitizeQueryResult = (queryResult, sanitizeList) => {
 }
 
 const appendSQL = (line) => {
-    fs.appendFile(sqlFilepath, line + "\n", function (err) {
+    fs.appendFileSync(sqlFilepath, line + "\n", function (err) {
         if (err) throw err;
     });
 }
 
 const prepare = (param) => {
     if (typeof param === 'string' || param instanceof String) {
-        const prepared = "'" + param.replace("'", "''") + "'"
+        const prepared = "'" + param.replaceAll("'", "''") + "'"
 
         return prepared
     } else {

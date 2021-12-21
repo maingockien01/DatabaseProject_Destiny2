@@ -151,15 +151,15 @@ const populate = (data) => {
             const tierType = object.inventory.tierTypeHash
 
             //Stats
-            const impact = (object.stats['4043523819'] && object.stats['4043523819'].value) || 0;
-            const range = (object.stats['1240592695'] && object.stats['1240592695'].value) || 0;
-            const stability = (object.stats['155624089'] && object.stats['155624089'].value) || 0;
-            const handling = (object.stats['943549884'] && object.stats['943549884'].value) || 0;
-            const reloadSpeed = (object.stats['4188031367'] && object.stats['4188031367'].value) || 0;
-            const aimAssistence = (object.stats['1345609583'] && object.stats['1345609583'].value) || 0;
-            const inventorySize = (object.stats['1931675084'] && object.stats['1931675084'].value) || 0;
-            const zoom = (object.stats['3555269338'] && object.stats['3555269338'].value) || 0;
-            const recoilDirection = (object.stats['2715839340'] && object.stats['2715839340'].value) || 0;
+            const impact = (object.stats.stats['4043523819']) ? object.stats.stats['4043523819'].value : 0;
+            const range = object.stats.stats['1240592695'] ? object.stats.stats['1240592695'].value : 0;
+            const stability = object.stats.stats['155624089'] ? object.stats.stats['155624089'].value : 0;
+            const handling = object.stats.stats['943549884'] ? object.stats.stats['943549884'].value : 0;
+            const reloadSpeed = object.stats.stats['4188031367'] ? object.stats.stats['4188031367'].value : 0;
+            const aimAssistence = object.stats.stats['1345609583'] ? object.stats.stats['1345609583'].value : 0;
+            const inventorySize = object.stats.stats['1931675084'] ? object.stats.stats['1931675084'].value : 0;
+            const zoom = object.stats.stats['3555269338'] ? object.stats.stats['3555269338'].value : 0;
+            const recoilDirection = object.stats['2715839340'] ? object.stats['2715839340'].value : 0;
 
             const sql = `INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
@@ -313,12 +313,12 @@ VALUES
             const slot = object.equippingBlock.equipmentSlotTypeHash
 
             //Stats
-            const Mobility = (object.stats['2996146975'] && object.stats['2996146975'].value) || 0;
-            const Resilience = (object.stats['392767087'] && object.stats['392767087'].value) || 0;
-            const Recovery = (object.stats['1943323491'] && object.stats['1943323491'].value) || 0;
-            const Discipline = (object.stats['1735777505'] && object.stats['1735777505'].value) || 0;
-            const Intelliect = (object.stats['144602215'] && object.stats['144602215'].value) || 0;
-            const Strength = (object.stats['4244567218'] && object.stats['4244567218'].value) || 0;
+            const Mobility = (object.stats.stats['2996146975'] && object.stats.stats['2996146975'].value) || 0;
+            const Resilience = (object.stats.stats['392767087'] && object.stats.stats['392767087'].value) || 0;
+            const Recovery = (object.stats.stats['1943323491'] && object.stats.stats['1943323491'].value) || 0;
+            const Discipline = (object.stats.stats['1735777505'] && object.stats.stats['1735777505'].value) || 0;
+            const Intelliect = (object.stats.stats['144602215'] && object.stats.stats['144602215'].value) || 0;
+            const Strength = (object.stats.stats['4244567218'] && object.stats.stats['4244567218'].value) || 0;
             
 
             const sql = `INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 

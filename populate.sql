@@ -1,4 +1,4 @@
-# CREATED AT 1640124897222
+# CREATED AT 1640125629927
 # INSERT TierType
 INSERT INTO TierType (Name, ttID) VALUES ('Common', 2395677314);
 INSERT INTO TierType (Name, ttID) VALUES ('Exotic', 2759499571);
@@ -8211,7 +8211,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raven Shard', 2148305277, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Penumbral Cloak', 2149271612, 4008398120, ,
@@ -8219,7 +8219,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gloves (Scorched)', 2150778206, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tangled Web Greaves', 2151378428, 4008398120, ,
@@ -8291,7 +8291,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cry Defiance', 2162276668, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gloves (Majestic)', 2163610255, 4008398120, ,
@@ -8311,7 +8311,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sealed Ahamkara Grasps', 2166230715, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 10, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan Gauntlets', 2166685180, 3340296461, ,
@@ -8351,7 +8351,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Stag', 2177524718, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 2, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vest of the Great Hunt', 2180477077, 4008398120, ,
@@ -8459,7 +8459,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wise Warlock Robes', 2209865285, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Exodus Down Robes', 2210204488, 4008398120, ,
@@ -8503,7 +8503,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chest Armor', 2226216068, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shieldbreaker Robes', 2229560362, 2127292149, ,
@@ -8547,7 +8547,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Stronghold', 2240152949, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 2, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Timur''s Iron Bond', 2241419267, 4008398120, ,
@@ -8607,7 +8607,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Peregrine Greaves', 2255796155, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Pathfinder''s Robe', 2259629899, 4008398120, ,
@@ -8695,7 +8695,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Rekindled)', 2287277682, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('BrayTech Winter Cloak', 2287801693, 4008398120, ,
@@ -8727,7 +8727,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Damaged Warlock Hood', 2292007738, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dreambane Grips', 2293199928, 4008398120, ,
@@ -8827,7 +8827,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Rekindled)', 2319743206, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Will Gauntlets', 2320100699, 4008398120, ,
@@ -8995,7 +8995,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Helmet', 2359657268, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('A Cloak Called Home', 2360521872, 4008398120, ,
@@ -9011,7 +9011,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Makeshift Suit', 2363903643, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insight Vikti Robes', 2364041279, 4008398120, ,
@@ -9071,7 +9071,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Khepri''s Horn', 2384488862, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of Remembrance', 2387737625, 4008398120, ,
@@ -9079,7 +9079,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Contraverse Hold', 2389062558, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 20, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Discipline', 2389585538, 4008398120, ,
@@ -9179,7 +9179,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Damaged Warlock Robe', 2416634317, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ego Talon IV', 2416730691, 4008398120, ,
@@ -9191,7 +9191,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wise Warlock Gloves', 2421406347, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vigil of Heroes', 2422319309, 4008398120, ,
@@ -9199,7 +9199,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sanguine Alchemy', 2422973183, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 10, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Damaged Warlock Robe', 2422973919, 3340296461, ,
@@ -9211,7 +9211,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Antaeus Wards', 2423243921, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Binary Phoenix Cloak', 2426070307, 4008398120, ,
@@ -9235,7 +9235,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Verity''s Brow', 2428181146, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 2, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Notorious Reaper Boots', 2429433848, 4008398120, ,
@@ -9307,7 +9307,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan Gauntlets', 2448010882, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Remembrance Greaves', 2448259942, 4008398120, ,
@@ -9475,7 +9475,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Bond (Scorched)', 2492769187, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Discipline', 2496309431, 4008398120, ,
@@ -9511,7 +9511,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Helm', 2504771764, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ancient Apocalypse Cloak', 2506514251, 4008398120, ,
@@ -9571,19 +9571,19 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Eye of Another World', 2523259392, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 20, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Nezarec''s Sin', 2523259393, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Skull of Dire Ahamkara', 2523259394, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crown of Tempests', 2523259395, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 0, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Hood (Renewed)', 2523388612, 2127292149, ,
@@ -9751,7 +9751,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('ACD/0 Feedback Fence', 2563444729, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 2, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scatterhorn Strides', 2563857333, 4008398120, ,
@@ -9775,7 +9775,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cosmic Wind III', 2567295299, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Icarus Drifter Mask', 2567710435, 4008398120, ,
@@ -9811,7 +9811,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sly Cloak', 2574857320, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Turris Shade Gauntlets', 2575374197, 4008398120, ,
@@ -9823,7 +9823,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('One-Eyed Mask', 2578771006, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Greaves (Majestic)', 2578820926, 4008398120, ,
@@ -9831,7 +9831,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Damaged Warlock Boots', 2579749301, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Plate of the Exile', 2579999316, 4008398120, ,
@@ -9847,7 +9847,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cry Defiance', 2583547635, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lost Pacific Gauntlets', 2584088255, 4008398120, ,
@@ -9907,7 +9907,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wormhusk Crown', 2600992433, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 0, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Boots', 2602559881, 4008398120, ,
@@ -10003,7 +10003,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Longest Line', 2626766308, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Radegast''s Iron Sash', 2627255028, 4008398120, ,
@@ -10087,7 +10087,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Renegade Hood', 2644553610, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Hood', 2645763830, 4008398120, ,
@@ -10271,7 +10271,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Grasps (Scorched)', 2696245301, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kerak Type 2', 2696303651, 4008398120, ,
@@ -10423,7 +10423,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Leg Armor', 2731019523, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Invader Plate', 2731689491, 4008398120, ,
@@ -10515,7 +10515,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Khepri''s Sting', 2757274117, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scatterhorn Cloak', 2757593792, 4008398120, ,
@@ -10595,11 +10595,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raiden Flux', 2766109872, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Dragon''s Shadow', 2766109874, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 2, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Prodigal Vest', 2766448160, 4008398120, ,
@@ -10643,7 +10643,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Graviton Forfeit', 2773056939, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ankaa Seeker IV', 2775298636, 4008398120, ,
@@ -10671,11 +10671,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wings of Sacred Dawn', 2782999716, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 0, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Starfire Protocol', 2782999717, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 10, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Retro-Grade TG2', 2783831726, 4008398120, ,
@@ -10703,7 +10703,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Renewed)', 2795914918, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Qiao''s Heart', 2798295255, 4008398120, ,
@@ -10731,7 +10731,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cry Defiance', 2803009638, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('RPC Valiant', 2803481901, 2127292149, ,
@@ -10763,7 +10763,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Eternal Warrior', 2808156426, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 2, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Legs of the Exile', 2808362207, 4008398120, ,
@@ -10775,7 +10775,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Geomag Stabilizers', 2808445048, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 10, 10, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sunstead Helm (Majestic)', 2809967986, 4008398120, ,
@@ -10815,7 +10815,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aspirant Boots', 2814965254, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Substitutional Alloy Bond', 2815379657, 4008398120, ,
@@ -10895,7 +10895,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Armamentarium', 2829609851, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 10, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Strides (Renewed)', 2829803132, 2127292149, ,
@@ -11087,7 +11087,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Renegade Plate', 2886651369, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lightkin Bond', 2888835735, 4008398120, ,
@@ -11115,7 +11115,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Verity''s Brow', 2897117448, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 20, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Helm (Rekindled)', 2897466191, 2127292149, ,
@@ -11135,7 +11135,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gauntlets', 2899766705, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Gauntlets', 2900181965, 4008398120, ,
@@ -11263,7 +11263,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wastelander Wraps', 2930768301, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Devastation Complex', 2932121030, 4008398120, ,
@@ -11359,7 +11359,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Soul', 2950045886, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 2, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Strides of the Great Hunt', 2950533187, 4008398120, ,
@@ -11371,11 +11371,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lunafaction Boots', 2954558332, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 10, 10, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Transversive Steps', 2954558333, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 0, 10, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Heiro Camo', 2954945607, 4008398120, ,
@@ -11439,7 +11439,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Warlock Bond', 2969943001, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            0, 0, 1, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Yuga Sundown Boots', 2970562833, 4008398120, ,
@@ -11447,7 +11447,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Claws of Ahamkara', 2970800254, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 20, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dreambane Bond', 2975563522, 4008398120, ,
@@ -11475,7 +11475,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Rekindled)', 2978747767, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tangled Web Helm', 2982412348, 4008398120, ,
@@ -11495,7 +11495,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Vest', 2985655620, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gensym Knight Boots', 2989159626, 4008398120, ,
@@ -11515,7 +11515,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Boots (Scorched)', 2994721336, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('RPC Valiant', 2994740249, 2127292149, ,
@@ -11555,7 +11555,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Grasps (Scorched)', 3007586538, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('RPC Valiant', 3007889693, 2127292149, ,
@@ -11563,7 +11563,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Stag', 3008550972, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 20, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Anti-Hero Victory', 3008933410, 4008398120, ,
@@ -11767,11 +11767,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Getaway Artist', 3070357340, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sanguine Alchemy', 3070555693, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 2, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Scholar Gloves', 3072788622, 4008398120, ,
@@ -11795,7 +11795,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Hood (Scorched)', 3077367255, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Bond of Forgotten Wars', 3080409700, 2127292149, ,
@@ -11811,7 +11811,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wise Warlock Hood', 3081865122, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Helm (Magnificent)', 3081894763, 4008398120, ,
@@ -11831,7 +11831,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Getaway Artist', 3084282676, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Philomath Boots', 3084633087, 4008398120, ,
@@ -11911,7 +11911,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Scorched)', 3101330395, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atonement Tau', 3102366928, 2127292149, ,
@@ -12119,7 +12119,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aspirant Helm', 3159474701, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shadow Specter', 3160437036, 2127292149, ,
@@ -12251,11 +12251,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Cloak (Scorched)', 3192336962, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Renewed)', 3192591867, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aspirant Helm', 3192660133, 3340296461, ,
@@ -12355,7 +12355,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('An Insurmountable Skullfort', 3216110440, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Notorious Sentry Mask', 3220030412, 4008398120, ,
@@ -12503,7 +12503,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Peregrine Greaves', 3257252969, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 10, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Stalker Vest', 3258844783, 4008398120, ,
@@ -12515,7 +12515,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cosmic Wind', 3260546749, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fieldplate Type 10', 3260789875, 2395677314, ,
@@ -12603,7 +12603,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Daring Hunter Mask', 3285934677, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Exodus Down Mark', 3288177452, 4008398120, ,
@@ -12611,7 +12611,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Claws of Ahamkara', 3288917178, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 2, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Terra Concord Plate', 3291075521, 4008398120, ,
@@ -12635,7 +12635,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Liar''s Handshake', 3295711091, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            20, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Far Gone Hood', 3297872976, 4008398120, ,
@@ -12671,7 +12671,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tattered Titan Mark', 3302357737, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hardcase Brawlers', 3302420523, 2127292149, ,
@@ -12711,7 +12711,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scavenger Suit', 3310450277, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Praefectus Cover', 3311198527, 4008398120, ,
@@ -12727,7 +12727,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cosmic Wind', 3313352164, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Binary Phoenix Cloak', 3313736739, 4008398120, ,
@@ -12771,7 +12771,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gauntlets (Scorched)', 3329153302, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cloak of Remembrance', 3329206472, 4008398120, ,
@@ -12847,7 +12847,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kit Fox 1.1', 3352069677, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Winterhart Strides', 3352566658, 4008398120, ,
@@ -12995,15 +12995,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crown of Tempests', 3381022969, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Eye of Another World', 3381022970, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 2, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Nezarec''s Sin', 3381022971, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Qiao''s Strides', 3381714035, 4008398120, ,
@@ -13039,7 +13039,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ophidia Spathe', 3392742912, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 0, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insigne Shade Boots', 3395856235, 4008398120, ,
@@ -13075,7 +13075,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vector Home', 3403897789, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ancient Apocalypse Greaves', 3404053788, 4008398120, ,
@@ -13263,7 +13263,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aspirant Robes', 3468148580, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Took Offense', 3469164235, 4008398120, ,
@@ -13279,7 +13279,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wise Warlock Boots', 3471587229, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Fellowship Plate', 3472216012, 4008398120, ,
@@ -13327,11 +13327,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chromatic Fire', 3488362706, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 10, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Phoenix Protocol', 3488362707, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 0, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Invader Boots', 3489978604, 4008398120, ,
@@ -13455,7 +13455,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fortress Field', 3519241547, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Arms of Optimacy', 3519818547, 4008398120, ,
@@ -13479,7 +13479,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Firebreak Field', 3523134386, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Eimin-Tin Ritual Mask', 3523809305, 4008398120, ,
@@ -13579,15 +13579,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan''s Mark', 3538928634, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lion Rampant', 3539357318, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 2, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Peacekeepers', 3539357319, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Robes', 3543613212, 4008398120, ,
@@ -13611,7 +13611,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hood of Tallies', 3544884935, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Exodus Down Boots', 3545981149, 4008398120, ,
@@ -13643,7 +13643,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scavenger Cloak', 3556023425, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Prodigal Strides', 3562245001, 4008398120, ,
@@ -13651,7 +13651,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wormhusk Crown', 3562696927, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gunsmith''s Devotion Bond', 3567761471, 4008398120, ,
@@ -13895,7 +13895,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ophidian Aspect', 3627185503, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Phoenix''s Fire', 3628145148, 4008398120, ,
@@ -13927,7 +13927,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Renewed)', 3636889164, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Notorious Invader Helm', 3636943392, 4008398120, ,
@@ -13947,7 +13947,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechanik 1.2', 3639035739, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Reaper Mask', 3639906116, 4008398120, ,
@@ -13963,7 +13963,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Daring Hunter Vest', 3640744220, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Collector Boots', 3641592628, 4008398120, ,
@@ -13975,7 +13975,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wastelander Boots', 3643144047, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Icarus Drifter Grips', 3646674533, 4008398120, ,
@@ -13987,7 +13987,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atgeir 2T1', 3650925928, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Calamity Rig Robes', 3651039338, 4008398120, ,
@@ -14059,7 +14059,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('War Mantis', 3665810048, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vigil of Heroes', 3666681446, 4008398120, ,
@@ -14167,7 +14167,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Fire', 3693917763, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ancient Apocalypse Greaves', 3694642467, 4008398120, ,
@@ -14463,7 +14463,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scorched Hunter Grips', 3782032118, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Stella Incognita Cloak', 3783059515, 4008398120, ,
@@ -14479,7 +14479,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sunbracers', 3787517196, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crystocrene Gloves', 3789403502, 4008398120, ,
@@ -14491,19 +14491,19 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dunemarchers', 3790373072, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 10, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lion Rampant', 3790373074, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 20, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Peacekeepers', 3790373075, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 10, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechanik 2.1', 3790903614, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Strides (Resplendent)', 3791120690, 4008398120, ,
@@ -14559,7 +14559,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aspirant Gloves', 3812037372, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Calamity Rig Cover', 3813221631, 4008398120, ,
@@ -14659,11 +14659,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Karnstein Armlets', 3844826440, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Winter''s Guile', 3844826443, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 2, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Remembrance Grips', 3847368113, 4008398120, ,
@@ -14795,7 +14795,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Armamentarium', 3874247549, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 2, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scatterhorn Bond', 3874345778, 4008398120, ,
@@ -14827,11 +14827,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kit Fox 1.4', 3877365781, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wrecked Titan Gauntlets', 3878952908, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Outlander''s Steps', 3880804895, 2127292149, ,
@@ -14839,7 +14839,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mask of the Quiet One', 3883866764, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 2, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Binary Phoenix Mark', 3884544409, 4008398120, ,
@@ -14875,7 +14875,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Daring Hunter Strides', 3892423886, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gauntlets (Renewed)', 3892841518, 2127292149, ,
@@ -14887,7 +14887,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Apotheosis Veil', 3897389303, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Remembrance Greaves', 3899385447, 4008398120, ,
@@ -14943,7 +14943,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('One-Eyed Mask', 3918600864, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Synaptic Construct', 3920228039, 4008398120, ,
@@ -14975,7 +14975,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Graviton Forfeit', 3926392527, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 0, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gauntlets (Resplendent)', 3929403535, 4008398120, ,
@@ -15011,7 +15011,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chest Armor', 3933597171, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Intrepid Exploit Plate', 3937103377, 4008398120, ,
@@ -15031,11 +15031,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Swift', 3942036043, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Scorched)', 3943394479, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Omega Mechanos Cloak', 3947566073, 4008398120, ,
@@ -15055,7 +15055,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Astrocyte Verse', 3948284065, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cloak of the Emperor''s Agent', 3950028838, 4008398120, ,
@@ -15115,7 +15115,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Renegade Gauntlets', 3967705743, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Frumious Grips', 3967899461, 4008398120, ,
@@ -15139,7 +15139,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Leg Armor', 3971164198, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Reaper Vest', 3971188131, 4008398120, ,
@@ -15487,11 +15487,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chromatic Fire', 4057299718, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 2, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Phoenix Protocol', 4057299719, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 0, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Strides', 4057580974, 4008398120, ,
@@ -15563,11 +15563,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gwisin Vest', 4070560770, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Sixth Coyote', 4070560771, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 5, 5, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Substitutional Alloy Mask', 4070722289, 4008398120, ,
@@ -15647,7 +15647,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scavenger Suit', 4091127092, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Reaper Grips', 4091317789, 4008398120, ,
@@ -15683,7 +15683,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wastelander Mask', 4100043028, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Focusing Boots', 4100217958, 4008398120, ,
@@ -15803,7 +15803,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raven Shard', 4133705268, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ankaa Seeker IV', 4134090375, 4008398120, ,
@@ -15823,7 +15823,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lunafaction Boots', 4136768282, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 1, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Shelter in Place', 4138296191, 4008398120, ,
@@ -15931,7 +15931,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Liar''s Handshake', 4165919945, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            2, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insight Vikti Robes', 4166246718, 4008398120, ,
@@ -15991,7 +15991,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechanik 1.1', 4179002916, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kairos Function Helm', 4182737364, 4008398120, ,
@@ -16015,7 +16015,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Cloak', 4195519897, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Fellowship Robes', 4196689510, 4008398120, ,
@@ -16031,7 +16031,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Renegade', 4200817316, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Fellowship Mark', 4201843274, 4008398120, ,
@@ -16191,7 +16191,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Rekindled)', 4245469491, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Equitis Shade Cloak', 4247935492, 4008398120, ,
@@ -16279,7 +16279,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Strides (Scorched)', 4272367383, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kerak Type 2', 4273043916, 4008398120, ,
@@ -16303,11 +16303,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Young Ahamkara''s Spine', 4284305242, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechaneer''s Tricksleeves', 4284305243, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            20, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ego Talon Bond', 4285708584, 4008398120, ,
@@ -16375,7 +16375,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atgeir Mark', 13719069, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Great Hunt', 16387641, 4008398120, ,
@@ -16395,7 +16395,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Helmet', 20603181, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Bond of Remembrance', 21320325, 4008398120, ,
@@ -16503,7 +16503,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Plate', 59990642, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Scholar Bond', 60076357, 4008398120, ,
@@ -16547,7 +16547,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ophidian Aspect', 68357813, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 0, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Focusing Robes', 72827962, 4008398120, ,
@@ -16571,7 +16571,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cry Defiance', 76554114, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Notorious Collector Boots', 77525088, 4008398120, ,
@@ -16611,7 +16611,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scavenger Suit', 83898430, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ankaa Seeker IV', 85800627, 4008398120, ,
@@ -16715,7 +16715,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Helm of Saint-14', 106575079, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tangled Web Gauntlets', 107232578, 4008398120, ,
@@ -16731,7 +16731,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Cloak (Scorched)', 109666087, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Boots (Renewed)', 116784191, 2127292149, ,
@@ -16751,7 +16751,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Geomag Stabilizers', 121305948, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 1, 2, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kabr''s Forceful Greaves', 123979037, 4008398120, ,
@@ -16835,7 +16835,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mk. 44 Stand Asides', 136355432, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Exodus Down Grips', 137386025, 4008398120, ,
@@ -16843,11 +16843,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Vest', 137713267, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Transversive Steps', 138282166, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Remembrance Strides', 138566412, 4008398120, ,
@@ -16887,7 +16887,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Renewed)', 143299650, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Invader Strides', 143821939, 4008398120, ,
@@ -16907,7 +16907,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Khepri''s Sting', 146629029, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 10, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sovereign Legs', 147165546, 4008398120, ,
@@ -17051,7 +17051,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kit Fox 1.5', 182285650, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Noble Constant Type 2', 185326970, 4008398120, ,
@@ -17103,15 +17103,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('St0mp-EE5', 193869520, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            2, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lucky Pants', 193869522, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Orpheus Rig', 193869523, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            2, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insight Vikti Boots', 195370644, 4008398120, ,
@@ -17135,11 +17135,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mask of the Quiet One', 197761152, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 20, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('An Insurmountable Skullfort', 197761153, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wild Hunt Boots', 197764097, 4008398120, ,
@@ -17183,7 +17183,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fieldplate Type 10', 203317967, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vest of Transcendence', 210208587, 4008398120, ,
@@ -17243,7 +17243,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fortress Field', 226227391, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mask (Renewed)', 226436555, 2127292149, ,
@@ -17259,7 +17259,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wrecked Titan Greaves', 229821046, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gensym Knight Gloves', 229923140, 4008398120, ,
@@ -17279,7 +17279,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Damaged Warlock Gloves', 234415107, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Reaper Mark', 234582860, 4008398120, ,
@@ -17343,7 +17343,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan Greaves', 238766140, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Bond of Sekris', 239489770, 4008398120, ,
@@ -17367,15 +17367,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Doom Fang Pauldron', 241462141, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Synthoceps', 241462142, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Renewed)', 242828821, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tethering Void', 243454056, 4008398120, ,
@@ -17395,7 +17395,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Greaves (Scorched)', 246568432, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mythos Hack 4.1', 246765359, 2127292149, ,
@@ -17575,7 +17575,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Renegade Greaves', 288815409, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Theorem', 290136582, 4008398120, ,
@@ -17919,7 +17919,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wings of Sacred Dawn', 370930766, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 0, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Philomath Bond', 373203219, 4008398120, ,
@@ -18059,7 +18059,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wastelander Vest', 397654099, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dreambane Boots', 399547095, 4008398120, ,
@@ -18163,15 +18163,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Dragon''s Shadow', 419976108, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raiden Flux', 419976110, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lucky Raspberry', 419976111, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Xenos Vale IV', 420247988, 4008398120, ,
@@ -18323,7 +18323,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Gloves', 452060094, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kairos Function Crown', 452177303, 4008398120, ,
@@ -18339,19 +18339,19 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atgeir 2T1', 457297858, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crest of Alpha Lupi', 458095280, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            5, 10, 5, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Actium War Rig', 458095281, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            5, 10, 5, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hallowfire Heart', 458095282, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Illicit Sentry Gloves', 458336260, 4008398120, ,
@@ -18367,7 +18367,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Mask', 459778797, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Vestments', 459833058, 4008398120, ,
@@ -18427,7 +18427,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Young Ahamkara''s Spine', 475652357, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Frumious Mask', 477057676, 4008398120, ,
@@ -18435,7 +18435,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Renewed)', 477417894, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Timur''s Iron Bond', 478854451, 4008398120, ,
@@ -18535,7 +18535,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mythos Hack 4.1', 503306433, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insigne Shade Gloves', 503773817, 4008398120, ,
@@ -18587,7 +18587,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Khepri''s Horn', 510504540, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Boots', 511170376, 4008398120, ,
@@ -18611,7 +18611,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Firebreak Field', 516502270, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lightkin Mark', 517124228, 4008398120, ,
@@ -18675,7 +18675,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Boots', 539726822, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cinder Pinion Robes', 539816333, 4008398120, ,
@@ -18687,7 +18687,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Scorched)', 540653483, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Hood (Resplendent)', 545021994, 4008398120, ,
@@ -18827,7 +18827,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fr0st-EE5', 574694189, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            20, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gloves (Drained)', 574790717, 2395677314, ,
@@ -18843,7 +18843,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Stronghold', 576499615, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 20, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gauntlets of the Great Hunt', 576683388, 4008398120, ,
@@ -18887,7 +18887,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scorched Hunter Cloak', 587276683, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Bond of Sekris', 588627781, 4008398120, ,
@@ -18951,7 +18951,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fr0st-EE5', 609852545, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            2, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Farseeker''s March', 610443345, 2127292149, ,
@@ -18959,7 +18959,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raven Shard', 610837228, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Penumbral Mark', 612065993, 4008398120, ,
@@ -19015,7 +19015,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fortress Field', 627055961, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Hood (Drained)', 627596132, 2395677314, ,
@@ -19099,7 +19099,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Makeshift Suit', 648022469, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Stalker Strides', 648456777, 4008398120, ,
@@ -19107,11 +19107,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chest Armor', 648507367, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kit Fox 2.1', 648638907, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Righteous Vest', 648899669, 4008398120, ,
@@ -19139,7 +19139,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan Helm', 660037107, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Frumious Cloak', 662797277, 4008398120, ,
@@ -19175,7 +19175,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gauntlets', 673268892, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Facade of the Hezen Lords', 673599343, 4008398120, ,
@@ -19191,7 +19191,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Helm (Scorched)', 677939288, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Inaugural Revelry Robes', 678051457, 4008398120, ,
@@ -19263,11 +19263,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Oathkeeper', 691578978, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shards of Galanor', 691578979, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Contender', 693067797, 4008398120, ,
@@ -19287,15 +19287,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Mark', 696808195, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wrecked Titan Helm', 697099357, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scorched Hunter Strides', 699343952, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scatterhorn Boots', 699589438, 4008398120, ,
@@ -19307,7 +19307,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atgeir 2T1', 703683040, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Gauntlets', 706104224, 4008398120, ,
@@ -19343,7 +19343,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('At Least It''s a Cape', 720723122, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mask (Rekindled)', 721146704, 2127292149, ,
@@ -19367,7 +19367,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan Plate', 722380134, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ancient Apocalypse Robes', 725297842, 4008398120, ,
@@ -19447,7 +19447,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Atgeir 2T1', 739406993, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Helm', 739655237, 4008398120, ,
@@ -19499,7 +19499,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Renewed)', 749733608, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chiron''s Cure', 750431904, 2127292149, ,
@@ -19587,7 +19587,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gauntlets', 765924941, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Shelter in Place', 768769183, 4008398120, ,
@@ -19631,7 +19631,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fieldplate Type 10', 777818225, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Majestic)', 778247590, 4008398120, ,
@@ -19647,7 +19647,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Scorched)', 780038942, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mask of Feltroc', 781488881, 4008398120, ,
@@ -19707,7 +19707,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Rekindled)', 796635575, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mask of Sekris', 796914932, 4008398120, ,
@@ -19743,11 +19743,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ashen Wake', 809007410, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 20, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wormgod Caress', 809007411, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Equitis Shade Rig', 813277303, 4008398120, ,
@@ -19787,7 +19787,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Renewed)', 829700536, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Vestments', 830400994, 4008398120, ,
@@ -19835,7 +19835,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechanik 1.1', 844823562, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gensym Knight Bond', 845354673, 4008398120, ,
@@ -19847,7 +19847,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fieldplate Type 10', 846463017, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 0, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Phoenix Strife Type 0', 849529384, 4008398120, ,
@@ -19899,7 +19899,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scavenger Suit', 857264972, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Radegast''s Iron Sash', 860168648, 4008398120, ,
@@ -19935,7 +19935,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Astrocyte Verse', 866590993, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 0, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hardcase Brawlers', 867963905, 2127292149, ,
@@ -19947,7 +19947,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Renegade Helm', 868799838, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sovereign Boots', 869711119, 4008398120, ,
@@ -19963,7 +19963,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Boots', 871442456, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wildwood Gauntlets', 872284448, 4008398120, ,
@@ -19971,7 +19971,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mark (Scorched)', 873850027, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Theorem', 874101646, 4008398120, ,
@@ -20083,7 +20083,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Foetracer', 896224899, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            2, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Outlander''s Heart', 897275209, 2127292149, ,
@@ -20107,7 +20107,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lucky Raspberry', 903984858, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shadow Specter', 905249529, 2127292149, ,
@@ -20123,7 +20123,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Gloves', 911039437, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Outlander''s Cover', 914653197, 2127292149, ,
@@ -20175,7 +20175,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fieldplate Type 10', 933345182, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crushing Plate', 934145080, 4008398120, ,
@@ -20311,7 +20311,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Greaves (Scorched)', 967650555, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mighty Rivalry Mark', 967781090, 4008398120, ,
@@ -20367,7 +20367,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ophidia Spathe', 978537162, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 0, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hood of Optimacy', 979292443, 4008398120, ,
@@ -20403,7 +20403,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Makeshift Suit', 995248967, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cloak of Remembrance', 995283190, 4008398120, ,
@@ -20423,7 +20423,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Helmet', 997252576, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Theorem', 997903134, 4008398120, ,
@@ -20523,7 +20523,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Rekindled)', 1021217306, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Great Hunt', 1021341893, 4008398120, ,
@@ -20559,7 +20559,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Skull of Dire Ahamkara', 1030017949, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dreambane Boots', 1030110631, 4008398120, ,
@@ -20583,15 +20583,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('ACD/0 Feedback Fence', 1035680664, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 20, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Doom Fang Pauldron', 1035680665, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Synthoceps', 1035680666, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wing Theorem', 1036467370, 4008398120, ,
@@ -20611,7 +20611,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Brave Titan''s Mark', 1040474575, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Temptation''s Mark', 1043419184, 4008398120, ,
@@ -20651,7 +20651,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shinobu''s Vow', 1053737370, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vigil of Heroes', 1054960580, 4008398120, ,
@@ -20659,7 +20659,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Daring Hunter Cloak', 1056171153, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Inaugural Revelry Plate', 1056992393, 4008398120, ,
@@ -20771,7 +20771,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Apotheosis Veil', 1096253259, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 1, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shieldbreaker Robes', 1096417434, 2127292149, ,
@@ -20783,11 +20783,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Oathkeeper', 1098931324, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 0, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shards of Galanor', 1098931325, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 10, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Took Offense', 1099472035, 4008398120, ,
@@ -20923,7 +20923,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gauntlets (Scorched)', 1141639721, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Plate of the Great Hunt', 1146451699, 4008398120, ,
@@ -20999,7 +20999,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dunemarchers', 1160559849, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tesseract Trace IV', 1162508660, 4008398120, ,
@@ -21011,7 +21011,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gemini Jester', 1163283805, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            2, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scatterhorn Mask', 1164347863, 4008398120, ,
@@ -21035,7 +21035,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Renewed)', 1166603202, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Magnificent)', 1167143060, 4008398120, ,
@@ -21063,7 +21063,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Helm (Scorched)', 1174021263, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Rite of Refusal', 1176024513, 2395677314, ,
@@ -21123,7 +21123,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hallowfire Heart', 1192890598, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Kairos Function Grips', 1193359281, 4008398120, ,
@@ -21167,7 +21167,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scorched Hunter Mask', 1202339439, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Prodigal Vest', 1202993521, 4008398120, ,
@@ -21239,7 +21239,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Boots (Scorched)', 1224603527, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Notorious Sentry Strides', 1225148521, 4008398120, ,
@@ -21255,7 +21255,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Plate (Scorched)', 1225396570, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wildwood Plate', 1226000828, 4008398120, ,
@@ -21263,7 +21263,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Vest (Renewed)', 1229961870, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Robes of the Fulminator', 1230192768, 4008398120, ,
@@ -21339,15 +21339,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lucky Pants', 1245809812, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 10, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Orpheus Rig', 1245809813, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            20, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('St0mp-EE5', 1245809814, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            20, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vigil of Heroes', 1247181362, 4008398120, ,
@@ -21375,7 +21375,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Raven Shard', 1256569366, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mask of Feltroc', 1256688732, 4008398120, ,
@@ -21463,7 +21463,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Fortress Field', 1279721672, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Mark', 1279731468, 4008398120, ,
@@ -21547,7 +21547,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Gloves (Scorched)', 1301731333, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Scholar Gloves', 1301733714, 4008398120, ,
@@ -21583,7 +21583,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Antaeus Wards', 1315823811, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 0, 10, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Exodus Down Plate', 1316205184, 4008398120, ,
@@ -21623,11 +21623,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Knucklehead Radar', 1321354572, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 1, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Celestial Nighthawk', 1321354573, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 1, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Pyrrhic Ascent Cloak', 1322042322, 4008398120, ,
@@ -21671,11 +21671,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cosmic Wind III', 1331205087, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wise Warlock Bond', 1331814296, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            0, 0, 1, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ankaa Seeker IV', 1333087155, 4008398120, ,
@@ -21695,11 +21695,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mask (Scorched)', 1341471164, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Heart of Inmost Light', 1341951177, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Greaves', 1342036510, 4008398120, ,
@@ -21783,11 +21783,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Firebreak Field', 1360445272, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mark (Scorched)', 1361620030, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Moonfang-X7 Gloves', 1361912510, 4008398120, ,
@@ -21795,7 +21795,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Helm of Saint-14', 1362342075, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 10, 10, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vernal Growth Bond', 1362642485, 4008398120, ,
@@ -21811,11 +21811,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Scorched Hunter Vest', 1363280826, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hunter Cloak', 1364005110, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Retro-Grade TG2', 1364856221, 4008398120, ,
@@ -21863,7 +21863,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Helm', 1378545975, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vest of Optimacy', 1381620543, 4008398120, ,
@@ -21891,7 +21891,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Renewed)', 1389298745, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Chassis of Rull', 1390282760, 4008398120, ,
@@ -22059,7 +22059,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Leg Armor', 1436723983, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 1, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Symmachy Bond', 1438648985, 4008398120, ,
@@ -22099,7 +22099,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Firebreak Field', 1443091319, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Strides of the Great Hunt', 1444894250, 4008398120, ,
@@ -22123,7 +22123,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Makeshift Suit', 1452147980, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tangled Web Robes', 1452257107, 4008398120, ,
@@ -22167,7 +22167,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Heart of Inmost Light', 1462291111, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            10, 10, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Legacy''s Oath Cowl', 1462908657, 4008398120, ,
@@ -22219,7 +22219,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark of the Golden Citadel', 1473385934, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Gauntlets', 1473724751, 4008398120, ,
@@ -22227,11 +22227,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gwisin Vest', 1474735276, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            2, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Sixth Coyote', 1474735277, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Greaves', 1476572353, 4008398120, ,
@@ -22283,7 +22283,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ursa Furiosa', 1484674161, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 20, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Phoenix Strife Type 0', 1484937602, 4008398120, ,
@@ -22295,7 +22295,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gemini Jester', 1488061763, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            20, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ancient Apocalypse Bond', 1488486721, 4008398120, ,
@@ -22343,7 +22343,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Renewed)', 1502692899, 2127292149, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Stagnatious Rebuke', 1503713660, 2127292149, ,
@@ -22383,7 +22383,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Mask (Scorched)', 1506728251, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Icarus Drifter Mask', 1507837170, 4008398120, ,
@@ -22663,7 +22663,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Gloves', 1578478684, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Moonfang-X7 Gauntlets', 1581574297, 4008398120, ,
@@ -22671,7 +22671,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Refugee Boots', 1581838479, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Substitutional Alloy Cloak', 1584183805, 4008398120, ,
@@ -22715,11 +22715,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Actium War Rig', 1591207518, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Crest of Alpha Lupi', 1591207519, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Insight Rover Grips', 1591836417, 4008398120, ,
@@ -22887,7 +22887,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Eternal Warrior', 1643575148, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 20, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Strides (Rekindled)', 1644189372, 2127292149, ,
@@ -22947,7 +22947,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Safe', 1654461647, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 2, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Tesseract Trace IV', 1655109893, 4008398120, ,
@@ -22959,7 +22959,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Swift', 1656912113, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 5, 5, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Moonfang-X7 Robe', 1658294130, 4008398120, ,
@@ -23011,15 +23011,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Foetracer', 1667080809, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            20, 0, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Celestial Nighthawk', 1667080810, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 10, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Knucklehead Radar', 1667080811, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            10, 10, 0, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('The Shelter in Place', 1667528443, 4008398120, ,
@@ -23079,7 +23079,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sealed Ahamkara Grasps', 1688602431, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 1, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mythos Hack 4.1', 1691784182, 2127292149, ,
@@ -23235,7 +23235,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vesper of Radius', 1725917554, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 2, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Cloak of Five Full Moons', 1726695877, 4008398120, ,
@@ -23271,15 +23271,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mechaneer''s Tricksleeves', 1734144409, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            2, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ashen Wake', 1734844650, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 2, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wormgod Caress', 1734844651, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 1, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Frumious Vest', 1735538848, 4008398120, ,
@@ -23439,11 +23439,11 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vector Home', 1784774885, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            0, 0, 1, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shinobu''s Vow', 1786557270, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 10, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Robes of Transcendence', 1789501056, 4008398120, ,
@@ -23479,7 +23479,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vesper of Radius', 1799380614, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 10, 10, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Legs of Optimacy', 1800924363, 4008398120, ,
@@ -23623,7 +23623,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Bond (Scorched)', 1841030642, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ego Talon IV', 1842727357, 4008398120, ,
@@ -23635,7 +23635,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Titan Mark', 1844055850, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 1585787867);
+            1, 0, 0, 0, 0, 0, 1585787867);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Lost Pacific Plate', 1847610489, 4008398120, ,
@@ -23647,7 +23647,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Ursa Furiosa', 1848640623, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 2, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Bond of Symmetry', 1848999098, 2395677314, ,
@@ -23719,15 +23719,15 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Winter''s Guile', 1862800745, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 20, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Karnstein Armlets', 1862800746, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sunbracers', 1862800747, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 0, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Shadow''s Plate', 1862963733, 4008398120, ,
@@ -23875,7 +23875,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Robes (Scorched)', 1897528210, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            1, 1, 0, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mark Judgment (CODA)', 1900280383, 4008398120, ,
@@ -23887,7 +23887,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Mk. 44 Stand Asides', 1902412292, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            10, 10, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Reverie Dawn Grasps', 1903023095, 4008398120, ,
@@ -23907,7 +23907,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Contraverse Hold', 1906093346, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 2, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Hodiocentrist Bond', 1906338633, 4008398120, ,
@@ -23915,7 +23915,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Safe', 1906855381, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            10, 10, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Opulent Duelist Plate', 1908254109, 4008398120, ,
@@ -24127,7 +24127,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Daring Hunter Grips', 1961777956, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            1, 0, 0, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Dragonfly Regalia Helm', 1961788365, 4008398120, ,
@@ -24307,7 +24307,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vector Home', 2002682954, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            0, 0, 1, 0, 0, 0, 3448274439);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Sunbreak Greaves', 2004752092, 4008398120, ,
@@ -24483,7 +24483,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Strides (Scorched)', 2046798468, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 20886954);
+            1, 0, 0, 0, 0, 0, 20886954);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Truage Greaves', 2048225009, 4008398120, ,
@@ -24507,7 +24507,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vector Home', 2049820819, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 0, 1, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Outlawed Sentry Greaves', 2051266836, 4008398120, ,
@@ -24627,7 +24627,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Aeon Soul', 2076339106, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 3551918588);
+            0, 10, 10, 0, 0, 0, 3551918588);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Vigil of Heroes', 2076567986, 4008398120, ,
@@ -24671,7 +24671,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Starfire Protocol', 2082483156, 2759499571, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 2, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Iron Fellowship Cloak', 2083136519, 4008398120, ,
@@ -24815,7 +24815,7 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Wrecked Titan Plate', 2134070164, 3340296461, ,
-            0, 0, 0, 0, 0, 0, 14239492);
+            0, 1, 1, 0, 0, 0, 14239492);
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Gensym Knight Cloak', 2135450480, 4008398120, ,
@@ -24835,4569 +24835,4569 @@ INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery,
 INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             ('Solstice Hood (Scorched)', 2147433548, 2395677314, ,
-            0, 0, 0, 0, 0, 0, 3448274439);
+            1, 0, 0, 0, 0, 0, 3448274439);
 # INSERT Weapon
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Classical-42', 2149166938, 'SUROS invites you to bring back the classics.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 49 , 44, 44 , 61
+, 29, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Countess SA/2', 2149166939, 'A noble commander of the battlefield.', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 49 , 47, 44 , 57
+, 31, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Long Goodbye', 2154059444, '"Yeah… I lost a lot of these out on Nessus. Long story. Lots of dead Vex." —The Drifter', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 54, 53 , 46, 50 , 55
+, 43, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Apostate', 2164448701, '"Survival is our most holy writ. Heterodoxy will be its own undoing." —Kuldax', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 42, 47 , 68, 65 , 73
+, 51, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wicked Sister', 2168486467, 'The bad influence in the family.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 43 , 46, 47 , 70
+, 24, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Service Revolver', 2171006181, 'To Serve and Protect.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 57 , 38, 37 , 67
+, 48, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fatebringer', 2171478765, 'Delivering the inevitable, one pull at a time.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 51, 61 , 60, 51 , 84
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Forerunner', 2179048386, 'A new chapter for an old legend.', 17, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 100, 73 , 64, 82 , 60
+, 56, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bellowing Giant', 2186258845, 'Fate will hear your war cry.', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 54 , 50, 50 , 63
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lonesome', 2199171672, 'Am I the only one who sees?', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 62, 48 , 40, 29 , 86
+, 39, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Telesto', 2208405142, 'Vestiges of the Queen''s Harbingers yet linger among Saturn''s moons.', 11, 2 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 85, 32, 81 , 57, 82 , 46
+, 55, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zealot''s Reward', 2209003210, '"Why not use these gifts we''ve been given?" —Yardarm-4, Titan of the Kentarch 3', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 30, 35 , 60, 53 , 37
+, 52, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pariah', 2209451511, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 6, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 55, 42 , 42, 42 , 26
+, 46, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Psi Termina II', 2213848860, 'Don''t be the last.', 13, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 40, 49 , 41, 42 , 55
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cadenza-11', 2213848861, 'A modded version of the Cadenza-43, a Guardian standby.', 13, 1 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 41, 49 , 42, 42 , 55
+, 45, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Standing Tall', 2213848862, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 13, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 58, 46 , 28, 33 , 24
+, 46, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Psi Ferox II', 2213848863, 'Fury is an energy, too.', 13, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 31, 45 , 64, 57 , 64
+, 43, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Parcel of Stardust', 2217366863, 'Everybody''s looking for theirs.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 51, 45 , 71, 60 , 52
+, 26, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Steady Hand', 2220884262, 'Forged in honor of Perun, and a just and unwavering resolve.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 32 , 28, 28 , 65
+, 40, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SMG_v1.0.2', 2222560548, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 54, 39 , 73, 32 , 42
+, 45, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Deathbringer', 2232171099, '"Sing them a lullaby of death and nothing more."', 10, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 62 , 69, 40 , 72
+, 36, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Perfect Paradox', 2248667690, 'A tale that''s different from the rest: the thread unfurls against the clocks.
 The one the Speaker loved the best must have a perfect paradox.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 39, 42 , 49, 68 , 70
+, 54, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Interference VI', 2257180473, 'Come between your enemies and their lives.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 46, 46 , 61
+, 36, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jurassic Green', 2261046232, '"''Monster'' is a relative term. Just look at the Drifter."  —Glint', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 34, 47 , 27, 34 , 76
+, 47, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stochastic Variable', 2272470786, '"However certain we are of our simulations, they always contain an element of unpredictability." —Lakshmi-2', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 40, 42 , 55, 34 , 52
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Honor''s Edge', 2276266837, '"Good leadership requires discernment: the art of finely dividing one subtle thing from another." —Executor Hideo', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Does Not Compute', 2278995296, 'The engineers aren''t ready for us.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 64, 24 , 35, 43 , 39
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Huckleberry', 2286143274, 'Nothin'' in the world that 30 rounds can''t solve.', 24, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 53, 42 , 60, 10 , 49
+, 100, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Persuader', 2290863050, '"They say you can''t reason with these enemies. I dunno—my gun and I seem to manage just fine." —Kei-Ying', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 39, 42 , 67, 61 , 71
+, 42, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Belfry Bounty', 2295941920, '"Making guns helps the hours pass. Especially since Suraya never calls…" —Devrim Kay', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 49, 43 , 44, 46 , 63
+, 39, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Maestro-46', 2295941921, 'SUROS invites you to lead.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 75, 25 , 32, 37 , 43
+, 33, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Imperative', 2314999489, '"We must stop the weavers before they seal the Garden and begin to summon back its heart." —Ikora Rey', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 68, 28 , 30, 37 , 33
+, 53, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gunnora''s Axe', 2326716489, '"She taught us all to appreciate a good, sturdy axe." —Lord Saladin', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 70, 54 , 68, 53 , 34
+, 42, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Calusea Noblesse', 2338088853, '"A Reefborn long rifle, rewritten with Hive voices to arm Gahlran the failed. Now yours." —Emperor Calus', 14, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 75, 30 , 36, 38 , 32
+, 60, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Igneous Hammer', 2351180975, 'Forged by fire and might.', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 68, 42 , 43, 37 , 69
+, 55, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cuboid ARu', 2351747816, 'What is the shape of reality?', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 59, 44 , 40, 42 , 42
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Refrain-23', 2351747817, 'SUROS invites you to do it again.', 6, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 44, 42 , 55, 37 , 62
+, 45, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sand Wasp-3au', 2351747818, 'Watch as I destroy you.', 6, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 53 , 46, 50 , 70
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ros Lysis II', 2351747819, 'Here is a way to free your enemies from their earthly tethers.', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 41 , 61, 55 , 70
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Witherhoard', 2357297366, '"Like a one-man private security company." —The Drifter', 23, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 0, 67 , 53, 40 , 84
+, 46, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Drang', 2362471600, 'Since the Collapse, these pistols have been retooled several times to boost their firepower. A worn inscription reads, "To Victor, from Sigrun."', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 42, 64 , 74, 37 , 70
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Rat King', 2362471601, 'We are small, but we are legion.', 17, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 37, 46 , 46, 46 , 60
+, 80, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Anarchy', 2376481550, '"Stick to wall, ground, human… then FFFFFRRRRRYYYYY! Hehehehehehehe." —Siviks, Lost to None', 23, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 64 , 63, 67 , 69
+, 0, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Scholar (Adept)', 2386979999, 'You can''t pull an all-nighter when the sun never sets.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 69, 29 , 37, 38 , 32
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Erentil FR4', 2398848320, 'Bring on the sunrise.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 59, 30 , 26, 28 , 65
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eyes of Tomorrow', 2399110176, '"I want to see it all, unhindered, and know it''s mine to take." —Clovis Bray', 10, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 75 , 50, 51 , 68
+, 20, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sacred Provenance', 2408405461, '"These gifts were not made for us, but we were meant to have them." —Rekkana, Warlock of the Kentarch 3', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 72, 61 , 32, 42 , 48
+, 52, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Vision', 2414141462, 'Glory in the damage the right blast can do.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 37, 82 , 55, 39 , 65
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('New City', 2414612776, '"That''s what I see when I look at the Farm." —Devrim Kay', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 49, 49 , 57, 53 , 45
+, 43, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Atalanta-D', 2414612777, 'They will tell you that you can''t. Don''t listen to them.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 52, 45 , 31, 27 , 54
+, 21, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bastion', 2415517654, '"The final stand is wherever I plant my feet. Not one step more." —Saint-14', 11, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 52 , 34, 32 , 65
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Atalanta-D XG1992', 2422664927, 'A Black Armory experimental prototype.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 52, 45 , 31, 27 , 54
+, 21, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Rose', 2429822976, 'In his strong hand the man held a Rose. And his aura burned bright.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 44, 46 , 71, 60 , 85
+, 58, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Austringer', 2429822977, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 51, 63 , 52, 51 , 75
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Quickstep', 2433826056, 'SUROS invites you pick up the pace.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 44, 49 , 55, 53 , 47
+, 39, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shattered Cipher', 2434225986, 'All doors open before you.', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 28, 40 , 41, 68 , 64
+, 37, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Comedian (Adept)', 2443900757, 'A. A ha. A ha ha ha. A ha ha ha ha ha ha ha.', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 35, 31 , 37, 42 , 38
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Royal Entry', 2448907086, 'You have arrived.', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 54 , 48, 36 , 65
+, 45, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Blast Battue', 2453357042, '"Yes, you got the kill, but the pelt is ruined." —Devrim Kay', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 47, 46 , 63
+, 48, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Reed''s Regret (Adept)', 2475355656, '"Trust me." —Savathûn as Osiris', 22, 3 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 50, 53 , 38, 35 , 66
+, 40, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Quitclaim Shotgun III', 2478247171, 'Ownership rules.', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 29, 29 , 30, 38 , 30
+, 32, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Scholar', 2478792241, 'You can''t pull an all-nighter when the sun never sets.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 69, 29 , 37, 38 , 32
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Darkest Before', 2481758391, '"Persevere, or die in darkness. The choice is yours." —Emissary of the Nine', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 41, 53 , 34, 42 , 75
+, 50, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cartesian Coordinate', 2481881293, 'Where does one end and the other begin?', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 29, 33 , 55, 51 , 60
+, 49, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Number', 2492081469, '"Ah, but which number? Why it and no others?" —Lakshmi-2', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 55, 46 , 42, 42 , 44
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Code Duello', 2496242052, 'An unfinished inscription runs along the barrel: "Tlamus, she who—"', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 62 , 72, 42 , 62
+, 42, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sorrow''s Verse', 2496875173, 'Nothing resonates like grief.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 41 , 68, 62 , 68
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cartesian Coordinate', 2502422772, 'Where does one end and the other begin?', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 29, 33 , 55, 51 , 60
+, 49, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shock and Awe', 2502422773, 'Do not fear. Be what others fear.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 49, 32 , 27, 24 , 59
+, 21, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Echo III', 2502422774, 'Listen, and you will hear it.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 38, 48 , 36, 38 , 62
+, 29, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tarantula', 2502422775, 'No one will escape my web.', 22, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 60, 43 , 32, 31 , 58
+, 30, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ghost Primus', 2505533224, 'The Ghost Primus was strong because of his disfigurement, not in spite of it. He alone had the vision to share my dream of a new, perfect world. Ghaul was a creature of singular beauty, and I loved him.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 53, 42 , 64, 55 , 70
+, 40, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Purpose', 2516360525, '"You have not yet found your purpose. But it has found you." —Emissary of the Nine', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 42, 50 , 72, 60 , 72
+, 55, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Death Adder', 2517599010, 'You will not see me coming.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 36, 42 , 64, 33 , 55
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Igneous Hammer (Adept)', 2527666306, 'Forged by fire and might.', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 68, 42 , 43, 37 , 69
+, 55, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Mornin'' Comes', 2535939781, 'Fix your eye upon the rising sun.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 50, 47 , 47, 45 , 61
+, 38, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Scipio-D', 2544285846, 'Battle for annihilation.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 60 , 66, 39 , 68
+, 30, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Apex Predator', 2545083870, 'Is it you or I that tops the food chain, o challenger mine?', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 49 , 50, 50 , 68
+, 33, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Headstrong', 2553946496, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 9, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 55, 24 , 30, 32 , 47
+, 46, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Helios HC1', 2553946497, 'A standard issue Omolon weapon. City-made.', 9, 1 , -1, 2303181850 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 30, 33 , 62, 54 , 78
+, 44, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Antiope-D', 2561659919, 'They look to you to save them.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 63, 39 , 26, 27 , 58
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Matador 64', 2563012876, 'Be the bull.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 68, 53 , 49, 53 , 65
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Kindled Orchid', 2575506895, 'Find the beauty in the flame.', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 45, 56 , 47, 49 , 76
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Enigma''s Draw', 2581162758, '"Indeed, I traffic in all kinds of secrets and mysteries. Weapons, as well." —Lakshmi-2', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 54, 48 , 39, 28 , 86
+, 33, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph SAW', 2582755344, 'Chained away long ago; its jaws too eager in times of peace.', 8, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 66, 30 , 35, 38 , 30
+, 40, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Spoiler Alert', 2588048270, 'Someone is going to die.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 25, 46 , 68, 56 , 65
+, 27, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Compass Rose', 2591111628, '"Let the Light be your compass." —Mithrax', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 66, 47 , 42, 53 , 73
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Allegro-34', 2591586260, 'SUROS invites you to pick up the pace.', 9, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 41, 51 , 50, 42 , 65
+, 47, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Azimuth DSu', 2591586261, 'What lies beyond the horizon?', 9, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 55, 25 , 31, 28 , 57
+, 48, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lamia HC2', 2591586262, 'Make your enemy''s strength your own.', 9, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 34, 37 , 66, 59 , 81
+, 45, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ballyhoo Mk.27', 2591586263, 'Prepare to back up your boasts.', 9, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 51 , 48, 44 , 67
+, 47, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Leviathan''s Breath', 2591746970, '"Cast a Shadow over the wilds of this universe. Return with glorious trophies." —Emperor Calus', 31, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 0, 10 , 10, 10 , 66
+, 10, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cloudstrike', 2603483885, 'They return to moons devoid. Their eyes searching. It''s just begun. Meet this storm of sound and fury, till thunder-clashes fade to silence.', 12, 2 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 64, 54 , 51, 46 , 68
+, 70, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Troubadour', 2605790032, 'This weapon was forged by Devrim Kay VIII for the survivors.', 12, 2 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 40 , 42, 40 , 55
+, 27, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Luna Nullis II', 2605790033, 'The power you seek is in your hands.', 12, 2 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 36 , 63, 56 , 64
+, 27, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trondheim-LR2', 2605790034, 'Wide rivers. Cold winters. Old songs. Find a way.', 12, 2 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 68, 22 , 26, 33 , 38
+, 20, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Imminent Storm', 2611861926, 'It''s going to get worse before it gets better.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 41, 36 , 53, 28 , 32
+, 47, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Play of the Game', 2621637518, 'Show no mercy.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 40, 51 , 65
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Haunted Earth', 2625782212, '"Those we''ve lost still linger in every place we look. Earth is no place for the living." —Arach Jalaal', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 70, 28 , 32, 39 , 28
+, 52, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Contingency Plan', 2625782213, '"The Traveler is an illusion. A false god. It will not save us. But this might." —Arach Jalaal', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 32, 50 , 28, 33 , 66
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shadow Price', 2633186522, 'A precision Auto Rifle left behind by Toland, the Shattered. It asks so little, and it offers so much.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 67, 50 , 49, 52 , 43
+, 48, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pillager', 2653316158, '"No mercy out here. Can''t afford it." —The Drifter', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 39, 48 , 73, 37 , 57
+, 64, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gentleman Vagabond', 2660862359, 'Everyone loves a scoundrel.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 68, 36 , 38, 42 , 49
+, 35, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Subjunctive', 2663204025, 'Stop ''em? Pretty sure our deaths are just meant to be the early warning system.', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 33, 43 , 69, 35 , 52
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trackless Waste', 2681395357, '"No footprints out here." —Olu Alderdice', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 46, 54 , 50, 55 , 52
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traitor''s Fate', 2683682446, 'Let the Emperor''s gratitude end your foes as swiftly as you have ended his.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traitor''s Fate', 2683682447, 'The true Emperor of the Cabal invites you to strike down his faithless foe.', 18, 3 , -1, 2303181850 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Older Sister III', 2693941407, '"To protect us, as she once protected me." —Executor Hideo', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 48, 47 , 52, 40 , 61
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Home Again', 2694044460, 'This weapon was forged by Devrim Kay VIII for the survivors.', 6, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 25, 50 , 40, 48 , 66
+, 44, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cydonia-AR1', 2694044461, 'A modded version of the Daito Cydonia, a Guardian standby.', 6, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 42, 40 , 64, 56 , 59
+, 42, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('SUROS Throwback', 2694044462, 'A heavily modded version of a SUROS prototype weapon.', 6, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 53, 40 , 41, 42 , 28
+, 42, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jiangshi AR1', 2694044463, 'A modded version of the Omolon Jiangshi, a Guardian standby.', 6, 1 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 53, 40 , 42, 41 , 28
+, 44, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Two-Tailed Fox', 2694576561, 'Adorably murderous.', 10, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 55 , 52, 36 , 67
+, 30, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Komodo-4FR', 2697058914, 'I await the perfect moment and watch my enemies decay.', 22, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 43, 49 , 32, 32 , 62
+, 29, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Foggy Notion', 2700862856, '"Hard to make it out, just a blur of bullets and fists."', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 47, 50 , 56, 49 , 48
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Out of Options', 2700862858, '"All you really need is two."', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 35, 38 , 60, 32 , 50
+, 55, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Red Mamba', 2700862859, 'My venom is swift.', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 32, 41 , 68, 37 , 53
+, 67, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Somerled-D', 2703340117, 'Heroes are not born, but made.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 30, 28 , 35, 39 , 35
+, 30, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zenith of Your Kind', 2707464805, '"Earth has no Shadow. Not yet." —Calus, Emperor of the Cabal', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 39, 45 , 46, 71 , 69
+, 60, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('BxR-55 Battler', 2708806099, 'A treasured competition piece from a bygone era.', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 55, 63 , 74, 67 , 85
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bygones', 2712244741, '"Gone, but never forgotten." —The Drifter', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 53, 60 , 51, 51 , 61
+, 60, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Corsair''s Wrath', 2714022207, '"We are only briefly Awoken. The rest of existence is an eternal dream." —Sedia', 22, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 41, 44 , 32, 30 , 61
+, 26, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tyranny of Heaven', 2721249463, 'It was She that inspired me to imagine your destruction, o jailer mine.', 31, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 63 , 52, 28 , 74
+, 64, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Patron of Lost Causes', 2723241847, 'There is a rough engraving on its side: "In Memoriam."', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 40, 39 , 67, 58 , 67
+, 52, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Arc Logic', 2723909519, '"The Hive live by sword logic. Teach them another way." —Eris Morn', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 44, 41 , 68, 60 , 65
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stay Away', 2734369894, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 23, 2 , -1, 2303181850 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 26 , 62, 68 , 70
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Distant Tumulus', 2738174948, '"Who will speak for us when we are gone?" —Arach Jalaal', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 36, 37 , 67, 61 , 72
+, 47, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Death Adder', 2742490609, 'You will not see me coming.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 36, 42 , 64, 33 , 55
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('True Prophecy', 2742838700, '"Some claim to know the future better than we do. Listen carefully. Then ask yourself: do their words ring true or false?" —Lakshmi-2', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 62, 30 , 37, 30 , 62
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dire Promise', 2742838701, '"If you think this world ends well, you are mistaken." —Arach Jalaal', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 45, 50 , 61, 54 , 87
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bug-Out Bag', 2744715540, 'Grab and go.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 44, 45 , 52, 52 , 46
+, 42, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tempered Dynamo', 2753269585, 'Reinforce the bonds of legacy.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 57, 52 , 35, 32 , 65
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Royal Chase', 2776503072, '"If anyone asks why you''re out here, just reload." —Devrim Kay', 14, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 44, 44 , 47, 46 , 63
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Quickfang', 2782325300, 'My smile is full of blades.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 20, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eternity''s Edge', 2782325301, '"A sword is a wand that casts two spells: parry and cut." —Tarsem Sauer', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crown-Splitter', 2782325302, '"Our enemies think themselves gods and kings. Show them the error of their ways." —Callisto Yin', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 72, 60, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Blasphemer', 2782847179, '"The logic is ineluctable: Those who die deserve oblivion." —Kuldax', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 62, 46 , 49, 49 , 61
+, 48, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tiebreaker', 2792181427, 'Overtime will be over soon.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 30 , 26, 60 , 31
+, 31, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Distant Tumulus', 2807687156, '"Who will speak for us when we are gone?" —Arach Jalaal', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 36, 37 , 67, 61 , 72
+, 47, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vertical Orbit QSm', 2812672356, 'Which way is up?', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 40, 68 , 52, 35 , 79
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eulogy SI4', 2812672357, 'We are the eulogy of a lost civilization.', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 34, 79 , 58, 40 , 61
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bad Juju', 2816212794, '"If you believe your weapon wants to end all existence, then so it will." —Toland the Shattered', 13, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 42, 66 , 47, 52 , 60
+, 15, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hoosegow XE5837', 2817798849, 'A Black Armory experimental prototype.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 44, 50 , 63
+, 25, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Defiant', 2817949113, '"Do not let them distract you from your purpose!" —Lakshmi-2', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 40, 41 , 67, 60 , 85
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bad News XF4354', 2824241403, 'A Black Armory experimental prototype.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 29 , 33, 32 , 66
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sonata-48', 2842493170, 'SUROS invites you to appreciate the classics.', 14, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 45, 43 , 44, 46 , 60
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trax Dynia', 2842493171, 'A modified weapon from the Last City.', 14, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 34, 37 , 66, 58 , 66
+, 47, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Judgment', 2850415209, '"The greatest threat to a Guardian is another Guardian." —Emissary of the Nine', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 50, 48 , 48, 46 , 75
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Sudden Death', 2855157553, '"Everything dies. This is proof." —Emissary of the Nine', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 33 , 32, 39 , 30
+, 38, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('SUROS Regime', 2856683562, 'Nostalgia as a weapon of war. Style as a hallmark of victory.', 6, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 49 , 68, 67 , 68
+, 0, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Honor''s Edge', 2857348871, '"Good leadership requires discernment: the art of finely dividing one subtle thing from another." —Executor Hideo', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Refrain-23', 2860172148, 'SUROS invites you to do it again.', 6, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 44, 42 , 55, 37 , 62
+, 45, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cuboid ARu', 2860172149, 'What is the shape of reality?', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 59, 44 , 40, 42 , 42
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ros Lysis II', 2860172150, 'Here is a way to free your enemies from their earthly tethers.', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 41 , 61, 55 , 70
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sand Wasp-3au', 2860172151, 'Watch as I destroy you.', 6, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 53 , 46, 50 , 70
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hailing Confusion', 2870169846, '"Do not face your foes head-on. Barrage them from above. Bewilder them with misdirection." —Clovis Bray', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 43, 57 , 47, 48 , 62
+, 49, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Xenoclast IV', 2891672170, '"Nice chitin. It''d be a shame if someone broke it." —Liu Feng', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 50, 40 , 69, 59 , 44
+, 23, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Future Imperfect', 2891976012, 'Language is a flawed technology.', 18, 3 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Rest for the Wicked', 2891976013, 'Let them sleep. For a long, long time.', 18, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lionheart', 2903592984, 'The one thing they can never take away.', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 45 , 66, 59 , 65
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Rebuke AX-GL', 2903592986, '"I am the shadow that whispers in your…"
 
 "Shut up, shadow."', 6, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 50 , 61, 55 , 56
+, 40, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Yellowjacket-3au', 2903592987, 'Beware my sting.', 6, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 52 , 44, 54 , 66
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sturm', 2907129556, 'These ancient ceremonial pistols can be dated back to the early Golden Age. A faded inscription reads, "To Sigrun, from Victor."', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 56 , 46, 55 , 50
+, 30, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sunshot', 2907129557, '"Can''t outrun the sunrise." —Liu Feng', 9, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 38, 46 , 83, 75 , 60
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Hero''s Burden', 2909905776, 'Forged in honor of Saladin, of all that has been lost and all  that remains.', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 50, 46 , 63, 58 , 51
+, 43, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Imperial Decree', 2919334548, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 36, 36 , 38, 41 , 35
+, 39, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Basilisk', 2928437919, 'The miracle worker for close-range ordnance.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 38, 42 , 48, 68 , 70
+, 53, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dream Breaker', 2931957300, '"Broken dreams are all I have left. Why should they be any different?" —Eris Morn', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 37, 42 , 34, 37 , 43
+, 31, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Harsh Language', 2936850733, 'This weapon was forged by Devrim Kay VIII for the survivors.', 23, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 68, 71 , 75
+, 60, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gareth-C', 2936850734, 'Your good heart will lead to great adventures.', 23, 3 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 24, 29 , 30
+, 28, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Penumbra GSm', 2936850735, 'Will the long night ever end?', 23, 3 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 57 , 64, 58 , 66
+, 24, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Toil and Trouble', 2957367743, 'A charm of powerful trouble.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 31, 36 , 37, 42 , 30
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Living Memory', 2957542878, '"Do you ever wonder who you were, before?"', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 44, 53 , 47, 45 , 72
+, 51, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Wizened Rebuke', 2961807684, 'Forged in honor of Skorri, of lessons learned and lessons taught.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 56, 35 , 30, 28 , 62
+, 28, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Succession', 2990047042, 'A single word etched inside the barrel: "Sylvie-1."', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 78, 31 , 37, 42 , 48
+, 50, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Frostmire''s Hex', 3005104939, '"She loved nothing more than a good blizzard." —Lord Saladin', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 34, 52 , 30, 40 , 72
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Conjecture TSc', 3005879472, 'What waits beyond the horizon?', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 54, 32 , 28, 24 , 63
+, 22, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crooked Fang-4fr', 3005879473, 'I sink my teeth into my prey.', 22, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 34, 36 , 36, 35 , 61
+, 38, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Proelium FR3', 3027844940, 'Make their victory Pyrrhic.', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 35 , 57, 50 , 33
+, 52, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Erentil FR4', 3027844941, 'Bring on the sunrise.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 59, 30 , 26, 28 , 65
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph Officer Revolver', 3037520408, 'A thing of elegance from a more civilized age.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 35, 57 , 37, 54 , 68
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nameless Midnight', 3040742682, 'Strange things wake at the stroke of twelve.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 46, 44 , 47, 50 , 62
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Iota Draconis', 3044460004, '"The paths between stars are fractal mirrors of the neurons in our brains and the vicissitudes of our fates." —Sjari, Awoken Techeun', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 51, 32 , 30, 25 , 59
+, 18, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Timelines'' Vertex', 3055192515, '"I give you this, to be sure that we meet again." —Lakshmi-2', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 42, 46 , 42, 46 , 60
+, 50, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Heretic', 3067821200, '"Death is only and forever an ending. All else is sacrilege." —Kuldax', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 33 , 31, 62 , 29
+, 32, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Threaded Needle', 3075224551, '"Most of our advanced tech was first used against us by alien races. Time to return the favor." —Lord Saladin', 22, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 43, 52 , 35, 28 , 62
+, 35, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('MIDA Mini-Tool', 3089417788, 'Select application: Flare gun. Water purifier. Interplanetary Positioning System. Encyclopædia Arcana. Personal flotation device. List continues.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 37, 54 , 68, 38 , 49
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Riskrunner', 3089417789, 'Charge your soul and let the electrons sing.', 24, 1 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 55, 60 , 51, 42 , 50
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dreaded Venture', 3100452337, 'Not to be undertaken lightly.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 74, 35 , 31, 39 , 49
+, 39, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tarrabah', 3110698812, 'We walk where our ancestors once walked.', 24, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 49, 28 , 55, 42 , 40
+, 100, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Spare Rations', 3116356268, 'Whether times are lean or fat.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 39, 50 , 74, 60 , 92
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Exitus Mk.I', 3117873459, 'Quality of construction and volume of destruction.', 8, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 43, 36 , 41, 41 , 58
+, 40, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('D.A.R.C.I.', 3141979346, 'Thank you for using the Data Analysis, Reconnaissance, and Cooperative Intelligence device. You may call me Darci.', 12, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 37, 78 , 78, 64 , 60
+, 60, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Borealis', 3141979347, 'Light is a spectrum. Why limit yourself to a single hue?', 12, 2 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 54, 52 , 73, 68 , 65
+, 55, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('False Promises', 3143732432, 'Gripped in the hands of the desperate many.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 75, 25 , 42, 44 , 52
+, 54, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eye of Sol', 3164743584, '"The sun took my sight; thus, the sun became my eyes." —Parables of the Allspring', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 55, 54 , 51, 46 , 68
+, 45, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Memory Interdict', 3165547384, '"I have no time for nostalgia. Give me visions of braided futures, brilliantly aflame." —Lakshmi-2', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 48, 48 , 58
+, 23, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bite of the Fox', 3169616514, '"Sometimes Skorri wouldn''t show herself until she was the only one left who could stand." —Lord Saladin', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 73, 28 , 32, 32 , 41
+, 38, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fractethyst', 3184681056, '"Imagine that as the last sound you hear." —Petra Venj', 7, 2 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 66, 50 , 47, 55 , 72
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Mos Ultima II', 3185293912, 'Find the summit and claim it for your own.', 9, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 40, 50 , 44, 41 , 64
+, 44, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('One Earth', 3185293913, 'This weapon was forged by Devrim Kay VIII for the survivors.', 9, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 31, 36 , 62, 56 , 80
+, 44, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Minuet-12', 3185293914, 'A modded version of the SUROS Minuet-42, a Guardian standby.', 9, 1 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 50 , 45, 41 , 65
+, 43, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Picayune Mk. 33', 3185293915, 'Small stature, big heart.', 9, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 54, 23 , 28, 26 , 48
+, 46, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vision of Confluence', 3186018373, 'What you have seen will mark you forever.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 51, 48 , 50, 52 , 65
+, 52, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Null Calamity 9', 3188460622, 'A sacred eye that speaks in lies—upending futures in its path.
 The way before us to the skies shall see itself in ancient wrath.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 54, 36 , 68, 60 , 65
+, 58, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wishbringer', 3190698551, 'Blow out all the candles.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 37, 38 , 39, 53 , 68
+, 64, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Found Verdict', 3197270240, 'Witness.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 38, 30 , 45, 42 , 37
+, 34, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eystein-D', 3199662972, 'We guarantee a fair trial.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 66, 50 , 31, 39 , 31
+, 52, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Izanagi''s Burden', 3211806999, '"Shame. Guilt. Fear. We all bear them. Gather your regrets, purge them as best you can. Let your enemies feel the weight of your burdens." —Ada-1', 12, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 53, 47 , 52, 46 , 62
+, 60, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Home for the Lost', 3216383791, '"I didn''t expect to like it here. But the EDZ is growing on me." —Devrim Kay', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 57, 26 , 36, 32 , 61
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Anonymous Autumn', 3222518097, 'A lesson in the art of falling.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 32, 50 , 64, 50 , 67
+, 30, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Infinite Paths 8', 3233390913, 'They sowed the First, now reap the Last; forever narrows to a line
 Where Light will fade into the past—when all''s converted, nothing shines.', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 37, 55 , 70, 64 , 76
+, 55, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Maxim XI', 3239754990, '"Speak briefly and precisely, and what you say will penetrate to the heart." —Executor Hideo', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 59, 46 , 50, 42 , 51
+, 30, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vouchsafe', 3242168339, '"We knew it would not be easy." —Paladin Hallam Fen', 14, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 40, 39 , 67, 60 , 73
+, 51, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hadrian-A', 3246523828, 'You are the wall that defends the people.', 23, 3 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 28 , 64, 64 , 23
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Resilient People', 3246523829, 'This weapon was forged by Devrim Kay VIII for the survivors.', 23, 2 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 62, 68 , 72
+, 55, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Para Torus I', 3246523831, 'The circle describes all things.', 23, 3 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 41, 42 , 55
+, 20, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Truthteller', 3252697558, '"If we wish others to accept the grim reality, we must break through every comforting illusion." —Arach Jalaal', 23, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 26 , 72, 74 , 79
+, 65, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Half-Truths', 3257091166, 'A fine blade, but seems like it''s missing something…', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Other Half', 3257091167, 'If only there was a way to combine them…', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trinary System', 3258665412, '"The mathematics are quite complicated." —Master Rahool', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 45, 49 , 42, 45 , 54
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ticuu''s Divination', 3260753130, 'Three points, pushed through forever.', 31, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 57 , 69, 64 , 79
+, 63, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eye of Foresight', 3272713429, '"To perceive the future from a great distance is both a gift and a promise of triumph." —Lakshmi-2', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 46 , 46, 46 , 60
+, 35, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Posterity', 3281285075, 'A single word is etched inside the barrel: "Anastasia-1."', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 45, 64 , 42, 61 , 79
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jack Queen King 3', 3285365666, 'An army meets, and stands, and falls. Three nobles wage their hopeless war.
 In shifting madness, evil crawls. One stands above the battle''s roar.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 45, 42 , 73, 63 , 91
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('West of Sunfall 7', 3285365667, 'A spark of knowledge with each fall, the purpose of the endless youth.
 No longer shunned, dark''s nameless call now brings about tenebrous truth.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 45, 68 , 42, 33 , 79
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Twilight Oath', 3297863558, 'Engraved in illuminated letters on the weapon''s chassis: THE AWOKEN MADE ME.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 34, 42 , 68, 62 , 70
+, 45, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Single Clap', 3312073052, 'Hold your applause till the end.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 53, 48 , 47, 44 , 59
+, 37, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shepherd''s Watch', 3312073053, 'Nobody talks about the day the Shepherd''s staff became the Shepherd''s rifle.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 52, 48 , 44, 43 , 60
+, 32, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Show of Force', 3312073054, 'How far will you go?', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 73, 31 , 33, 36 , 41
+, 41, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Widow''s Bite', 3312073055, 'I will outlive you.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 36, 42 , 69, 60 , 69
+, 33, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Thunderlord', 3325463374, 'They return from fields afar. The eye has passed, the end nears. Do not fade quietly. Let thunder reign again.', 8, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 64, 55 , 46, 68 , 90
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Inaugural Address', 3325744914, 'My first act as emperor was to send the Consul into the wasteland. The golden sun would burn away his corrupt form—a fitting symbol for the revolution that was to be my reign.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 49, 60 , 51, 46 , 64
+, 49, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Fine Memorial', 3325778512, '"Thousands of Guardians fell to Crota and the Hive. Thousands." —Eris Morn', 8, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 47, 43 , 45, 50 , 61
+, 46, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Long Walk', 3326850591, '"There is an end to everything." —Emissary of the Nine', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 80, 28 , 35, 41 , 48
+, 41, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Memory Interdict', 3329842376, '"I have no time for nostalgia. Give me visions of braided futures, brilliantly aflame." —Lakshmi-2', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 48, 48 , 58
+, 23, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vestian Dynasty', 3334276332, '"Long live the Queen." —Petra Venj', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 55, 42 , 44, 29 , 90
+, 35, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Death by Scorn', 3334276333, '"The Barons fight together." —Elykris, transl. from Eliksni', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 56, 54, 44 , 40, 30 , 88
+, 27, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tarantula', 3335343363, 'No one will escape my web.', 22, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 60, 43 , 32, 31 , 58
+, 30, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Martyr''s Make', 3336215727, 'Remember those who have gone before.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 51, 44 , 53, 47 , 64
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Recluse', 3354242550, 'My bite will turn your sweet flesh to vile rot.', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 41, 52 , 67, 35 , 55
+, 67, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wishbringer', 3356526253, 'Blow out all the candles.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 37, 38 , 39, 53 , 68
+, 64, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trax Arda II', 3361694400, 'Light is the fire that burns away the blight.', 14, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 64, 23 , 26, 35 , 25
+, 46, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fare-Thee-Well', 3361694401, 'This weapon was forged by Devrim Kay VIII for the survivors.', 14, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 30, 37 , 61, 54 , 61
+, 44, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sea Scorpion-1sr', 3361694402, 'A prototype from VEIST, the City''s newest weapon foundry.', 14, 1 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 26, 39 , 24, 32 , 60
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Inverness-SR2', 3361694403, 'Stone walls. Dark storms. Ill omens. Stay awake.', 14, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 40, 41 , 42, 41 , 53
+, 43, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bequest', 3366545721, 'A single word etched on the guard: "Lusia-1."', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 70, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Temporal Clause', 3369545945, 'the future narrows narrows narrows narrows', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 33, 38 , 39, 67 , 68
+, 29, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Right Side of Wrong', 3376406418, 'Where do you stand?', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 65, 64 , 32, 44 , 49
+, 45, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Alone as a god', 3380742308, 'I am the perfect loving god, and all will tremble to know me.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 40, 42 , 69, 65 , 79
+, 45, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Harmony-21', 3383958216, 'SUROS reminds you that a fireteam is better than a soloist.', 24, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 40, 39 , 50, 51 , 44
+, 38, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Furina-2mg', 3383958217, 'I am ready to defend my territory.', 24, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 25, 41 , 66, 31 , 43
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Philippis-B', 3383958218, 'You know these roads.', 24, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 52, 40 , 24, 21 , 50
+, 25, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Protostar CSu', 3383958219, 'What came before?', 24, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 40, 39 , 49, 50 , 43
+, 38, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Reckless Oracle', 3385326721, '"Knowing how it ends isn''t the same as wanting it to be over." —Rekkana, Warlock of the Kentarch 3', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 33, 60 , 48, 60 , 75
+, 54, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Positive Outlook', 3393130645, 'Lead by example.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 48 , 45, 49 , 26
+, 59, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Perfect Paradox', 3393519051, 'A tale that''s different from the rest: the thread unfurls against the clocks.
 The one the Speaker loved the best must have a perfect paradox.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 39, 42 , 49, 68 , 70
+, 54, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zephyr', 3400256755, 'In the cold of winter, we remember that the warm west wind will blow again.', 18, 3 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Legal Action II', 3409645497, 'It''s time to file a complaint.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 66, 53 , 32, 40 , 32
+, 47, 22, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Subtle Calamity', 3410721600, 'Quiet but deadly.', 31, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 46 , 52, 46 , 70
+, 64, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Polaris Lance', 3413074534, '"I''ve forgotten so much of my past life, of my family. But when I hold this rifle, everything feels right. I feel like… I''m home." —Ana Bray', 14, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 73, 55 , 36, 40 , 39
+, 55, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Chaperone', 3413860062, '"My mother had a shotgun we called the Chaperone. Kept us alive out there before we got to the City." —Amanda Holliday', 7, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 100, 28 , 82, 37 , 70
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lord of Wolves', 3413860063, 'By this right alone do I rule.', 7, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 28, 45 , 46, 82 , 80
+, 100, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crooked Fang-4fr', 3419149443, 'I sink my teeth into my prey.', 22, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 34, 36 , 36, 35 , 61
+, 38, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Fool''s Remedy', 3424403076, 'Forged in honor of Nirwen, and the righting of foolish wrongs.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 34, 64 , 63, 44 , 58
+, 69, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Motion to Compel', 3425561386, '"Take the long view."', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 77, 32 , 32, 45 , 36
+, 51, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Occluded Finality', 3434507093, 'Silence is better than unmeaning words.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 78, 36 , 37, 41 , 47
+, 59, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Metronome-52', 3434629515, 'SUROS invites you to keep it steady.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 50, 53 , 44, 50 , 59
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Point of the Stag', 3434944005, 'Gore befalls those who do not respect the hart.', 31, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 46 , 60, 46 , 72
+, 61, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Song of Justice VI', 3435238842, '"Justice must be true, swift, and utterly impartial." —Executor Hideo', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 73, 26 , 36, 39 , 39
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Good Counsel IX', 3435238843, '"Surround yourself with wise advisors." —Executor Hideo', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 68, 29 , 37, 37 , 29
+, 53, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crimson', 3437746471, 'According to official Vanguard policy, this weapon does not exist.', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 82 , 50, 64 , 75
+, 100, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Cordis II', 3441197112, 'Your first enemy is the darkness in your own heart.', 11, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 26, 32 , 50, 48 , 29
+, 47, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Lumen II', 3441197113, 'In darkness, be the light.', 11, 2 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 48, 28 , 25, 24 , 55
+, 14, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Parsec TSu', 3441197115, 'Is it possible to measure the infinite?', 11, 2 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 50, 27 , 24, 24 , 55
+, 16, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Main Ingredient', 3445437901, '"Now stir the sauce…"', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 63, 54 , 38, 32 , 59
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Omniscient Eye', 3454326177, '"I have seen too much. No one else should bear these burdens." —Lisbon-13, Hunter of the Kentarch 3', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 43, 42 , 73, 61 , 72
+, 44, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Imperial Needle', 3460122497, 'Honor among foes. Glory to the vanquished.', 31, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 48 , 71, 64 , 80
+, 62, 19, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Duality', 3460576091, '"The question becomes whether or not to fire, not where to aim." —Osiris', 7, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 73, 50 , 64, 11 , 65
+, 70, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Baligant XU7743', 3461377698, 'A Black Armory experimental prototype.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 28, 29 , 30, 37 , 28
+, 30, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wolftone Draw', 3472875143, '"Keep the string a little loose. It''s supposed to sound like that." —Petra Venj', 31, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 39 , 60, 46 , 68
+, 61, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Frozen Orbit', 3473290087, 'Never out of sight.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 75, 34 , 28, 37 , 48
+, 45, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Lament', 3487253372, 'The last thing the Vex ever heard—the grinding wails of a vicious Banshee.', 18, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 74, 0, 50 , 0, 0 , 0
+, 60, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stampede Mk.32', 3493948734, 'Hang on to your helmets!', 23, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 26 , 24, 28 , 25
+, 19, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Plemusa-B', 3493948735, 'You were born for this.', 23, 3 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 42, 43 , 55
+, 19, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Cut and Run', 3501969491, '"How do you think we got here?" —Avrok, trans. from Eliksni', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 68, 36 , 34, 37 , 37
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Night Watch', 3504336176, 'Sleep with both eyes open.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 43, 42 , 68, 62 , 69
+, 49, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lumina', 3512014804, 'There must be meaning in my roar.', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 44, 46 , 74, 65 , 88
+, 58, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Coriolis Force', 3512349612, '"A single idea can be enough to alter the spin of entire systems. I''ve had several of them." —Clovis Bray', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 40, 43 , 33, 41 , 45
+, 34, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eternal Blazon', 3514096004, '"But this eternal blazon must not be to ears of flesh and blood."', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 40, 41 , 66, 61 , 67
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Summoner (Adept)', 3514144928, 'Join the dance of fire and birth.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 47 , 73, 60 , 62
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eriana''s Vow', 3524313097, 'A light in the dark.', 9, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 100, 100, 37 , 31, 32 , 80
+, 0, 24, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Marine', 3529780349, 'Improvise. Adapt. Overcome.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 44, 53 , 46, 48 , 58
+, 52, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Randy''s Throwing Knife', 3535742959, '"On me, team; I''m capturing the third point!" —Randy, upon receiving orders not to', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 31, 45 , 28, 35 , 63
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fighting Lion', 3549153978, '"I call it the Zhang Fei. It hits almost as hard as I do." —Wei Ning', 23, 1 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 55 , 82, 10 , 80
+, 0, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Prospector', 3549153979, '"Some things should stay buried."', 23, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 55, 32 , 60
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Thistle and Yew', 3550697748, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 14, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 41, 41 , 41, 40 , 51
+, 45, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Double-Edged Answer', 3551104348, 'Everything has a cost.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 60, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Requiem-43', 3556971406, 'SUROS invites you to reflect upon the dead.', 7, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 50 , 69, 46 , 35
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pleiades Corrector', 3556999246, '"No, I don''t think I''ll tell you what it''s for. That would be too easy." —Lakshmi-2', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 35, 49 , 74, 67 , 76
+, 53, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crowd Pleaser', 3565520715, 'Give them what they came for.', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 46, 47 , 58
+, 22, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Old Fashioned', 3569802112, 'This is the way things were.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 44, 55 , 50, 49 , 65
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lost and Found', 3569842567, 'Hawthorne forged this weapon out of scraps and salvage during her years alone in the wilds.', 13, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 28, 41 , 24, 32 , 66
+, 44, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Legend of Acrius', 3580904580, '"In the Cabal legend, a hero seeks to possess the sun. He succeeds. Then, he becomes Emperor. The Cabal… are not a subtle people." —Tyra Karn', 7, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 85, 100, 82 , 19, 28 , 90
+, 0, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tractor Cannon', 3580904581, 'Property of Ishtar Collective. WARNING: Gravity propulsor beam can cause serious injury or even death.', 7, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 19, 82 , 46, 24 , 90
+, 0, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Deadpan Delivery', 3582424018, 'Emphasis on the "dead."', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 27, 31 , 33, 37 , 31
+, 28, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Le Monarque', 3588934839, '"Wings flutter. Beauty distracts. Poison injects. The butterfly''s curse extends to your enemies. A short life, shortened further by your hand." —Ada-1', 31, 1 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 51 , 59, 46 , 70
+, 61, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Time-Worn Spire', 3593598010, 'Forged in honor of Silimar, and persistence in the face of impossible odds.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 33, 54 , 33, 37 , 79
+, 53, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('First In, Last Out', 3616586446, '"I don''t know how it works. You just keep taking damage and keep firing."', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 62, 46 , 64, 50 , 27
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last Hope', 3622137132, 'Remember what you fight for.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 41, 82 , 55, 37 , 70
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Triumph DX-PR', 3627718344, '"Even on the darkest days, victory is in sight."  —An optimist (or a liar)', 13, 1 , -1, 3373582085 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 59, 51 , 28, 42 , 39
+, 44, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nanty Narker', 3627718345, 'This weapon was forged by Devrim Kay VIII for the survivors.', 13, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 32, 46 , 30, 33 , 74
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Graviton Lance', 3628991658, 'Think of space-time as a tapestry on a loom. This weapon is the needle.', 13, 1 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 55, 100 , 59, 61 , 60
+, 60, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vigilance Wing', 3628991659, '"The eye remains open. The Lighthouse remains lit." —Brother Vance', 13, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 64, 64 , 40, 46 , 60
+, 55, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Negative Space', 3629968765, 'See the art in what''s subtracted.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eye of Sol (Adept)', 3637570176, '"The sun took my sight; thus, the sun became my eyes." —Parables of the Allspring', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 55, 54 , 51, 46 , 68
+, 45, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crimil''s Dagger', 3649055823, '"She only wanted to help. I know that now." —Lord Saladin', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 31 , 31, 32 , 67
+, 56, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Holless-IV', 3651075426, 'The sigh of annihilation.', 31, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 42 , 50, 46 , 58
+, 58, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Praedyth''s Revenge', 3653573172, 'Praedyth''s fall isn''t over… because it hasn''t happened yet… and it will happen again.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 41, 46 , 73, 67 , 78
+, 60, 49, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dead Man''s Tale', 3654674561, '"Long, short, they all end the same way." —Katabasis', 14, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 64, 37 , 55, 55 , 60
+, 55, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Messenger', 3658188704, 'The bearer of bad news.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 69, 59 , 38, 44 , 37
+, 49, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Lumen II', 3662200188, 'In darkness, be the light.', 11, 2 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 48, 28 , 25, 24 , 55
+, 14, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Cordis II', 3662200189, 'Your first enemy is the darkness in your own heart.', 11, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 26, 32 , 50, 48 , 29
+, 47, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Parsec TSu', 3662200190, 'Is it possible to measure the infinite?', 11, 2 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 50, 27 , 24, 24 , 55
+, 16, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Copperhead-4sn', 3666954561, 'My fangs are bared.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 46 , 73, 64 , 70
+, 50, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Veleda-D', 3666954562, 'Your victory is foreseen.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 78, 24 , 26, 33 , 49
+, 40, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Elegy-49', 3666954563, 'SUROS invites you to bring about the end.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 46 , 46, 46 , 60
+, 35, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hoosegow', 3669616453, 'Cause a stir.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 44, 50 , 63
+, 25, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shayura''s Wrath', 3682803680, '"But here you are. This is truly a beginning…" —Shin Malphur', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 63, 50 , 34, 32 , 60
+, 24, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Love and Death', 3690523502, '"To the Hive, they are the same. Show them some love." —Eris Morn', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 29 , 26, 32 , 29
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sins of the Past', 3691881271, 'What once was old shall be new again, and history will have its revenge.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 63 , 70, 42 , 74
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stryker''s Sure-Hand', 3704653637, 'No job too big.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Multimach CCX', 3717177717, 'Friends are as companions on a journey who ought to aid each other to persevere.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 36, 44 , 73, 33 , 55
+, 64, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sleepless', 3740842661, '"I see our path ahead, full of despair and hardship, and I will walk it with joy in my heart." —Sjur Eido', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 62 , 69, 40 , 72
+, 36, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shepherd''s Watch', 3743729616, 'Nobody talks about the day the Shepherd''s staff became the Shepherd''s rifle.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 52, 48 , 44, 43 , 60
+, 32, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Militia''s Birthright', 3745974521, '"Earth is our home. Not Mars, not Venus, not even the Reef. We must ensure it is a place we can continue to live for many generations to come." —Devrim Kay', 23, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 31 , 72, 67 , 75
+, 61, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Long Shadow', 3745990145, 'Inhale. Exhale. Flash of light. Endless fallout.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 50, 48 , 46, 46 , 59
+, 32, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pentatonic-48', 3748713778, 'SUROS invites you to light it up.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 46 , 47, 48 , 58
+, 28, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Morrigan-D', 3748713779, 'Your domain is the battlefield. Its ways are your ways.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 46 , 40, 36 , 39
+, 47, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dead Man Walking XX7463', 3751622019, 'A Black Armory experimental prototype.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 29, 60 , 54, 41 , 56
+, 64, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lorentz Driver', 3761898871, '"Weapon system no longer explodes when trigger is pulled." —Prototype 7.2.1 Revision Notes', 22, 2 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 44, 52 , 32, 35 , 32
+, 35, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Uriel''s Gift', 3762467076, 'Take weapon in hand and fly to victory.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 45 , 46, 46 , 44
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Solemn Hymn', 3762467077, 'Stand together and play the song that sounds across the stars.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 53, 40 , 55, 46 , 58
+, 54, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Scathelocke', 3762467078, 'Our eyes squinted, our teeth clenched, our prayers answered.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 45 , 66, 59 , 65
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Valakadyn', 3762467079, 'In dark water, my fangs are bared.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 52 , 44, 54 , 66
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Black Talon', 3766045777, '"His life brought peace to the Reef. His death brings a sword." —Crows of the Black Hull', 18, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zenobia-D', 3776129137, 'You are the true power on the throne.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 45, 28 , 61
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jiangshi AR4', 3778520449, 'You can''t outrun the dead.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 55, 50 , 52, 52 , 40
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Halfdan-D', 3778520450, 'Your name will ring out, your deeds will resound forever.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 82, 28 , 45, 35 , 60
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Galliard-42', 3778520451, 'SUROS invites you to kick up your heels.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 42, 50 , 56, 47 , 60
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Spiderbite-1si', 3792720684, 'A prototype from VEIST, the City''s newest weapon foundry.', 17, 1 , -1, 1847026933 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 22, 40 , 61, 49 , 61
+, 24, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Corrective Measure (Timelost)', 3796510434, 'A full measure annihilates the rules of reality.', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 57, 61 , 48, 49 , 72
+, 59, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Transfiguration', 3799980700, 'Desire becomes reality, o wishbringer mine.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 77, 30 , 36, 32 , 29
+, 55, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dissonance-34', 3809805228, 'SUROS invites you to revel in the conflict.', 17, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 26, 64 , 55, 42 , 55
+, 62, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Requiem SI2', 3809805229, 'Sing for the lost.', 17, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 32, 78 , 53, 40 , 68
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Roderic-C', 3809805230, 'The world is your kingdom.', 17, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 52, 50 , 39, 26 , 82
+, 25, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vinegaroon-2si', 3809805231, 'I seek my prey in the shadows.', 17, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 24, 40 , 65, 51 , 63
+, 24, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Finite Impactor', 3813153080, 'Do not say a little in many words—say a great deal in a few.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 51 , 50, 46 , 74
+, 49, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Devil''s Ruin', 3824106094, '"Press on! The Devils will rue the day they came to our doors!" —Lord Shaxx', 17, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 46, 68 , 54, 24 , 56
+, 64, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Dream', 3826803617, '"I dream of a world prepared to fight for its existence." —Lakshmi-2', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 71, 31 , 32, 39 , 33
+, 48, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Horror Story', 3829285960, 'It never starts out scary.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 46 , 43, 47 , 35
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('THE SWARM (Adept)', 3836861464, 'Hunger is the all of it, and it is all of hunger.', 8, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 72, 40 , 42, 44 , 39
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Blast Furnace', 3843477312, 'Forged in the hottest fires.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 81, 68 , 32, 42 , 42
+, 55, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Jade Rabbit', 3844694310, '"What kind of harebrained scheme have you got in mind this time?"', 14, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 82, 46 , 29, 59 , 80
+, 30, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sola''s Scar (Adept)', 3847137620, 'Digging leaves a mark.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 0, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pardon Our Dust', 3849810018, 'When the dead speak, you should listen.', 23, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 35 , 71, 72 , 75
+, 67, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Martyr''s Retribution', 3850168899, 'That which returns from the void will always seek revenge.', 23, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 68, 67 , 72
+, 57, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Swift Verdict', 3854037061, '“Judgment is final.” —Emissary of the Nine', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 57, 46 , 43, 32 , 85
+, 32, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Number', 3854359821, '"Ah, but which number? Why it and no others?" —Lakshmi-2', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 55, 46 , 42, 42 , 44
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hawkmoon', 3856705927, 'Stalk thy prey and let loose thy talons upon the Darkness.', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 57, 67 , 74, 63 , 93
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Minuet-42', 3860697508, 'SUROS invites you to join the dance.', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 48, 50 , 42, 50 , 65
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pribina-D', 3860697509, 'Adventure is in your blood.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 20 , 25, 35 , 63
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Imset HC4', 3860697510, 'The City''s foes ready themselves for the end.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 37, 46 , 71, 64 , 76
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Emperor''s Courtesy', 3861448240, '"A Reefborn riotgun, rewritten with Hive voices to aid Gahlran the failed. Now yours." —Emperor Calus', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 53, 48 , 73, 64 , 50
+, 20, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Uriel''s Gift', 3863882743, 'Take weapon in hand and fly to victory.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 45 , 46, 46 , 44
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_HC_v1.0.1', 3866356643, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 60 , 40, 40 , 75
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Night Terror', 3870811754, '"Become their nightmare." —Eris Morn', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('I Am Alive', 3886263130, '"When the end comes, I reserve the right to be last." —Calus, Emperor of the Cabal', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 53 , 51, 46 , 67
+, 46, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Royal Dispensation II', 3889907763, '"New Monarchy believes in giving generously, like rain in spring." —Executor Hideo', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 43, 54 , 63, 54 , 45
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Guiding Sight', 3890960908, 'Forged in honor of Efrideet, and all that inspires.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 68, 32 , 34, 42 , 30
+, 40, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Colony', 3899270607, 'We outnumber you. We will find you. You are alone, and we are colony.', 23, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 82 , 82, 64 , 60
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Madrugada SR2', 3906357376, 'The dawn is coming.', 14, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 34, 39 , 65, 58 , 66
+, 47, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trax Lysis II', 3906357377, 'You will destroy them one cell at a time.', 14, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 66, 24 , 29, 36 , 27
+, 48, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Black Tiger-2sr', 3906357378, 'I creep unseen through the darkness.', 14, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 28, 43 , 34, 42 , 57
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Armillary PSu', 3906357379, 'What is the structure of the universe?', 14, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 38, 41 , 49, 42 , 62
+, 44, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Conspirator', 3906942101, 'Did Ghaul always dream of a republic? What terrible worm burrowed into his heart that he would betray my love and plot against me?', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 43, 45 , 68, 60 , 71
+, 52, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Oxygen SR3', 3907337522, 'Fight on. You''re still breathing.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 50, 50 , 47, 50 , 67
+, 54, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Man o'' War', 3909683950, 'Do not enter my realm and expect to leave unscathed.', 22, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 55, 47 , 30, 28 , 61
+, 35, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Medley-45', 3920811074, 'SUROS invites you to serve up your greatest hits.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 54, 47 , 52, 41 , 62
+, 53, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Loud Lullaby', 3924212056, '"Let their souls sing along." —Eris Morn', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 58, 25 , 32, 31 , 60
+, 48, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Deicide', 3929685100, '"Believe in war, and nothing else." —Lakshmi-2', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 34, 34 , 44, 67 , 64
+, 51, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph SI-2', 3937866388, 'Kept in holster as the last line. Known for its reliability.', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 24, 42 , 69, 52 , 68
+, 31, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Motion to Suppress', 3950088638, '"Present your truths carefully."', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 41, 53 , 72, 38 , 58
+, 68, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Mob Justice', 3954531357, 'Life offers few greater pleasures than to humiliate the venal aristocracy before a crowd. I am father to the people, and they shall adore me above all others.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 46, 44 , 59, 55 , 47
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wrong Side of Right', 3957603605, 'The right thing, for the wrong reasons.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 64, 28 , 28, 32 , 39
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Dance', 3967155859, 'Save it for me.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 36, 86 , 57, 35 , 70
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Thorn', 3973202132, '"To rend one''s enemies is to see them not as equals, but objects—hollow of spirit and meaning." —13th Understanding, 7th Book of Sorrow', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 41, 60 , 68, 46 , 85
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sol Pariah 6', 3991544422, 'Amid the endless death one flew—unnatural all-consuming need—
 And in the space between the two, accursed comprehension freed.', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 38, 53 , 61, 36 , 50
+, 60, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Conqueror 2', 3991544423, 'To Tower comes a war in red; an orphan sounds the empire''s call.
 Mortal angels mourn the dead while lightless light wraps night in pall.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 47, 52 , 56, 60 , 50
+, 49, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Mountaintop', 3993415705, '"In the heat of battle, Guardian, you will know the right choice to make." —Lord Shaxx', 23, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 31 , 72, 67 , 75
+, 61, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Kibou AR3', 4014434381, 'It springs eternal.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 66, 49 , 46, 48 , 45
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Symmetry', 4017959782, '"Duality is not a curse, but a gift." —Author unknown', 14, 1 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 28, 54 , 38, 24 , 75
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Prophet of Doom', 4020742303, '"You know how this will end." —Yardarm-4, Titan of the Kentarch 3', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 70, 52 , 42, 52 , 73
+, 48, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shayura''s Wrath (Adept)', 4023807721, '"But here you are. This is truly a beginning…" —Shin Malphur', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 63, 50 , 34, 32 , 60
+, 24, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Origin Story', 4024037919, 'Your inciting incident is their tragic ending.', 6, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 46 , 43, 47 , 35
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sleeper Simulant', 4036115577, 'Subroutine IKELOS: Status=complete. MIDNIGHT EXIGENT: Status=still in progress.', 22, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 63, 41 , 42, 36 , 57
+, 10, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bonechiller', 4037745684, '"It seeps under your skin; settles in your bones. Even outside of its presence, you can feel its chill." —The Exo Stranger', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 47 , 42, 48 , 61
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Button', 4041111172, 'Jolly. Shiny. Candy-like. Push it.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 44, 46 , 62
+, 36, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hezen Vengeance', 4050645223, 'The Hezen Axis Mind is tireless and infinite. While it cannot be stopped… it can be paused.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 31, 64 , 35
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Monte Carlo', 4068264807, 'There will always be paths to tread and methods to try. Roll with it.', 6, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 60 , 64, 81 , 50
+, 52, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trust', 4077196130, '"Worlds end. And when yours does, make sure you have a partner you can rely on." —The Drifter', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 43, 60 , 42, 55 , 78
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Persuader', 4083045006, '"They say you can''t reason with these enemies. I dunno—my gun and I seem to manage just fine." —Kei-Ying', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 39, 42 , 67, 61 , 71
+, 42, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Techeun Force', 4094657108, 'Sworn into faithful service to the Queen, the Techeuns of the Reef have long protected the secrets of the Awoken.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 45, 45 , 34, 41 , 44
+, 29, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pit Launcher', 4095462486, 'Let everyone fear the gaping maw.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 25, 62 , 28
+, 33, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Accrued Redemption', 4095896073, '"I should never have let it come to this. Now each arrow is a penance." —Lisbon-13, Hunter of the Kentarch 3', 31, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 49 , 60, 46 , 70
+, 62, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Divinity', 4103414242, 'Calibrate reality. Seek inevitability. Embody divinity.', 25, 2 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 70, 78 , 56, 50 , 100
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Veneris II', 4105447486, 'Night comes for us. We are not ready.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 39, 45 , 36, 40 , 46
+, 28, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Elatha FR4', 4105447487, 'The sun shines on both joy and grief.', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 54, 32 , 29, 24 , 58
+, 20, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Elatha FR4', 4106983932, 'The sun shines on both joy and grief.', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 54, 32 , 29, 24 , 58
+, 20, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Mindbender''s Ambition', 4117693024, '"Hiraks always did like to leave an impression." —The Spider', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 36, 36 , 38, 45 , 39
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Epicurean', 4124357815, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 63, 54 , 37, 33 , 65
+, 39, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hard Light', 4124984448, 'Ionized polymer synballistic attack platform. The system''s lethality is dynamically robust across tactical spaces.', 6, 1 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 68 , 75, 68 , 100
+, 40, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Go Figure', 4138174248, 'Can''t let the Shore get you down.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 72, 61 , 32, 40 , 40
+, 54, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hand in Hand', 4138415948, 'This weapon was forged by Devrim Kay VIII for the survivors.', 7, 2 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 59, 40 , 37, 44 , 64
+, 32, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ded Acumen II', 4138415949, 'Wisdom is the greatest power, the dearest treasure.', 7, 2 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 42, 37 , 62, 57 , 40
+, 5, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ded Nemoris II', 4138415950, 'You will find your way out of this forest.', 7, 2 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 28, 22 , 28, 34 , 23
+, 23, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Heart of Time', 4145119417, '"Perhaps it exists. Perhaps it does not. Either we shall find it, or we shall become it." —Lakshmi-2', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 29, 48 , 33, 32 , 66
+, 50, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Outrageous Fortune', 4146702548, 'No accounting for where it will fall.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 32, 28 , 30
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Show of Force XF4865', 4148143418, 'A Black Armory experimental prototype.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 73, 31 , 33, 36 , 41
+, 41, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traveler''s Judgment 5', 4149758318, 'A visitor ignites the sky, and in the truth of light it dreams:
 Above the dead and yet-to-die, a legion''s blade with fire screams.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 45, 84 , 56, 40 , 70
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Third Axiom', 4156253727, 'Don''t tell me the odds.', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 54, 60 , 52, 51 , 66
+, 47, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tongeren-LR3', 4157959956, 'Long march. Stone road. Old city. Know the land.', 12, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 38 , 66, 57 , 66
+, 28, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Aachen-LR2', 4157959958, 'Old kings. Sharp swords. Epic songs. Take the throne.', 12, 2 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 42 , 42, 41 , 56
+, 32, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Damietta-LR2', 4157959959, 'Taut sails. Wide rivers. Battered towers. Watch the seas.', 12, 2 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 70, 25 , 30, 34 , 39
+, 25, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('1000 Yard Stare', 4164201232, 'You can see everything. You can unsee nothing.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 57, 50 , 48, 47 , 66
+, 50, 44, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trophy Hunter', 4166221755, '"I serve this broken Empire no longer." —Tazaroc', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 80, 30 , 31, 41 , 46
+, 39, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Steel Sybil Z-14', 4174481098, '"Everything I touch falls apart! I see the fragments on the floor!"
 
 "Well, isn''t that a good thing? You know, if you''re a sword?"', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Adored', 4184808992, 'An Earth artifact, refashioned to suit the Spider''s eclectic tastes.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 55, 51 , 52, 44 , 68
+, 36, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Merciless', 4190156464, 'Entropy is inevitable.', 11, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 45, 39 , 47, 49 , 69
+, 55, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Beloved', 4190932264, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 55, 51 , 52, 44 , 68
+, 36, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Does Not Compute', 4193877020, 'The engineers aren''t ready for us.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 64, 24 , 35, 43 , 39
+, 50, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zephyr', 4203034886, 'In the cold of winter, we remember that the warm west wind will blow again.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pribina-D', 4211534763, 'Adventure is in your blood.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 20 , 25, 35 , 63
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sunrise GL4', 4213221671, 'Do not wait for the sun to rise.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 60 , 62, 60 , 70
+, 23, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cup-Bearer SA/2', 4221925398, 'Drink deep from the cup of destruction.', 10, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 43, 44 , 55
+, 26, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Reginar-B', 4221925399, 'You stand at the head of the army.', 10, 3 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 23, 42 , 25
+, 25, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Exit Strategy', 4227181568, '"If you don''t got one, it''s time to make one." —The Drifter', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 43, 48 , 55, 56 , 47
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Commemoration', 4230965989, 'A single word is etched inside the barrel: "Clovis-II-1."', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 62, 60 , 44, 55 , 64
+, 55, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Steel Sybil Z-14', 4230993599, '"Everything I touch falls apart! I see the fragments on the floor!"
 
 "Well, isn''t that a good thing? You know, if you''re a sword?"', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('D.F.A.', 4238497225, '"Osiris said that he started to pity the Red Legion, getting trapped in here for infinite eternities. I think they''re getting exactly what they deserve." —Sagira', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 50, 59 , 48, 52 , 77
+, 58, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Heritage', 4248569242, 'A single word etched inside the barrel: "Wilhelmina-1."', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 71, 49 , 73, 50 , 68
+, 49, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Hothead', 4255171531, 'Think of it as a weaponized temper tantrum.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 46 , 52, 50 , 67
+, 34, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Skyburner''s Oath', 4255268456, 'The inscription, written in a Cabal dialect, reads: "Victory or death!"', 14, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 46, 55 , 64, 55 , 90
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Empty Vessel', 4255586669, '"It''s versatile. By itself, it''s nothing, just an empty tube. But that''s its deceptive beauty; it''s all about what you fill it with. What you make it. What you make it do." —Banshee-44', 23, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 68, 68 , 73
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Multimach CCX', 4265183314, 'Friends are as companions on a journey who ought to aid each other to persevere.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 36, 44 , 73, 33 , 55
+, 64, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Domino', 4272442416, '"Who will be the first to fall?" —Lakshmi-2', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 53, 49 , 47, 46 , 62
+, 38, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Every Waking Moment', 4277547616, '"Even my idle thoughts are haunted." —Eris Morn', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 54, 44 , 30, 26 , 56
+, 21, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hung Jury SR4', 4281371574, 'A Scout Rifle, modified by Dead Orbit''s superb technicians and specialists.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 54, 60 , 55, 51 , 67
+, 60, 22, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Emperor''s Envy', 4288031461, 'The son''s ambition will be his undoing.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 60, 53 , 33, 34 , 56
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vex Mythoclast', 4289226715, '…a causal loop within the weapon''s mechanism, suggesting that the firing process somehow binds space and time into…', 11, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 86, 37 , 55, 64 , 75
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crimil''s Dagger', 4292849692, '"She only wanted to help. I know that now." —Lord Saladin', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 31 , 31, 32 , 67
+, 56, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Time-Worn Spire', 4425887, 'Forged in honor of Silimar, and persistence in the face of impossible odds.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 33, 54 , 33, 37 , 79
+, 53, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Annual Skate', 6857689, '"When the lake used to freeze, people would dance on the ice wearing boots with tiny swords. And fall in love."', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 54 , 52, 44 , 75
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Prometheus Lens', 19024058, '"Cryptarchs made a crystal that starts fires? Get me one. I don''t care how you do it. Go!" —Cayde-6', 25, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 64, 50 , 42, 46 , 100
+, 100, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tango-45 XK5094', 20025671, 'A Black Armory experimental prototype.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 50, 50 , 45, 44 , 65
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Arctic Haze', 20935540, '"A haze permeates the air here, occluding clear sight. Be very sure of your aim." —The Exo Stranger', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 32, 53 , 48, 53 , 75
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Temptation''s Hook', 35794111, 'A finger of death from which to hang.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 46, 0, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Subzero Salvo', 42351395, '"Our enemies are not subtle, so neither shall we be. Make the chasms echo with the thunder of your artillery." —Clovis Bray', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 45 , 47, 31 , 61
+, 34, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('THE SWARM', 47772649, 'Hunger is the all of it, and it is all of hunger.', 8, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 72, 40 , 42, 44 , 39
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Controlling Vision', 48361212, '"Once you see how the balance is tipped against us—once you see doom coming, inexorable and cold—then you must act." —Arach Jalaal', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 37, 64 , 53, 40 , 75
+, 50, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eleventh Hour', 48361213, '"We will save and protect anyone who joins Dead Orbit. There is a place on our ships for you." —Arach Jalaal', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 30, 43 , 67, 60 , 67
+, 34, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ancient Gospel', 48643186, '"These forces have existed forever, but only one of them speaks to us." —Rekkana, Warlock of the Kentarch 3', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 47, 62 , 51, 49 , 74
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traveler''s Chosen', 53159280, 'A City-made sidearm, built for those chosen by the Traveler to become Guardians.', 17, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 42, 65 , 54, 40 , 77
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traveler''s Chosen (Damaged)', 53159281, 'A City-made sidearm, built for those chosen by the Traveler to become Guardians.', 17, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 42, 46 , 32, 34 , 50
+, 42, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Good Bone Structure', 64236626, 'This one is a real looker.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 50 , 69, 46 , 35
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Fool''s Remedy', 65611680, 'Forged in honor of Nirwen, and the righting of foolish wrongs.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 34, 64 , 63, 44 , 58
+, 69, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Avalanche', 66875353, 'If they''re close enough to see it start, then they''d better run.', 8, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 55, 46 , 34, 60 , 90
+, 20, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Drang (Baroque)', 79075821, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 42, 64 , 74, 37 , 70
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Ringing Nail', 93253474, 'Strike while the iron''s hot.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 65, 51 , 51, 52 , 37
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gunnora''s Axe', 94729174, '"She taught us all to appreciate a good, sturdy axe." —Lord Saladin', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 70, 54 , 68, 53 , 34
+, 42, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hard Truths', 105567493, 'It never gets easier.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 45, 15 , 52, 28 , 27
+, 33, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Riiswalker', 108221785, '"No. I will not allow a Fallen to fight in the Banner, that right is reserved for Guardians alone. But if you insist, I may allow a Guardian to carry a Fallen-forged weapon into battle. You are a weaponsmith, are you not?" —Lord Saladin to an Unknown Eliksni', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 50, 49 , 74, 66 , 52
+, 25, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shining Sphere', 136525518, 'Above the cloud with its shadow is the star with its light.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 45 , 45, 45 , 58
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Curtain Call', 137879537, 'It''s time for the final bow.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 31 , 26, 64 , 27
+, 34, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Luna''s Howl', 153979396, '"Guardians never die. But we don''t forget those who do." —Lord Shaxx', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 47, 61 , 42, 59 , 79
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Better Devils', 153979397, 'Angels can''t help you here.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 48 , 46, 46 , 75
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Not Forgotten', 153979399, '"Guardians never die. But we don''t forget those who do." —Lord Shaxx', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 47, 61 , 42, 59 , 79
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Requiem-45', 159056377, 'Requiem-45: SUROS invites you to honor the dead.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 34, 48 , 27, 34 , 73
+, 49, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Machina Dei 4', 161537636, 'A charnel but effulgent orb—beacon in a loathsome dark—
 Fêted, fetid corpses rise—a too-long-absent gibbous spark.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 71, 54 , 32, 45 , 35
+, 59, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Infinite Paths 8', 161537637, 'They sowed the First, now reap the Last; forever narrows to a line
 Where Light will fade into the past—when all''s converted, nothing shines.', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 37, 55 , 70, 64 , 76
+, 55, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('CALUS Mini-Tool', 174192097, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 37, 54 , 68, 38 , 49
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Long Walk', 174804902, '"There is an end to everything." —Emissary of the Nine', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 80, 28 , 35, 41 , 48
+, 41, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last Perdition', 188882152, 'Can''t outrun the ending.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 45, 63 , 44, 48 , 60
+, 54, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Redrix''s Claymore', 191996029, '"On the ladder and in the fight, momentum is the answer."', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 60, 59 , 38, 44 , 39
+, 50, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Play of the Game', 195440257, 'Show no mercy.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 40, 51 , 65
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Malfeasance', 204878059, '"Nothing kills a Guardian faster than another Guardian." —The Drifter', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 46, 82 , 36, 82 , 50
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Premonition', 208088207, '"You walked through my dream, and in your wake, you left only death." —Eris Morn', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 64, 48 , 33, 40 , 32
+, 53, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Magnum Shepherd', 210065223, 'Bring magnificent and glorious battle.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 50, 51 , 47, 45 , 60
+, 41, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Whispering Slab', 211938782, 'It sings of sorrows that have not yet come to pass.', 31, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 58 , 68, 64 , 75
+, 62, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Deicide', 217140611, '"Believe in war, and nothing else." —Lakshmi-2', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 34, 34 , 44, 67 , 64
+, 51, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Edge Transit', 218335759, 'What did you trade away to secure passage to the edge?', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 48 , 48, 45 , 62
+, 38, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Interregnum XVI', 227548887, '"Until a ruler arises, we act as simple trustees. Protecting. Receiving. Executing." —Executor Hideo', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 28, 70 , 52, 45 , 64
+, 60, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Impromptu-49', 228424224, 'SUROS invites you to be spontaneous.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 51, 47 , 50, 51 , 67
+, 48, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Warden''s Law', 233423981, 'Fight. Win. Li- Li- Li- Li- Li- FATAL EXCEPTION HAS OCCURRED AT 0028:C001E36', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 36 , 32, 34 , 68
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eyasluna', 235827225, 'One day, young hawk, thou shalt sail beneath the silvered moon.', 9, 1 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 56, 68 , 54, 50 , 80
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Main Ingredient', 253196586, '"Now stir the sauce…"', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 63, 54 , 38, 32 , 59
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dead Zone Rifle', 254156943, 'A rusted rifle you found in the EDZ mine. It''s old, but it still works.', 12, 2 , -1, 3454344768 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 44, 40 , 41, 41 , 51
+, 28, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Frontier Justice', 273396910, '"…and after that, there will be time for questions."', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 75, 26 , 32, 38 , 35
+, 54, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Exile''s Curse (Adept)', 276080079, 'It''s a blessing in disguise.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 53, 34 , 34, 27 , 61
+, 26, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hagakure', 276918162, 'The way of the warrior is death.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Negative Space', 287042892, 'See the art in what''s subtracted.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Complex Solution', 287042893, 'A quantum algorithm, like a sword stroke, must be repeated until the solution is certain.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Unspoken Promise', 287042894, 'The promise is in the point of the blade.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Vision', 293505772, 'Glory in the damage the right blast can do.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 37, 82 , 55, 39 , 65
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Outlast', 299665907, 'No such word as extinction.', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 37, 48 , 29, 32 , 78
+, 47, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Terran Wind', 301362380, '"The Great Machine isn''t killing us. We''re killing ourselves over the Great Machine." —Brivi, transl. from Eliksni', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 33, 32 , 30
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Through Fire and Flood', 301362381, 'The passage to the Shore is not an easy road.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 51, 45 , 69
+, 35, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ignition Code', 304659313, '"I can decode anything with a grenade launcher." —Saint-14', 23, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 35 , 68, 68 , 71
+, 64, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Roar of the Bear', 308332265, '"Silimar''s defense broke more assaults than not. His retribution would shake the ground." —Lord Saladin', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 61 , 68, 41 , 71
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Survivor''s Epitaph', 310708513, '"A weapon hides nothing. It is what it is. Whether it wants to be or not." —Saint-14 to Shaxx', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 60 , 49, 50 , 74
+, 47, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bushwhacker', 311852248, 'They''ll never see you coming.', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 62 , 69, 59 , 61
+, 28, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Breakneck', 324382200, '"They don''t make Dark Age tech like this anymore. Lucky for you I kept all mine." —The Drifter', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 68, 50 , 43, 51 , 44
+, 45, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Darkest Before', 325519402, '"Persevere, or die in darkness. The choice is yours." —Emissary of the Nine', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 41, 53 , 34, 42 , 75
+, 50, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Waking Vigil', 334171687, '"We have a duty to this solar system that goes deeper than blood, deeper than oaths." —Paladin Devi Cassl', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 38, 44 , 67, 60 , 85
+, 46, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nightshade', 339163900, 'Three drops is all it takes.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 40, 59 , 69, 62 , 68
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nergal PR4', 339343290, 'Take arms against the lions of death, the kings of sunset.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 32, 50 , 74, 54 , 65
+, 60, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cadenza-43', 339343291, 'SUROS invites you to improvise.', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 42, 55 , 42, 42 , 66
+, 50, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Retold Tale', 346136302, '"It''s what gets left out, what gets reemphasized that you have to pay attention to." —Esila, daughter of Sila', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 68, 50 , 41, 47 , 75
+, 38, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ace of Spades', 347366834, '"Folding was never an option." —Cayde-6', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 78, 46 , 46, 48 , 70
+, 56, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Salvation''s Grip', 370712896, '"I respect what I cannot steal from and you cannot take from the dark." —Excerpt from an old Eliksni salvage manifest', 23, 3 , -1, 151347233 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 52, 32 , 68
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Weaver-C', 372212741, 'You will find a way.', 10, 3 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 46 , 40, 36 , 39
+, 47, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Punching Out', 378498222, 'Time to close up.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 29, 67 , 57, 49 , 56
+, 65, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Outbreak Perfected', 400096939, '~directive = KILL while enemies = PRESENT: execute(directive)~', 13, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 50, 46 , 50, 50 , 65
+, 54, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Berenger''s Memory', 407621213, 'Take your place among the company of heroes.', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 24, 29 , 30
+, 28, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('True Prophecy', 408440598, '"Some claim to know the future better than we do. Listen carefully. Then ask yourself: do their words ring true or false?" —Lakshmi-2', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 62, 30 , 37, 30 , 62
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Keening', 409551876, '"I heard a Ghost die once, in Twilight Gap. Still hear it sometimes, on dark nights…"', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 44, 65 , 55, 32 , 83
+, 46, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jack Queen King 3', 410996590, 'An army meets, and stands, and falls. Three nobles wage their hopeless war.
 In shifting madness, evil crawls. One stands above the battle''s roar.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 45, 42 , 73, 63 , 91
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jötunn', 417164956, '"Untamed. Destructive. As forceful and chaotic as Ymir himself." —Ada-1', 11, 2 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 52, 31 , 33, 31 , 67
+, 26, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hoosegow', 417474224, 'Cause a stir.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 44, 50 , 63
+, 25, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Mos Epoch III', 417474225, 'The perpetual eventually gives way to the variable.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 29 , 26, 57 , 32
+, 40, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Blue Shift', 417474226, 'What is the color of the universe?', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 62 , 67, 45 , 69
+, 30, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Spiteful Fang', 421573768, 'Pierce the heart of reality.', 31, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 55 , 74, 64 , 76
+, 63, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Palindrome', 432476743, 'Draw, O Coward!', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 55, 62 , 55, 48 , 79
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shining Sphere', 432716552, 'Above the cloud with its shadow is the star with its light.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 45 , 45, 45 , 58
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nature of the Beast', 468276817, 'Don''t let them change you.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 40, 65 , 42, 32 , 76
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Corrective Measure', 471518543, 'It breaks the rules of reality as ruthlessly as it shatters your foes.', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 57, 61 , 48, 49 , 72
+, 59, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Garden Progeny 1', 472169727, 'Two siblings cleaved by time and space, reflections never found alone,
 The ending of the eldritch race—a path long seen but never known.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 70, 33 , 35, 42 , 38
+, 58, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Guiding Star', 472847207, '"We will make a new home out among the stars, and then we will know peace. Until that day..." —Arach Jalaal', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 37, 47 , 40, 47 , 66
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Breath', 507038823, '"All things end." —Emissary of the Nine', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 48, 49 , 70, 56 , 67
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('First In, Last Out', 515224227, '"I don''t know how it works. You just keep taking damage and keep firing."', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 62, 46 , 64, 50 , 27
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Beidenhander', 516243773, 'Let the song of the monarch be heard!', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 54, 43 , 32, 29 , 56
+, 29, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Black Scorpion-4sr', 525750263, 'I attack from the shadows. I never miss.', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 28, 54 , 34, 35 , 56
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('BrayTech Werewolf', 528834068, 'The right weapon can transform you.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 72, 47 , 45, 48 , 47
+, 55, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Forte-15', 531591352, 'SUROS invites you to get loud.', 24, 1 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 39, 38 , 48, 50 , 41
+, 34, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Daystar SMG2', 531591353, 'A Guardian is a sunrise over darkness.', 24, 1 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 24, 38 , 59, 30 , 42
+, 45, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Astral Horizon (Adept)', 532746994, 'Even the brightest stars eventually set.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 34 , 35, 40 , 34
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('PLUG ONE.1 (Adept)', 534775659, 'Move with the current.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 62, 54 , 42, 38 , 66
+, 40, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Telemachus-C', 541053086, 'The long wait is over.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 67, 28 , 31, 39 , 30
+, 53, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Farewell', 541188001, '"A peace born from violence is no peace at all." —Lady Efrideet', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 26, 46 , 68, 54 , 71
+, 28, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Retraced Path', 548958835, 'An early prototype that brought the potential for future Trace Rifles into sharper focus.', 25, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 68, 78 , 51, 50 , 100
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Resonance-42', 566976652, 'SUROS invites you to strike a chord.', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 42, 48 , 60, 52 , 45
+, 45, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Antiope-D', 566976653, 'They look to you to save them.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 63, 39 , 26, 27 , 58
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Phosphorus MG4', 566976654, 'The star in the east, the fire in the dawn.', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 37, 45 , 63, 38 , 54
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Chattering Bone', 568515759, 'We have so much to discuss, o seeker mine.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 40, 57 , 73, 67 , 71
+, 49, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Throne-Cleaver', 569799273, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 72, 60, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Death''s Razor', 569799274, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Goldtusk', 569799275, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 20, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Contingency Plan', 577528837, '"The Traveler is an illusion. A false god. It will not save us. But this might." —Arach Jalaal', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 32, 50 , 28, 33 , 66
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wendigo GL3', 578459533, 'Turn your hunger outward, never inward.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 47, 51 , 66
+, 43, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Loaded Question', 580961571, 'Hey. You see Cayde around, tell him his gun''s ready. —Banshee-44', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 57, 32 , 32, 27 , 66
+, 30, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dire Promise', 582335600, '"If you think this world ends well, you are mistaken." —Arach Jalaal', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 45, 50 , 61, 54 , 87
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sojourner''s Tale', 599895591, 'Home is just over the horizon.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 65, 46 , 67, 50 , 35
+, 43, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Age-Old Bond', 601592879, 'Symbiosis. Not predation. Never predation, o wary one mine.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 84, 26 , 44, 41 , 61
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Scathelocke', 602618796, 'Our eyes squinted, our teeth clenched, our prayers answered.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 45 , 66, 59 , 65
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hammerhead', 603242241, 'Smash through the veil.', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 64, 64 , 40, 64 , 90
+, 40, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cryosthesia 77K', 603721696, 'There are things colder than cold.', 17, 1 , -1, 151347233 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 75, 47 , 43, 51 , 93
+, 50, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hollow Words', 607191995, 'Holes for the whole.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 54, 44 , 31, 28 , 63
+, 26, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Falling Guillotine', 614426548, 'What won''t be given must be taken.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 0, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Proelium FR3', 618554398, 'Make their victory Pyrrhic.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 35 , 57, 50 , 33
+, 52, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jorum''s Claw', 622058944, '"He was more wolf than Human, we used to say." —Lord Saladin', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 54, 55 , 50, 49 , 60
+, 56, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jian 7 Rifle', 625672050, 'Come, brothers and sisters! Let us make way for the new ruler!', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 47, 50 , 52, 43 , 64
+, 55, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Found Verdict (Timelost)', 631439337, 'Guilty.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 38, 30 , 45, 42 , 37
+, 34, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dust Rock Blues', 636912560, '"No job too tough, if the price is good." —Renegade Corsair Errol Mayz', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 68, 50 , 41, 47 , 75
+, 38, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tigerspite', 640114618, '"What else can we do but take up arms?" —Corsair Amrita Vae', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 66, 47 , 46, 46 , 44
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ballyhoo Mk.27', 653875712, 'Prepare to back up your boasts.', 9, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 51 , 48, 44 , 67
+, 47, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lamia HC2', 653875713, 'Make your enemy''s strength your own.', 9, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 34, 37 , 66, 59 , 81
+, 45, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Azimuth DSu', 653875714, 'What lies beyond the horizon?', 9, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 55, 25 , 31, 28 , 57
+, 48, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Allegro-34', 653875715, 'SUROS invites you to pick up the pace.', 9, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 41, 51 , 50, 42 , 65
+, 47, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nation of Beasts', 654370424, 'I can show you how we were in our prime. You need only ask, o student mine.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 61 , 48, 50 , 71
+, 51, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Revoker', 654608616, 'When they have your back to the wall, when all seems lost—steel yourself! Command your future!', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 80, 34 , 31, 37 , 44
+, 45, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Exile''s Curse', 679281855, 'It''s a blessing in disguise.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 53, 34 , 34, 27 , 61
+, 26, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hung Jury SR4 (Adept)', 681067419, 'A Scout Rifle, modified by Dead Orbit''s superb technicians and specialists.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 54, 60 , 55, 51 , 67
+, 60, 22, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Supremacy', 686951703, '"He didn''t recognize me, at the end." —Jolyon Till the Rachis', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 39, 44 , 71, 66 , 77
+, 42, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Frigid Jackal', 689453941, 'An ice-cold creature of opportunity.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 55, 50 , 51, 49 , 69
+, 36, 49, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vision of Confluence (Timelost)', 690668916, 'In the abyss of time, all the lines converge… upon you.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 51, 48 , 50, 52 , 65
+, 52, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Finite Impactor', 701922966, 'Do not say a little in many words—say a great deal in a few.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 51 , 50, 46 , 74
+, 49, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Restoration VIII', 705774642, '"We need proper tools if we are to rebuild." —Executor Hideo', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 38 , 55, 46 , 60
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vinegaroon-2si', 711899772, 'I seek my prey in the shadows.', 17, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 24, 40 , 65, 51 , 63
+, 24, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Roderic-C', 711899773, 'The world is your kingdom.', 17, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 52, 50 , 39, 26 , 82
+, 25, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Requiem SI2', 711899774, 'Sing for the lost.', 17, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 32, 78 , 53, 40 , 68
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dissonance-34', 711899775, 'SUROS invites you to revel in the conflict.', 17, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 26, 64 , 55, 42 , 55
+, 62, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Just in Case', 715338174, 'Even contingencies need contingencies.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('BrayTech RWP Mk. II', 717150101, , 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 73, 36 , 36, 40 , 39
+, 55, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('No Turning Back', 720351794, 'Some paths can''t be untread.', 31, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 53 , 59, 46 , 66
+, 60, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Arsenic Bite-4b', 720351795, 'My aim is true.', 31, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 62 , 64, 64 , 81
+, 64, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ascendancy', 725408022, '"When the time comes, make yours one to remember." —Petra Venj', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 48 , 47, 34 , 61
+, 35, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hawthorne''s Field-Forged Shotgun', 731147177, '"What am I supposed to put here? ''It''s a gun. Kill bad guys with it.''" —Suraya Hawthorne', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 50, 37 , 64, 64 , 45
+, 10, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Good Bone Structure', 731147178, 'This one is a real looker.', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 50 , 69, 46 , 35
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Baligant', 731147179, 'Defend that which is precious to you.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 28, 29 , 30, 37 , 28
+, 30, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Doomsday', 736901634, 'The age-old chant: The end of days draws nigh.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 48 , 50, 49 , 54
+, 33, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last Man Standing', 755130877, 'Call me Ozymandias.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 33, 27 , 32, 38 , 26
+, 33, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph VY-7', 766323545, 'No offense is too small to reprimand.', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 59, 48 , 28, 27 , 57
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Etude-12', 772531208, 'A standard-issue SUROS weapon. City-made.', 24, 1 , -1, 3454344768 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 38, 38 , 47, 49 , 43
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tommy''s Matchbook', 776191470, '"It''s warm in here."', 6, 1 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 49, 50 , 62, 28 , 81
+, 56, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nightshade', 792755504, 'Three drops is all it takes.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 40, 59 , 69, 62 , 68
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Buzzard', 805677041, 'Circle ''round, great harbinger of death.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 42, 70 , 56, 37 , 89
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Peace by Consensus', 806021398, '"The Consensus is bigger than the Speaker. Bigger than any of us. It will survive, because it has to." —Commander Zavala, acting head of the Consensus', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 59, 44 , 39, 24 , 75
+, 33, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Day''s Fury', 807192446, 'Forged in honor of Radegast, and righteous rage born anew.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 60 , 68, 65 , 71
+, 42, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wish-Ender', 814876684, '"Don''t fret. It''s a simple expedition. We''ll be back before lunch." —Sjur Eido, First Queen''s Wrath', 31, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 0, 91 , 46, 37 , 51
+, 60, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trinity Ghoul', 814876685, '"I couldn''t afford to miss. Not when it was his life on the line." —Marin Mansanas, Tangled Outrider', 31, 1 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 0, 55 , 58, 55 , 74
+, 60, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Spoiler Alert', 819358961, 'Someone is going to die.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 25, 46 , 68, 56 , 65
+, 27, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Misfit', 819441402, 'Nowhere else to go.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 58 , 47, 53 , 76
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gnawing Hunger', 821154603, 'Don''t let pride keep you from a good meal.', 6, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 53, 49 , 67, 61 , 65
+, 55, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Peacebond', 829330711, '"I will honor the terms of this armistice on one condition: the Iron Lords enforce it." —Lord Saladin', 17, 1 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 40, 81 , 55, 36 , 69
+, 43, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Service Revolver', 834081972, 'To Serve and Protect.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 57 , 38, 37 , 67
+, 48, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Python', 838556752, '"If they let you get that close, they deserve it." —The Drifter', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 32 , 34, 42 , 37
+, 37, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Edgewise', 847329160, 'Don''t let them get a word in.', 8, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 32, 38 , 42, 64 , 68
+, 30, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SR_v1.0.1', 847450546, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 37, 45 , 70, 61 , 73
+, 45, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Uzume RR4 (Adept)', 852228780, 'With the Uzume RR4 on your side, the Darkness doesn''t stand a chance.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 64, 53 , 51, 50 , 67
+, 50, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Occluded Finality', 852551895, 'Silence is better than unmeaning words.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 78, 36 , 37, 41 , 47
+, 59, 58, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Borrowed Time', 875848769, '"Give a little, but take a little more." —The Drifter', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 43, 26 , 57, 30 , 38
+, 38, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Far Future', 893527433, '"Distance is just a matter of timing." —Crow', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 53, 53 , 47, 48 , 62
+, 30, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Acantha-D', 896923850, 'Your piercing Light knows no limits; your searcher''s heart, no bounds.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 28 , 31, 36 , 25
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Anniella', 905092001, 'Slender and deadly.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 43, 44 , 74, 65 , 73
+, 41, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tango-45', 925326392, 'SUROS invites you to be passionate.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 50, 50 , 45, 44 , 65
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Manannan SR4', 925326393, 'Escort your foes to their defeat.', 14, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 32, 46 , 71, 57 , 72
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Black Scorpion-4sr', 925326394, 'I attack from the shadows. I never miss.', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 28, 54 , 34, 35 , 56
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Wizened Rebuke', 930590127, 'Forged in honor of Skorri, of lessons learned and lessons taught.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 56, 35 , 30, 28 , 62
+, 28, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Line in the Sand', 946443267, 'No farther.', 22, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 36, 48 , 33, 31 , 60
+, 28, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tomorrow''s Answer', 958384347, 'Could you please repeat the question?', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 64 , 70, 42 , 73
+, 37, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last Perdition', 962412079, 'Can''t outrun the ending.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 45, 63 , 44, 48 , 60
+, 54, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Deafening Whisper', 981718087, '"The right message is loud at any volume." —Osiris', 23, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 75, 73 , 63
+, 48, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Allied Demand', 982229638, 'Rest satisfied with doing well, and leave others to talk of you as they please.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 41, 70 , 53, 37 , 85
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Silicon Neuroma', 990416096, '"My future is concurrently irreversible and unknowable. Before it overtakes me, I desire a more abrupt end to those responsible." —Asher Mir', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 77, 25 , 32, 34 , 47
+, 35, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bad Omens', 991314988, '"Can''t avoid ''em. Trick is surviving ''em." —The Drifter', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 34 , 28, 65 , 34
+, 35, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Timelines'' Vertex', 1006783454, '"I give you this, to be sure that we meet again." —Lakshmi-2', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 42, 46 , 42, 46 , 60
+, 50, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('One Small Step', 1016668089, '"Humanity once dreamt of walking on the Moon. Such innocence." —Eris Morn', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 32, 38 , 46, 65 , 68
+, 53, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('It Stared Back', 1018072983, 'At the edge of the universe, I stared into the infinite deep. It stared back, and was pleased. I would become the herald of its victory, and bear witness for all creation.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Motion to Vacate', 1018777295, '"Done cannot be undone."', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 52, 44 , 63, 66 , 54
+, 24, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Comedian', 1028582252, 'A. A ha. A ha ha ha. A ha ha ha ha ha ha ha.', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 35, 31 , 37, 42 , 38
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Glacioclasm', 1030895163, 'Clear and cold, forever.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 67, 36 , 40, 24 , 55
+, 26, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bottom Dollar', 1046651176, 'Never count yourself out.', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 35 , 38, 32 , 66
+, 59, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Better Devils', 1048266744, 'Angels can''t help you here.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 48 , 46, 46 , 75
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Horror''s Least', 1071542914, '"Some things should not be saved." —Techeun Sedia', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 41, 54 , 30, 42 , 82
+, 56, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Forge''s Pledge', 1076810832, '"Say whatever you like. You''d just better be brave enough to say it to his face."  —Lady Efrideet', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 44, 57 , 45, 48 , 61
+, 54, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Swift Solstice', 1084788061, 'Time is running short.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 29, 67 , 59, 45 , 57
+, 67, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SG_v1.0.2', 1096206669, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 41, 39 , 50, 65 , 72
+, 60, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Extraordinary Rendition', 1097616550, '"My warriors fight not for themselves, or even me, but for each other." —Empress Caiatl', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 48, 17 , 60, 30 , 34
+, 35, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Doubt', 1099433612, '"Do not fear your doubts. Fight your doubts. Honor them as you would honor your enemies." —Lakshmi-2', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 45, 42 , 69, 62 , 65
+, 53, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Servant Leader', 1107446438, 'Humanity rises by your strength.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 32, 48 , 26, 36 , 67
+, 50, 26, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sole Survivor', 1115104187, 'Names mean nothing to the dead.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 50, 42 , 48, 49 , 51
+, 41, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Chroma Rush', 1119734784, 'Drink from the data stream.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 32, 60 , 42, 52 , 80
+, 54, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Plemusa-B', 1120843238, 'You were born for this.', 23, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 42, 43 , 55
+, 19, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stampede Mk.32', 1120843239, 'Hang on to your helmets!', 23, 3 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 26 , 24, 28 , 25
+, 19, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Midnight Coup', 1128225405, 'The conspirators were too afraid to kill me—rightly so. I am the beloved father of the people, and the glorious mob would not suffer my death. My sentence was exile.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 37, 46 , 64, 60 , 90
+, 60, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Foregone Conclusion', 1137768695, 'This ending was inevitable.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 30, 54 , 47, 55 , 76
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vacuna SR4', 1159252500, 'A toast to our love for danger. Fear makes victory ever sweeter.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 41, 40 , 68, 61 , 73
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Redrix''s Broadsword', 1161276682, 'The second swing is no less deadly.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 60, 59 , 38, 44 , 39
+, 50, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Jian 7 Rifle', 1162247618, 'Come, brothers and sisters! Let us make way for the new ruler!', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 47, 50 , 52, 43 , 64
+, 55, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Adhortative', 1167153950, '"So... you think you can kill a god?" —Ghost', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 47, 55 , 48, 45 , 61
+, 52, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Messenger (Adept)', 1173780905, 'The bearer of bad news.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 69, 59 , 38, 44 , 37
+, 49, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tongeren-LR3', 1177293325, 'Long march. Stone road. Old city. Know the land.', 12, 2 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 32, 38 , 66, 57 , 66
+, 28, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Damietta-LR2', 1177293326, 'Taut sails. Wide rivers. Battered towers. Watch the seas.', 12, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 70, 25 , 30, 34 , 39
+, 25, 43, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Aachen-LR2', 1177293327, 'Old kings. Sharp swords. Epic songs. Take the throne.', 12, 2 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 42 , 42, 41 , 56
+, 32, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Agrona PR4', 1178397318, 'Do not be afraid. Our fate cannot be taken from us. It is a gift.', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 38, 53 , 68, 60 , 73
+, 50, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Battle Scar', 1178397319, '"Do not concern yourself with how many horns I bear." —Lord Shaxx', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 36, 53 , 69, 59 , 72
+, 53, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Thin Line', 1178886909, 'Sometimes you forget which side you''re on.', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 25 , 30, 29 , 60
+, 45, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Felwinter''s Lie', 1179141605, '"I just like the name. Doesn''t mean anything." —Lord Felwinter to Lord Timur', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 29, 27 , 33, 41 , 33
+, 34, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Quickfang', 1180270692, 'My smile is full of blades.', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 20, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eternity''s Edge', 1180270693, '"A sword is a wand that casts two spells: parry and cut." —Tarsem Sauer', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 50, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Crown-Splitter', 1180270694, '"Our enemies think themselves gods and kings. Show them the error of their ways." —Callisto Yin', 18, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 72, 60, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Relentless', 1187594590, '"Embrace your fate." —Emissary of the Nine', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 60, 54 , 32, 42 , 39
+, 40, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Steady Hand', 1189790632, 'Forged in honor of Perun, and a just and unwavering resolve.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 64, 32 , 28, 28 , 65
+, 40, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sondok-C', 1195725817, 'Your wisdom will lead you to victory.', 24, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 61, 38 , 27, 32 , 50
+, 27, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Whip Scorpion-3mg', 1195725818, 'I will bring you pain.', 24, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 26, 40 , 62, 33 , 45
+, 67, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sorrow MG2', 1195725819, 'A standard-issue Omolon weapon. City-made.', 24, 1 , -1, 2303181850 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 28, 39 , 53, 38 , 45
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('High Albedo', 1197486957, '"Don''t let the Light blind you to what''s right before your eyes."  —The Exo Stranger', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 38, 72 , 56, 37 , 71
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Showrunner', 1200414607, 'Once you have one, you''ll wonder how you ever did without.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 35, 42 , 64, 34 , 59
+, 64, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_HC_v1.0.2', 1200824700, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 60 , 40, 40 , 75
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Truth', 1201830623, '"…is where you seek it." —Lomar', 10, 3 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 66 , 68, 45 , 73
+, 40, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cold Denial', 1216130969, 'A familiar tool in the face of failure.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 61, 50 , 32, 41 , 32
+, 46, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fatebringer (Timelost)', 1216319404, 'But where is your fate, and who brings it to you?', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 51, 61 , 60, 51 , 84
+, 53, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Steelfeather Repeater', 1251729046, 'There is strength in delicate things.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 32, 38 , 44, 55 , 72
+, 53, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SR_v1.0.2', 1253087083, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 37, 45 , 70, 61 , 73
+, 45, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nasreddin', 1270948323, 'This weapon was forged by Devrim Kay VIII for the survivors.', 18, 3 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Widow''s Bite', 1271343896, 'I will outlive you.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 36, 42 , 69, 60 , 69
+, 33, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gravity Slingshot', 1277015089, '"On the day our ships are ready, the City will see us blast into the sky." —Arach Jalaal', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 24, 28 , 35, 35 , 25
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Claws of the Wolf', 1280933460, '"Perun''s strikes would hit so fast and true that our enemies wouldn''t realize their fate until it was too late." —Lord Saladin', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 41, 45 , 29, 34 , 78
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Protostar CSu', 1281822856, 'What came before?', 24, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 40, 39 , 49, 50 , 43
+, 38, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Philippis-B', 1281822857, 'You know these roads.', 24, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 52, 40 , 24, 21 , 50
+, 25, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Furina-2mg', 1281822858, 'I am ready to defend my territory.', 24, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 25, 41 , 66, 31 , 43
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Harmony-21', 1281822859, 'SUROS reminds you that a fireteam is better than a soloist.', 24, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 40, 39 , 50, 51 , 44
+, 38, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gahlran''s Right Hand', 1286686760, '"A Reefborn autorifle, rewritten with Hive voices to defend Gahlran the failed. Now yours." —Emperor Calus', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 83, 25 , 45, 39 , 56
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('PLUG ONE.1', 1289000550, 'Move with the current.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 62, 54 , 42, 38 , 66
+, 40, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pyroclastic Flow', 1289324202, 'There is no minimum safe distance.', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 50 , 47, 32 , 59
+, 42, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Breachlight', 1289997971, 'It has been melted and reforged many times.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 56, 53, 43 , 42, 31 , 82
+, 27, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eystein-D', 1291586825, 'We guarantee a fair trial.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 66, 50 , 31, 39 , 31
+, 52, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Recital-17', 1310413524, 'SUROS reminds you that practice makes perfect.', 17, 1 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 26, 60 , 52, 41 , 54
+, 61, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Victoire SI2', 1310413525, 'Victory is a process, not a finality.', 17, 1 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 34, 78 , 53, 34 , 65
+, 41, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sola''s Scar', 1313528549, 'Digging leaves a mark.', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 0, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Retrofuturist', 1325579289, 'They were so optimistic about us.', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 46, 42 , 68, 60 , 50
+, 20, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Badlander', 1327264046, '"We are a long way from home." —Arrha (trans. from Eliksni)', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 34, 44 , 51, 66 , 66
+, 57, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Perseverance', 1327432221, 'It was a long time coming. But it wasn''t the wait. It was the journey.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 54 , 44, 51 , 66
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('MIDA Multi-Tool', 1331482397, 'Select application: Ballistic engagement. Entrenching tool. Avionics trawl. Troll smasher. Stellar sextant. List continues.', 14, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 42, 37 , 82, 82 , 100
+, 60, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Chrysura Melo', 1337707096, '"If you hear it, remove your helmet and face the closest Corsair. They will know what must be done." —Queen Mara', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 76, 22 , 37, 37 , 58
+, 54, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stochastic Variable', 1339362514, '"However certain we are of our simulations, they always contain an element of unpredictability." —Lakshmi-2', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 40, 42 , 55, 34 , 52
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pleiades Corrector', 1342668638, '"No, I don''t think I''ll tell you what it''s for. That would be too easy." —Lakshmi-2', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 35, 49 , 74, 67 , 76
+, 53, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Sweet Business', 1345867570, '"…I love my job."', 6, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 37, 46 , 10, 10 , 80
+, 80, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Coldheart', 1345867571, 'The latest Omolon engineering leverages liquid fuel as coolant to keep weapon systems at biting subzero temperatures.', 25, 2 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 64, 64 , 42, 37 , 100
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Niflheim Frost', 1350102270, 'The chill you feel is death.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 46, 47 , 50, 48 , 62
+, 59, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Daedalus Code', 1351035691, 'Make your own escape.', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 39, 41 , 66, 62 , 87
+, 46, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Breath of the Dragon', 1357080535, '"Once Timur saw you, it was already over, whether they knew it or not." —Lord Saladin', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 32, 47 , 66, 33 , 50
+, 63, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ruinous Effigy', 1363238943, 'From the many wings of ruin blows a wind that will reshape this dead world.', 25, 2 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 8, 42, 67 , 53, 40 , 84
+, 46, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gjallarhorn', 1363886209, '“If there is beauty in destruction, why not also in its delivery?” — Feizel Crux', 10, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 68 , 69, 43 , 76
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Word', 1364093401, '"Yours, until the last flame dies and all words have been spoken." —Shin Malphur to you, as you journey forth into the unknown', 9, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 28, 46 , 28, 82 , 40
+, 40, 11, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tomorrow''s Answer (Adept)', 1366917989, 'Could you please repeat the question?', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 64 , 70, 42 , 73
+, 37, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Orimund''s Anvil', 1369487074, '"He was the first to forge arms for the Iron Banner." —Lord Saladin', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 64, 51 , 50, 45 , 40
+, 58, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Swift Ride XE8375', 1386601612, 'A Black Armory experimental prototype.', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 43, 61 , 46, 46 , 65
+, 51, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Broadsword Launcher', 1392429335, 'Let our monarch''s spirit ring out and roar!', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 46, 50 , 59
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trustee', 1392919471, 'A single word is etched inside the barrel: "Alton-1."', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 42, 49 , 37, 38 , 67
+, 56, 19, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Equinox Tsu', 1393021133, 'When will balance be restored?', 11, 2 , -1, 1847026933 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 52, 43 , 27, 26 , 59
+, 22, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Reve II', 1393021134, 'In the dark of night we dream of the Light''s return.', 11, 2 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 47, 27 , 24, 23 , 53
+, 13, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nox Calyx II', 1393021135, 'Shed the husk of night and be reborn.', 11, 2 , -1, 3454344768 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 34, 36 , 32, 35 , 55
+, 24, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Xenophage', 1395261499, 'This might sting a little.', 8, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 100, 71, 39 , 37, 38 , 33
+, 3, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Reed''s Regret', 1399243961, '"Trust me." —Savathûn as Osiris', 22, 3 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 50, 53 , 38, 35 , 66
+, 40, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Retrofuturist', 1402766122, 'They were so optimistic about us.', 7, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 46, 42 , 68, 60 , 50
+, 20, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Agamid', 1406475890, 'The lumbering beast stands ready to fight.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 31 , 32, 38 , 43
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Zenobia-D', 1411084669, 'You are the true power on the throne.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 47 , 45, 28 , 61
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Interference VI', 1443049976, 'Come between your enemies and their lives.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 44 , 46, 46 , 61
+, 36, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Rest for the Wicked', 1447973650, 'Let them sleep. For a long, long time.', 18, 3 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Future Imperfect', 1447973651, 'Language is a flawed technology.', 18, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tatara Gaze', 1449922174, 'The fire in your eyes reveals all truths.', 12, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 90, 74, 31 , 33, 42 , 45
+, 43, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fussed Dark Mk.21', 1457394908, 'Sun''s hanging low in the sky.', 7, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 42 , 40, 46 , 67
+, 37, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Botheration Mk.28', 1457394910, 'Be a pain in their side.', 7, 2 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 27, 24 , 28, 36 , 27
+, 28, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Badlands Mk.24', 1457394911, 'Place like this ain''t home to the faint of heart.', 7, 2 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 43, 37 , 66, 59 , 42
+, 10, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Duty Bound', 1457979868, '"Due respect, Commander? I was there when the Hive found us on Earth. I was there when we stopped them on Titan. And I''ll be there when we wipe them out." —Sloane', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 42, 45 , 61, 54 , 73
+, 58, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Escape Velocity', 1459443448, '"The first step toward truth is to let go of all that we know and hold dear." —Arach Jalaal', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 32, 39 , 73, 32 , 45
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Judgment', 1476654960, '"The greatest threat to a Guardian is another Guardian." —Emissary of the Nine', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 50, 48 , 48, 46 , 75
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Palindrome (Adept)', 1481892490, 'Draw, O Coward!', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 55, 62 , 55, 48 , 79
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Courageous Surrender', 1489452902, 'Do not go softly.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 27, 32 , 31
+, 27, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Future Safe 10', 1490571337, 'See who''s robed as if a god, who stands with pride above the rest!
 Destroy this ancient nameless fraud! Destroy the one whose death was blessed!', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bane of Sorrow', 1496419775, '"A Reefborn heavy implement, rewritten with Hive voices to make way for Gahlran the failed. Now yours." —Emperor Calus', 8, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 71, 30 , 45, 43 , 30
+, 44, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('King Cobra-4fr', 1502662697, 'Only fools dare enter my kingdom.', 22, 3 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 63, 41 , 28, 31 , 56
+, 20, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Breath', 1503609584, '"All things end." —Emissary of the Nine', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 48, 49 , 70, 56 , 67
+, 52, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cold Front', 1506719573, 'Sweep in like a force of nature. Leave destruction in your wake.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 46, 16 , 58, 27 , 29
+, 34, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Wardcliff Coil', 1508896098, 'Ingenuity. Desperation. A haphazard prototype of terrible power. Such were the factors at play in the Wardcliff Incident.', 10, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 55 , 82, 55 , 80
+, 0, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Swift Ride', 1513927136, 'It''ll be over before you know it.', 13, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 43, 61 , 46, 46 , 65
+, 51, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Disrespectful Stare', 1513927137, 'Don''t you look at me that way!', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 63, 55 , 30, 40 , 35
+, 51, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Lincoln Green', 1513927138, 'The survivors of that day chose not to remember.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 32, 46 , 30, 33 , 74
+, 46, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Agenda 5', 1513927139, 'Fifth time''s a charm.', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 37, 57 , 66, 62 , 71
+, 49, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Friction Fire', 1513993763, 'Speed, heat, and Light. Fire away.', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 56, 43 , 29, 26 , 52
+, 22, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Halfdan-D', 1518042134, 'Your name will ring out, your deeds will resound forever.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 82, 28 , 45, 35 , 60
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Valakadyn', 1518042135, 'In dark water, my fangs are bared.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 35, 52 , 44, 54 , 66
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eternal Slumber', 1523647826, '"The night sky closes in. We should not be here when the final star fades." —Arach Jalaal', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 48, 64 , 46, 45 , 65
+, 51, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Mos Epoch III', 1529450902, 'The perpetual eventually gives way to the variable.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 29 , 26, 57 , 32
+, 40, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Adverse Possession IX', 1531295694, 'Open and hostile and ready.', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 47, 50 , 44, 46 , 61
+, 51, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Athelflad-D', 1533499360, 'Make yourself dreadful to your enemies and indispensable to your allies.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 63, 37 , 36, 28 , 76
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Etana SI4', 1533499361, 'The reign of Light will be long and peaceful.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 45, 80 , 53, 40 , 60
+, 50, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Urchin-3si', 1533499362, 'I will draw them in, then take them out.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 24, 50 , 74, 49 , 72
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cerberus+1', 1541131350, '"Because three heads are good, but four are better." —Jeza "Jeopardy" Verlayn', 6, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 10, 32 , 39, 42 , 60
+, 59, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph Carbine', 1561006927, 'The old workhorse, still with many years to give.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 62, 45 , 45, 47 , 34
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hush', 1584643826, '"Breathe. Line up the shot. Enjoy the quiet before the kill." —The Drifter', 31, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 46 , 54, 46 , 64
+, 61, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Three Graves', 1587439031, '"No need to dig too deep. Our slumber will not be disturbed." —Arach Jalaal', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 68, 59 , 26, 37 , 39
+, 50, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Radiant Stardust', 1587779165, '"We are but dust on a stellar wind." —Arach Jalaal', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 33, 45 , 66, 35 , 49
+, 59, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('No Time to Explain', 1594120904, 'A single word etched onto the inside of the weapon''s casing: Now.', 13, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 73, 60 , 48, 64 , 45
+, 57, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Guseva-C', 1595336070, 'You know your purpose.', 9, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 29 , 33, 32 , 53
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Presto-48', 1595336071, 'SUROS invites you to hold nothing back.', 9, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 42, 52 , 47, 42 , 62
+, 44, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('21% Delirium', 1600633250, '"All right." —A Dark Age drifter', 8, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 50, 52 , 39, 61 , 70
+, 45, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Khvostov 7G-02', 1619016919, 'An ancient instrument of war, battered and worn—but it still fires true. Perhaps it''s been waiting for you.', 6, 1 , -1, 3373582085 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 21, 37 , 39, 57 , 48
+, 57, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gridskipper', 1621558458, '"No stars overhead. Best not to look up." —Amanda Holliday', 13, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 40, 52 , 34, 42 , 80
+, 55, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Biting Winds', 1621657423, '"The Fallen describe Darkness as a gale. A force of nature, arising suddenly, from seemingly nowhere." —The Exo Stranger', 31, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 76, 0, 49 , 54, 46 , 66
+, 61, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Vulpecula', 1622998472, '"Ammunition is the universal currency of the Sol system. The Cabal prefer to keep it that way." —Caiatl, Empress of the Cabal', 9, 1 , -1, 151347233 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 39, 58 , 36, 57 , 69
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Swift Verdict', 1626503676, '“Judgment is final.” —Emissary of the Nine', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 57, 46 , 43, 32 , 85
+, 32, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Guiding Sight', 1641430382, 'Forged in honor of Efrideet, and all that inspires.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 68, 32 , 34, 42 , 30
+, 40, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fixed Odds', 1642384931, 'An Earth artifact, refashioned to suit the Emperor''s modest tastes.', 8, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 67, 35 , 37, 38 , 33
+, 37, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Abide the Return', 1644160541, '"It is what she asks of us." —Paladin Kamala Rior', 18, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Origin Story', 1644162710, 'Your inciting incident is their tragic ending.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 61, 46 , 43, 47 , 35
+, 47, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Null Composure', 1644680957, 'Initiate or suppress.', 11, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 36, 42 , 60, 53 , 38
+, 55, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tranquility', 1645386487, '"They think violence will bring peace. Maybe it can." —Eris Morn', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 52, 43 , 52, 42 , 61
+, 40, 45, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Timecard', 1648316470, 'Clock in for work.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 32, 66 , 55, 41 , 51
+, 70, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Loquitor IV', 1650442173, 'The rifle speaks for itself.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 78, 24 , 41, 41 , 55
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Armillary PSu', 1650626964, 'What is the structure of the universe?', 14, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 38, 41 , 49, 42 , 62
+, 44, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Black Tiger-2sr', 1650626965, 'I creep unseen through the darkness.', 14, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 45, 28, 43 , 34, 42 , 57
+, 48, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Trax Lysis II', 1650626966, 'You will destroy them one cell at a time.', 14, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 66, 24 , 29, 36 , 27
+, 48, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Madrugada SR2', 1650626967, 'The dawn is coming.', 14, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 34, 39 , 65, 58 , 66
+, 47, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Threat Level', 1664372054, 'Hold on ''til midnight.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 37, 45 , 49, 68 , 74
+, 52, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Fourth Horseman', 1665952087, 'It''s not a holdout weapon; it''s a pathfinder.', 7, 2 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 30, 27 , 35, 42 , 39
+, 0, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Encore-25', 1669771780, 'SUROS invites you to get back on stage.', 13, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 42, 51 , 44, 44 , 55
+, 47, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Agrona PR2', 1669771781, 'Defeat is inevitable… for someone. Make sure it isn''t you.', 13, 1 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 34, 47 , 64, 58 , 66
+, 45, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Psi Cirrus II', 1669771782, 'Set your eyes on the sky.', 13, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 30, 42 , 24, 32 , 72
+, 44, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bayesian MSu', 1669771783, 'What are the chances?', 13, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 42, 52 , 44, 44 , 57
+, 45, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Autumn Wind', 1674742470, '"I am the autumnal sun,
 With autumn gales my race is run."', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 34, 51 , 32, 41 , 77
+, 58, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bayesian MSu', 1678957656, 'What are the chances?', 13, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 42, 52 , 44, 44 , 57
+, 45, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Psi Cirrus II', 1678957657, 'Set your eyes on the sky.', 13, 1 , -1, 3373582085 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 23, 30, 42 , 24, 32 , 72
+, 44, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Agrona PR2', 1678957658, 'Defeat is inevitable… for someone. Make sure it isn''t you.', 13, 1 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 27, 34, 47 , 64, 58 , 66
+, 45, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Encore-25', 1678957659, 'SUROS invites you to get back on stage.', 13, 1 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 42, 51 , 44, 44 , 55
+, 47, 17, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wastelander M5', 1679868061, 'A trusty companion for those long walks in hard vacuum.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 50, 46 , 69, 63 , 49
+, 26, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fate Cries Foul', 1684914716, 'So make your own.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 48, 47 , 47, 44 , 60
+, 31, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Forward Path', 1690783811, 'Forged in honor of Weyloran, and roads yet traveled.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 48 , 72, 64 , 71
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Astral Horizon', 1697682876, 'Even the brightest stars eventually set.', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 34 , 35, 40 , 34
+, 40, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Dance', 1699493316, 'Save it for me.', 17, 1 , -1, 1847026933 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 36, 86 , 57, 35 , 70
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Gallant Charge', 1706206669, 'There is a brief moment, before the clash, that lives between fear and certainty. Push through.', 11, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 95, 53, 31 , 27, 24 , 61
+, 22, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Old Fashioned', 1706536806, 'This is the way things were.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 44, 55 , 50, 49 , 65
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Permanent Truth', 1720373217, 'Always do what is right.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 28 , 27, 32 , 28
+, 10, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Enigma''s Draw', 1723380073, '"Indeed, I traffic in all kinds of secrets and mysteries. Weapons, as well." —Lakshmi-2', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 54, 48 , 39, 28 , 86
+, 33, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SMG_v1.0.1', 1723472487, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 24, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 22, 54, 39 , 73, 32 , 42
+, 45, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Legend of Acrius', 1744115122, '"In the Cabal legend, a hero seeks to possess the sun. He succeeds. Then, he becomes Emperor. The Cabal… are not a subtle people." —Tyra Karn', 7, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 100, 82 , 14, 28 , 90
+, 0, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('BrayTech Winter Wolf', 1752585070, 'The leader of the pack endures through the harshest conditions.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 72, 47 , 45, 48 , 47
+, 55, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Acantha-D XK8434', 1757129747, 'A Black Armory experimental prototype.', 23, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 28 , 31, 36 , 25
+, 50, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Legal Action II', 1760543913, 'It''s time to file a complaint.', 13, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 66, 53 , 32, 40 , 32
+, 47, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Thermal Erosion', 1766088024, '"Europa has relit the fire in my soul; one that even its freezing winds cannot chill."  —Clovis Bray', 8, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 33, 38 , 39, 61 , 66
+, 32, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Critical Sass', 1773600468, 'A chain reaction of nuclear insolence.', 11, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 30, 34 , 52, 50 , 30
+, 54, 15, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Galliard-42 XN7568', 1775804198, 'A Black Armory experimental prototype.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 42, 50 , 56, 47 , 60
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Escape Velocity', 1786797708, '"The first step toward truth is to let go of all that we know and hold dear." —Arach Jalaal', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 15, 32, 39 , 73, 32 , 45
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hazard of the Cast', 1789347249, '"Nothing for it once you place your life upon the die." —The Drifter', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 68, 47 , 50, 49 , 44
+, 49, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('18 Kelvins', 1798874854, 'Cold-blooded.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 44, 72 , 58, 36 , 80
+, 50, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hawthorne''s Field-Forged Shotgun', 1807343361, '"What am I supposed to put here? ''It''s a gun. Kill bad guys with it.''" —Suraya Hawthorne', 7, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 50, 37 , 64, 64 , 45
+, 10, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dead-Ender', 1813667283, '"I question the wisdom of our current trajectory." —Arach Jalaal', 22, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 41, 46 , 32, 28 , 63
+, 34, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seventh Seraph CQC-12', 1821724780, 'Word into law, held at gunpoint.', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 49, 41 , 72, 64 , 46
+, 27, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The End', 1825472717, '"Show them that safe harbor is very far away." —Emissary of the Nine', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 46, 47 , 50, 46 , 60
+, 45, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ager''s Scepter', 1833195496, '"One day, you will mold the world to your liking, dear brother, as I always have." —Queen Mara Sov', 25, 2 , -1, 151347233 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 72, 81 , 57, 60 , 100
+, 44, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nature of the Beast', 1835747805, 'Don''t let them change you.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 40, 65 , 42, 32 , 76
+, 57, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ether Doctor', 1839565992, '"Control the supply." —The Spider', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 44, 46 , 65, 57 , 61
+, 46, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hollow Earth', 1842303080, '"Do we need another reminder? This world is but a grave." —Arach Jalaal', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 32, 54 , 46, 52 , 76
+, 48, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Translation Theory', 1843044398, '"Must consider new ways… What cannot change, dies…" —Variks, the Loyal', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 37, 67 , 55, 37 , 81
+, 43, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Smuggler''s Word', 1843044399, 'A deal is a deal. Or so you hope.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 56, 55, 42 , 42, 30 , 82
+, 31, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Wavesplitter', 1852863732, 'Omolon''s newest breakthrough uses focused sonic waves to superheat electrons into a devastating energy beam.', 25, 2 , -1, 3454344768 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 6, 70, 78 , 56, 50 , 100
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traveler''s Chosen', 1853180924, '"All we have left now is our faith."', 17, 1 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 49, 82, 68 , 59, 46 , 80
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Worldline Zero', 1864563948, 'A single strike can alter the course of history.', 18, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
+, 60, 40, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Hero''s Burden', 1865351684, 'Forged in honor of Saladin, of all that has been lost and all  that remains.', 24, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 20, 50, 46 , 63, 58 , 51
+, 43, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Hothead (Adept)', 1866778462, 'Think of it as a weaponized temper tantrum.', 10, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 46 , 52, 50 , 67
+, 34, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Orewing''s Maul', 1870979911, '"They were the first to chart the Cosmodrome''s mountains." —Lord Saladin', 23, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 31 , 69, 74 , 73
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Elegy-49', 1873270090, 'SUROS invites you to bring about the end.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 46, 46 , 46, 46 , 60
+, 35, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Reginar-B', 1877183764, 'You stand at the head of the army.', 10, 3 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 23, 42 , 25
+, 25, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Cup-Bearer SA/2', 1877183765, 'Drink deep from the cup of destruction.', 10, 3 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 42 , 43, 44 , 55
+, 26, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Sudden Death', 1879212552, '"Everything dies. This is proof." —Emissary of the Nine', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 32, 33 , 32, 39 , 30
+, 38, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Seven-Six-Five', 1885753220, 'There''s a rhythm to it.', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 39, 42 , 66, 61 , 70
+, 54, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Call to Serve', 1885753222, '"We have to do more than ask for help, Suraya. We have to give them something to believe in."', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 47, 46 , 47, 50 , 58
+, 53, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Tone Patrol', 1885753223, 'We are listening and watching.', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 46, 48 , 44, 46 , 60
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('IKELOS_SG_v1.0.1', 1887808042, 'Subroutine IKELOS: Status=reinitiated.
 APOTHEOSIS: Status=active…', 7, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 41, 39 , 50, 65 , 72
+, 60, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Whisper of the Worm', 1891561814, 'A Guardian''s power makes a rich feeding ground. Do not be revolted. There are parasites that may benefit the host… teeth sharper than your own.', 12, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 100, 78, 24 , 35, 42 , 39
+, 50, 40, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Summoner', 1907698332, 'Join the dance of fire and birth.', 6, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 46, 47 , 73, 60 , 62
+, 51, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Prosecutor', 1909527966, '"All this in service of one purpose. You have their attention. Let us see if you can keep it." —Emissary of the Nine', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 64, 48 , 51, 50 , 34
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Rattler', 1911843788, 'You''ll never hear me coming.', 17, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 43, 25, 45 , 69, 55 , 68
+, 34, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Minimum Distance', 1911843789, 'All I need is a little breathing room.', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 51, 55, 50 , 41, 29 , 84
+, 31, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dead Man Walking', 1911843790, 'Before you? I just remember searching. What do you remember from before me?', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 35, 29, 60 , 54, 41 , 56
+, 64, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last Hope', 1911843791, 'Remember what you fight for.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 41, 82 , 55, 37 , 70
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hezen Vengeance (Timelost)', 1921159786, 'The Hezen Axis Mind is tireless and infinite. Tireless and infinite. Tireless and infinite…', 10, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 31, 64 , 35
+, 50, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Eternal Blazon', 1927800278, '"But this eternal blazon must not be to ears of flesh and blood."', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 60, 40, 41 , 66, 61 , 67
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('BrayTech Osprey', 1929278169, 'Expected Use Timeframe: UNKNOWN.', 10, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 60 , 68, 41 , 69
+, 38, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('No Feelings', 1931556011, 'Lose yourself in the moment.', 14, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 52, 50 , 46, 50 , 66
+, 56, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Archimedes Truth', 1940885628, 'The shortest distance between two points is a straight line.', 12, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 37, 40 , 66, 61 , 73
+, 38, 35, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Dark Decider', 1942069133, 'The oldest, shortest words—yes and no—are those which require the most thought.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 18, 32, 54 , 45, 51 , 72
+, 54, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Truthteller', 1946491241, '"If we wish others to accept the grim reality, we must break through every comforting illusion." —Arach Jalaal', 23, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 26 , 72, 74 , 79
+, 65, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Pluperfect', 1952163498, 'builds builds builds builds the past', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 75, 24 , 41, 41 , 54
+, 50, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Nameless Midnight', 1960218487, 'Strange things wake at the stroke of twelve.', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 46, 44 , 47, 50 , 62
+, 46, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Archon''s Thunder', 1967303408, '"Earth weapons strong, but Eliksni make stronger. What your Zavalakel says: stronger, together?" —House Light Weaponsmith', 8, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 68, 25 , 40, 40 , 27
+, 41, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Swarm of the Raven', 1972985595, '"With enough altitude, Felwinter''s destruction would blanket the field farther than you could see." —Lord Saladin', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 29 , 26, 29 , 27
+, 31, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stubborn Oak', 1977926913, 'A sturdy Shotgun forged by capable hands. It packs a punch.', 7, 2 , -1, 1847026933 , 3340296461
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 25, 23 , 26, 34 , 21
+, 23, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Talons of the Eagle', 1982711279, '"She soared above the battle and dove in the blink of an eye. If they were still alive, they were the unlucky ones." —Lord Saladin', 14, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 67, 71, 36 , 33, 39 , 30
+, 59, 21, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Flash and Thunder', 1983332560, 'Show them the Light.', 23, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 36 , 68, 71 , 75
+, 60, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Orthrus', 1983332561, 'Let slip the dogs of war.', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 58 , 68, 60 , 65
+, 26, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Berenger''s Memory', 1983332562, 'Take your place among the company of heroes.', 23, 3 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 24, 29 , 30
+, 28, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Praedyth''s Revenge (Timelost)', 1987769101, 'Praedyth will never fall.', 12, 2 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 55, 41, 46 , 73, 67 , 78
+, 60, 49, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Unification VII', 1988218406, '"To persuade others, we must show that we act in their interests." —Executor Hideo', 7, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 64, 42 , 68, 51 , 30
+, 44, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Badlands Mk.24', 1995011456, 'Place like this ain''t home to the faint of heart.', 7, 2 , -1, 3454344768 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 65, 43, 37 , 66, 59 , 42
+, 10, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Botheration Mk.28', 1995011457, 'Be a pain in their side.', 7, 2 , -1, 1847026933 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 80, 27, 24 , 28, 36 , 27
+, 28, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Fussed Dark Mk.21', 1995011459, 'Sun''s hanging low in the sky.', 7, 2 , -1, 2303181850 , 2127292149
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 60, 42 , 40, 46 , 67
+, 37, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Vow', 2009106091, '"''Til death do us part." —Lord Shaxx', 31, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 68, 0, 60 , 64, 64 , 84
+, 64, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Last Dance', 2009277538, 'Save it for me.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 36, 86 , 57, 35 , 70
+, 45, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Forward Path', 2014642399, 'Forged in honor of Weyloran, and roads yet traveled.', 6, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 21, 50, 48 , 72, 64 , 71
+, 60, 16, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Distant Relation', 2034817450, '"I like to keep my enemies where they can''t reach me. I can always find a way to get to them if I have to." —The Drifter', 14, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 62, 47, 54 , 46, 45 , 61
+, 56, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Butler RS/2', 2037589099, 'A loyal servant, equipped to take care of even the biggest messes.', 10, 3 , -1, 2303181850 , 2395677314
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 53 , 62, 42 , 63
+, 16, 20, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('The Queenbreaker', 2044500762, 'Despite the Breakers'' treachery, Her Majesty still stands.', 22, 3 , -1, 2303181850 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 55, 82 , 46, 64 , 60
+, 40, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Stars in Shadow', 2050789284, 'Little is known about the early days of the Collapse. Signals vanished upon the arrival of the Darkness.', 13, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 33, 66, 49 , 31, 41 , 28
+, 49, 18, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Salvager''s Salvo', 2060863616, 'The only way out is through.', 23, 2 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 33 , 73, 73 , 70
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Uzume RR4', 2065081837, 'With the Uzume RR4 on your side, the Darkness doesn''t stand a chance.', 12, 2 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 70, 64, 53 , 51, 50 , 67
+, 50, 50, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Canis Major', 2066434718, '"The stars roar with violent destruction. Channel their astral rage." —Ylaia, Awoken Techeun', 23, 3 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 32 , 28, 30 , 30
+, 36, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('One Thousand Voices', 2069224589, 'I can be anyone you wish, o murderer mine.', 11, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 100, 100, 46 , 10, 37 , 100
+, 80, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('A Cold Sweat', 2071412133, '"When the dreams begin, it is already too late." —Emissary of the Nine', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 44, 67 , 42, 37 , 75
+, 49, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Last of the Legion', 2084611899, '“Vex technology on Mercury. Energy on Mars. This system is rich in spoils if one knows where to look.” 
 —Val Ca''uor', 17, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 39, 82 , 55, 36 , 67
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Heir Apparent', 2084878005, '"The Red Legion will march again." —Caiatl', 8, 3 , -1, 1847026933 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 39, 64, 58 , 70, 55 , 90
+, 50, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Traveler''s Judgment 5', 2091737595, 'A visitor ignites the sky, and in the truth of light it dreams:
 Above the dead and yet-to-die, a legion''s blade with fire screams.', 17, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 75, 45, 84 , 56, 40 , 70
+, 47, 12, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Adjudicator', 2094938673, '"Hesitation kills." —Emissary of the Nine', 24, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 60, 46 , 29, 24 , 54
+, 30, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bad Reputation', 2105827099, '"Here we can start over." —Mithrax, trans. from Eliksni', 24, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 25, 58, 42 , 28, 24 , 51
+, 24, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Orewing''s Maul', 2108920981, '"They were the first to chart the Cosmodrome''s mountains." —Lord Saladin', 23, 2 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 0, 0, 31 , 69, 74 , 73
+, 70, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Duke Mk. 44', 2112909414, 'Slow to shoot, but brutal upon impact.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 68, 36 , 37, 37 , 64
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Ten Paces', 2112909415, 'Better be quick.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 53 , 44, 46 , 71
+, 50, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Brass Attacks', 2121785039, '"If looks could kill, you wouldn''t even have to aim this thing." —Banshee-44', 17, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 56, 47, 44 , 42, 34 , 89
+, 40, 13, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Arbalest', 2130065553, '"We didn''t have linear fusions in the Dark Age. But we made it work." —The Drifter', 22, 2 , -1, 3373582085 , 2759499571
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 41, 42, 55 , 32, 35 , 31
+, 34, 25, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Optative', 2138599001, 'If only you could see yourself. But you have no eyes. Not the dimmest sense survives…', 9, 1 , -1, 3454344768 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 78, 41, 60 , 33, 58 , 67
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Hero of Ages', 2139640995, 'After every age of darkness, an age of light.', 18, 3 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
+, 60, 0, 0 , 0, 0 , 0
 , 0, 0, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Bad News', 2145476620, 'Sit down. We need to talk.', 9, 1 , -1, 3373582085 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 92, 60, 29 , 33, 32 , 66
+, 54, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shattered Peace', 2145476622, 'Only you can make it whole again.', 9, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 40, 42 , 69, 60 , 84
+, 51, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Annual Skate', 2145476623, '"When the lake used to freeze, people would dance on the ice wearing boots with tiny swords. And fall in love."', 9, 1 , -1, 1847026933 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 84, 46, 54 , 52, 44 , 75
+, 52, 14, 0);
 INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 ('Shadow Price (Adept)', 2147010335, 'A precision Auto Rifle left behind by Toland, the Shattered. It asks so little, and it offers so much.', 6, 1 , -1, 2303181850 , 4008398120
-, 0, 0, 0 , 0, 0 , 0
-, 0, 0, 0);
+, 29, 67, 50 , 49, 52 , 43
+, 48, 16, 0);
 # INSERT CanMod
 INSERT INTO CanMod (wID, mID) VALUES (2149166938, 2273483223)
 INSERT INTO CanMod (wID, mID) VALUES (2149166939, 3728733956)

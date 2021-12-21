@@ -1,139 +1,136 @@
 BEGIN TRANSACTION;
 
 CREATE TABLE TierType (
-    ttID        INT             NOT NULL,
+    ttID        BIGINT             NOT NULL,
     TierName    varchar(64)     NOT NULL,
     PRIMARY KEY (ttID)
 );
 
 CREATE TABLE Mods (
-    mID         INT             NOT NULL,
+    mID         BIGINT             NOT NULL,
     ModName     varchar(64)     NOT NULL,
     PRIMARY KEY (mID)
 );
 
 
 CREATE TABLE Source (
-    sID         INT             NOT NULL,
+    sID         BIGINT             NOT NULL,
     Description TEXT,
     PRIMARY KEY (sID)
 );
 
 CREATE TABLE DamageType (
-    dID         INT             NOT NULL,
+    dID         BIGINT             NOT NULL,
     DamageName  varchar(64)     NOT NULL,
     PRIMARY KEY (dID)
 );
 
 CREATE TABLE Frame (
-    fID         INT             NOT NULL,
-    Description TEXT,
+    fID         BIGINT             NOT NULL,
+    Description VARCHAR,
     PRIMARY KEY (fID)
 );
 
 
 CREATE TABLE AmmoType (
-    amID        INT             NOT NULL,
-    AmmoName    varchar(64)     NOT NULL,
+    amID        BIGINT             NOT NULL,
+    AmmoName    varchar(64)        NOT NULL,
     PRIMARY KEY (amID)
 );
 
 CREATE TABLE WeaponType (
-    tID         INT             NOT NULL,
-    WeaponName varchar(64)      NOT NULL,
+    tID         BIGINT             NOT NULL,
+    WeaponName varchar(64)   	   NOT NULL,
     PRIMARY KEY (tID)
 );
 
 CREATE TABLE ArmorMod (
-    aID int NOT NULL,
-    ModName varchar(64)         NOT NULL,
+    aID 	BIGINT 				   NOT NULL,
+    mID 	BIGINT			       NOT NULL,
+    PRIMARY KEY (aID, mID)
+);
 
-    PRIMARY KEY (aID, ModName)
-};
-
-CREATE TABLE ArmorForm {
-    aID         INT             NOT NULL,
-    sID         INT             NOT NULL,
+CREATE TABLE ArmorForm (
+    aID         BIGINT             NOT NULL,
+    sID         BIGINT             NOT NULL,
     PRIMARY KEY (aID, sID)
-};
+);
 
-CREATE TABLE CanRoll {
-    wID         INT             NOT NULL,
-    pID         INT             NOT NULL,
+CREATE TABLE CanRoll (
+    wID         BIGINT             NOT NULL,
+    pID         BIGINT             NOT NULL,
     PRIMARY KEY (wID, pID)
-};
+);
 
-CREATE TABLE CanMod {
-    wID         INT             NOT NULL,
-    mID         INT             NOT NULL,
+CREATE TABLE CanMod (
+    wID         BIGINT             NOT NULL,
+    mID         BIGINT             NOT NULL,
     PRIMARY KEY (wID, mID)
-};
+);
 
-CREATE TABLE WeaponFrom {
-    wID         INT             NOT NULL,
-    sID         INT             NOT NULL,
+CREATE TABLE WeaponFrom (
+    wID         BIGINT             NOT NULL,
+    sID         BIGINT             NOT NULL,
     PRIMARY KEY (wID, sID)
-};
+);
 
-CREATE TABLE Catalysts {
-    cID         INT             NOT NULL,
+CREATE TABLE Catalysts (
+    cID         BIGINT             NOT NULL,
     Effect      TEXT,
-    wID         INT,
+    wID         BIGINT,
     PRIMARY KEY (cID)
-};
+);
 
-CREATE TABLE Armor {
-    aID         INT             NOT NULL,
-    Slot
+CREATE TABLE Armor (
+    aID         BIGINT             NOT NULL,
+    Slot		TEXT,
     Description TEXT,
     Name        varchar(64)     NOT NULL,
-    Mobility    INT,
-    Resilience  INT,
-    Recovery    INT,
-    Discipline  INT,
-    Intelliect  INT,
-    Strength    INT,
-    pID         INT,
-    ttID        INT,
-    PRIMARY KEY (aID),
-};
+    Mobility    BIGINT,
+    Resilience  BIGINT,
+    Recovery    BIGINT,
+    Discipline  BIGINT,
+    Intelliect  BIGINT,
+    Strength    BIGINT,
+    pID         BIGINT,
+    ttID        BIGINT,
+    PRIMARY KEY (aID)
+);
 
-CREATE TABLE Perks {
-    pID         INT             NOT NULL,
+
+CREATE TABLE Perks (
+    pID         BIGINT             NOT NULL,
     Description TEXT,
-    ttID        TEXT,
+    ttID        BIGINT,
     PRIMARY KEY (pID)
-};
+);
 
-CREATE TABLE Weapons {
-    wID         INT             NOT NULL,
+CREATE TABLE Weapons (
+    wID         BIGINT             NOT NULL,
     Name        varchar(64),
     Lore        TEXT,
-    Impact      INT,
-    Range       INT,
-    Stability   INT,
-    Handling    INT,
-    ReloadSpeed INT,
-    AimAssistance INT,
-    InventorySize INT,
-    Zoom        INT,
-    RecoilDirection INT,
-    BounceIntensity INT,
-    tID         INT,
-    amID        INT,
-    fID         INT,
-    dID         INT,
-    ttID        INT,
+    Impact      BIGINT,
+    Range       BIGINT,
+    Stability   BIGINT,
+    Handling    BIGINT,
+    ReloadSpeed BIGINT,
+    AimAssistance BIGINT,
+    InventorySize BIGINT,
+    Zoom        BIGINT,
+    RecoilDirection BIGINT,
+    tID         BIGINT,
+    amID        BIGINT,
+    fID         BIGINT,
+    dID         BIGINT,
+    ttID        BIGINT,
     PRIMARY KEY (wID)
-};
-    
--- Add Constraints Foreign Key after table creation
+);
 
 ALTER TABLE Weapons
 ADD CONSTRAINT fk_tid
 FOREIGN KEY (tID)
     REFERENCES WeaponType (tID);
-
+	
 ALTER TABLE Weapons
 ADD CONSTRAINT fk_amid
 FOREIGN KEY (amID)
@@ -223,5 +220,5 @@ ALTER TABLE ArmorMod
 ADD CONSTRAINT fk_mid
 FOREIGN KEY (mID)
     REFERENCES Mods (mID);
-
+	
 END TRANSACTION;

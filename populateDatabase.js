@@ -198,15 +198,17 @@ VALUES
             const Discipline = (object.stats.stats['1735777505'] && object.stats.stats['1735777505'].value) || 0;
             const Intelliect = (object.stats.stats['144602215'] && object.stats.stats['144602215'].value) || 0;
             const Strength = (object.stats.stats['4244567218'] && object.stats.stats['4244567218'].value) || 0;
-            
+
 
             const sql = `INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
             VALUES 
             (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(ttID)}, ${prepare(object.description)},
             ${prepare(Mobility)}, ${prepare(Resilience)}, ${prepare(Recovery)}, ${prepare(Discipline)}, ${prepare(Intelliect)}, ${prepare(Strength)}, ${prepare(slot)});`
+
             armorSQL.push(sql)
             armorHash.push(object.hash)
             armor.push(object)
+            console.log(object)
         }
     })
 
@@ -215,6 +217,7 @@ VALUES
     var source = []
 
     var weaponFrom = []
+    var armorFrom = []
 
     data.collectible.map(object => {
         source.push({
@@ -230,38 +233,87 @@ VALUES
                 sourceHash: object.sourceHash,
             })
         }
+
+        if (armorHash.includes(object.itemHash)) {
+
+            armorFrom.push({
+                armorHash: object.itemHash,
+                sourceHash: object.sourceHash,
+            })
+        }
     })
 
     // Get can mod of weapons
 
+
     canMod = []
     canModSQL = []
     weapon.map(object => {
-        const sockets = object.sockets
+        if (object.sockets) {
+            const sockets = object.sockets
 
-        var socketIndexes = []
+            var socketIndexes = []
 
-        sockets.socketCategories.map(socket => {
-            if (socket.socketCategoryHash === 2685412949) {
-                socketIndexes = socket.socketIndexes
-            }
-        })
-
-        socketIndexes.map(index => {
-            const entry = sockets.socketEntries[index]
-
-            if (entry.socketTypeHash == 1466776700) {
-                const canModObject = {
-                    modHash: entry.singleInitialItemHash,
-                    weaponHash: object.hash,
+            sockets.socketCategories.map(socket => {
+                if (socket.socketCategoryHash === 2685412949) {
+                    socketIndexes = socket.socketIndexes
                 }
+            })
 
-                const sql = `INSERT INTO CanMod (wID, mID) VALUES (${prepare(canModObject.weaponHash)}, ${canModObject.modHash})`
+            socketIndexes.map(index => {
+                const entry = sockets.socketEntries[index]
 
-                canMod.push(canModObject)
-                canModSQL.push(sql)
-            }
-        })
+                if (entry.singleInitialItemHash) {
+                    const canModObject = {
+                        modHash: entry.singleInitialItemHash,
+                        weaponHash: object.hash,
+                    }
+
+                    const sql = `INSERT INTO CanMod (wID, mID) VALUES (${prepare(canModObject.weaponHash)}, ${canModObject.modHash})`
+
+                    canMod.push(canModObject)
+                    canModSQL.push(sql)
+                }
+            })
+
+        }
+    })
+
+    armorModCat = [590099826]
+
+    //Armor mod
+    armorMod = []
+    armorModSQL = []
+    armor.map(object => {
+        if (object.sockets) {
+
+            const sockets = object.sockets
+
+            var socketIndexes = []
+
+            sockets.socketCategories.map(socket => {
+                if (armorModCat.includes(socket.socketCategoryHash)) {
+                    socketIndexes = socket.socketIndexes
+
+
+                    socketIndexes.map(index => {
+                        const entry = sockets.socketEntries[index]
+
+                        if (entry.singleInitialItemHash) {
+                            const armorModObject = {
+                                modHash: entry.singleInitialItemHash,
+                                armorHash: object.hash,
+                            }
+
+                            const sql = `INSERT INTO ArmorMod (aID, mID) VALUES (${prepare(armorModObject.armorHash)}, ${armorModObject.modHash})`
+
+                            armorMod.push(armorModObject)
+                            armorModSQL.push(sql)
+                        }
+                    })
+                }
+            })
+        }
     })
 
     //--------------- INSERT --------------------
@@ -350,6 +402,12 @@ VALUES
         appendSQL(sql)
     })
 
+    appendSQL('# INSERT ArmorMod')
+    armorModSQL.map(sql => {
+        appendSQL(sql)
+    })
+
+
     appendSQL('# INSERT CanRoll')
     weapon.map(object => {
         if (object.perks && object.perks.length > 0) {
@@ -364,6 +422,12 @@ VALUES
     appendSQL('# INSERT WeaponFrom')
     weaponFrom.map(object => {
         const sql = `INSERT INT WeaponFrom (wID, sID) VALUES (${object.weaponHash}, ${object.sourceHash})`
+        appendSQL(sql)
+    })
+
+    appendSQL('# INSERT ArmorForm')
+    armorFrom.map(object => {
+        const sql = `INSERT INT WeaponFrom (aID, sID) VALUES (${object.armorHash}, ${object.sourceHash})`
         appendSQL(sql)
     })
 }

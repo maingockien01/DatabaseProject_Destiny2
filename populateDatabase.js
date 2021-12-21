@@ -161,7 +161,7 @@ const populate = (data) => {
             const zoom = object.stats.stats['3555269338'] ? object.stats.stats['3555269338'].value : 0;
             const recoilDirection = object.stats['2715839340'] ? object.stats['2715839340'].value : 0;
 
-            const sql = `INSERT INTO Weapon (name, wid, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
+            const sql = `INSERT INTO Weapon (name, wID, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(lore)}, ${prepare(weaponTypeHash)}, ${prepare(ammoType)} , ${prepare(frameHash)}, ${prepare(damageType)} , ${prepare(tierType)}
 , ${prepare(impact)}, ${prepare(range)}, ${prepare(stability)} , ${prepare(handling)}, ${prepare(reloadSpeed)} , ${prepare(aimAssistence)}
@@ -173,6 +173,42 @@ VALUES
         }
     })
 
+
+    //Get armor
+    var armorSQL = []
+    var armor = []
+    var armorHash = []
+    const armorItemType = 2
+    data.inventoryItem.map(object => {
+        if (object.itemType === armorItemType) {
+
+            var pID = ''
+            if (object.perks && object.perks.length > 0) {
+                pID = object.perks[0].perkHash
+                console.log(object.hash)
+            }
+            const ttID = object.inventory.tierTypeHash
+
+            const slot = object.equippingBlock.equipmentSlotTypeHash
+
+            //Stats
+            const Mobility = (object.stats.stats['2996146975'] && object.stats.stats['2996146975'].value) || 0;
+            const Resilience = (object.stats.stats['392767087'] && object.stats.stats['392767087'].value) || 0;
+            const Recovery = (object.stats.stats['1943323491'] && object.stats.stats['1943323491'].value) || 0;
+            const Discipline = (object.stats.stats['1735777505'] && object.stats.stats['1735777505'].value) || 0;
+            const Intelliect = (object.stats.stats['144602215'] && object.stats.stats['144602215'].value) || 0;
+            const Strength = (object.stats.stats['4244567218'] && object.stats.stats['4244567218'].value) || 0;
+            
+
+            const sql = `INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
+            VALUES 
+            (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(ttID)}, ${prepare(object.description)},
+            ${prepare(Mobility)}, ${prepare(Resilience)}, ${prepare(Recovery)}, ${prepare(Discipline)}, ${prepare(Intelliect)}, ${prepare(Strength)}, ${prepare(slot)});`
+            armorSQL.push(sql)
+            armorHash.push(object.hash)
+            armor.push(object)
+        }
+    })
 
     //Get source
 
@@ -231,19 +267,19 @@ VALUES
     //--------------- INSERT --------------------
     appendSQL('# INSERT TierType')
     data.tierType.map(object => {
-        const sql = `INSERT INTO TierType (Name, ttID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+        const sql = `INSERT INTO TierType (TierName, ttID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
     })
 
     appendSQL('# INSERT DamageType')
     data.damageType.map(object => {
-        const sql = `INSERT INTO DamageType (Type, dID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+        const sql = `INSERT INTO DamageType (DamageName, dID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
     })
 
     appendSQL('# INSERT WeaponType')
     weaponTypes.map(object => {
-        const sql = `INSERT INTO WeaponType (Type, tID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+        const sql = `INSERT INTO WeaponType (WeaponName, tID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
 
     })
@@ -252,7 +288,7 @@ VALUES
     data.presentationNode.map(object => {
         if (['Primary', 'Heavy', 'Special'].includes(object.name)) {
 
-            const sql = `INSERT INTO AmmoType (type, aaID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+            const sql = `INSERT INTO AmmoType (AmmoName, aaID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
         }
     })
@@ -262,7 +298,7 @@ VALUES
         const modsHash = 59
         if (object.itemCategoryHashes && object.itemCategoryHashes.includes(modsHash)) {
 
-            const sql = `INSERT INTO Mods (Name, mID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+            const sql = `INSERT INTO Mods (ModName, mID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
         }
     })
@@ -272,7 +308,7 @@ VALUES
     data.inventoryItem.map(object => {
         if (object.itemCategoryHashes && object.itemCategoryHashes.includes(frameModHash)) {
 
-            const sql = `INSERT INTO Frames (Description, fID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+            const sql = `INSERT INTO Frame (Description, fID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)
         }
     })
@@ -299,36 +335,9 @@ VALUES
     })
 
     appendSQL('# INSERT Armor')
-    const armorItemType = 2
-    data.inventoryItem.map(object => {
-        if (object.itemType === armorItemType) {
-
-            var pID = ''
-            if (object.perks && object.perks.length > 0) {
-                pID = object.perks[0].perkHash
-                console.log(object.hash)
-            }
-            const ttID = object.inventory.tierTypeHash
-
-            const slot = object.equippingBlock.equipmentSlotTypeHash
-
-            //Stats
-            const Mobility = (object.stats.stats['2996146975'] && object.stats.stats['2996146975'].value) || 0;
-            const Resilience = (object.stats.stats['392767087'] && object.stats.stats['392767087'].value) || 0;
-            const Recovery = (object.stats.stats['1943323491'] && object.stats.stats['1943323491'].value) || 0;
-            const Discipline = (object.stats.stats['1735777505'] && object.stats.stats['1735777505'].value) || 0;
-            const Intelliect = (object.stats.stats['144602215'] && object.stats.stats['144602215'].value) || 0;
-            const Strength = (object.stats.stats['4244567218'] && object.stats.stats['4244567218'].value) || 0;
-            
-
-            const sql = `INSERT INTO Armor (Name, aID, ttID, Description, Mobility, Resilience, Recovery, Discipline, Intelliect, Strength, Slot) 
-            VALUES 
-            (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(ttID)}, ${prepare(object.description)},
-            ${prepare(Mobility)}, ${prepare(Resilience)}, ${prepare(Recovery)}, ${prepare(Discipline)}, ${prepare(Intelliect)}, ${prepare(Strength)}, ${prepare(slot)});`
-            appendSQL(sql)
-        }
+    armorSQL.map(sql => {
+        appendSQL(sql)
     })
-
 
     appendSQL('# INSERT Weapon')
     weaponSQL.map(sql => {

@@ -99,9 +99,9 @@ CREATE TABLE Armor (
 
 
 CREATE TABLE Perks (
+    Name        TEXT,
     pID         BIGINT             NOT NULL,
     Description TEXT,
-    ttID        BIGINT,
     PRIMARY KEY (pID)
 );
 

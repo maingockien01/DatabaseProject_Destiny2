@@ -13,7 +13,7 @@ const traveler = new Traveler({
 const manitfestFilepath = './manifest.content'
 const sqlFilepath = './populate.sql'
 
-fs.writeFile(sqlFilepath, `# CREATED AT ${Date.now()}\n`, { flag: 'w+' }, err => { if (err) console.log(err) })
+fs.writeFile(sqlFilepath, `-- CREATED AT ${Date.now()}\n`, { flag: 'w+' }, err => { if (err) console.log(err) })
 
 
 
@@ -23,7 +23,10 @@ traveler.destiny2.getDestinyManifest().then(result => {
     traveler.destiny2.downloadManifest(result.Response.mobileWorldContentPaths.en, manitfestFilepath).then(async (filepath) => {
         const manifest = new Manifest(filepath);
         const data = await extractData(manifest)
+
+        appendSQL("BEGIN TRANSACTION;")
         populate(data)
+        appendSQL("END TRANSACTION;")
 
 
         manifest.queryManifest('SELECT name FROM sqlite_master WHERE type="table"').then(queryResult => {
@@ -118,7 +121,7 @@ const populate = (data) => {
         createWeaponType('Crucible', 1),
         createWeaponType('Vanguard', 2),
         createWeaponType('Exotic', 5),
-        createWeaponType('AutoRifle', 4),
+        createWeaponType('AutoRifle', 6),
         createWeaponType('Shotgun', 7),
         createWeaponType('Machinegun', 8),
         createWeaponType('HandCannon', 9),
@@ -131,7 +134,21 @@ const populate = (data) => {
         createWeaponType('Sidearm', 17),
         createWeaponType('Sword', 18),
         createWeaponType('Mask', 19),
-        createWeaponType('Shader', 20),
+        createWeaponType('Shader', 20), 
+        createWeaponType('Ornament', 21),
+        createWeaponType('FusionRifleLine', 22),
+        createWeaponType('GrenadeLauncher', 23),
+        createWeaponType('SubmachineGun', 24),
+        createWeaponType('TraceRifle', 25),
+        createWeaponType('HelmetArmor', 26),
+        createWeaponType('GauntletsArmor', 27),
+        createWeaponType('ChestArmor', 28),
+        createWeaponType('LegArmor', 29),
+        createWeaponType('ClassArmor', 30),
+        createWeaponType('Bow', 31),
+        createWeaponType('DummyRepeatableBounty', 32),
+
+        
     ]
 
     var weaponsHash = []
@@ -146,7 +163,7 @@ const populate = (data) => {
             const lore = object.flavorText
             const weaponTypeHash = object.itemSubType;
             const ammoType = object.equippingBlock.ammoType
-            const frameHash = -1 //TODO: connect with Frame table
+            const frameHash = 2179934441 //TODO: connect with Frame table -> just a random id
             const damageType = object.damageTypeHashes[0] || -1
             const tierType = object.inventory.tierTypeHash
 
@@ -161,7 +178,7 @@ const populate = (data) => {
             const zoom = object.stats.stats['3555269338'] ? object.stats.stats['3555269338'].value : 0;
             const recoilDirection = object.stats['2715839340'] ? object.stats['2715839340'].value : 0;
 
-            const sql = `INSERT INTO Weapon (name, wID, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistence, InventorySize, Zoom, RecoilDirection) 
+            const sql = `INSERT INTO Weapons (name, wID, lore, tID, amID, fID, dID, ttID, Impact, Range, Stability, Handling, ReloadSpeed, AimAssistance, InventorySize, Zoom, RecoilDirection) 
 VALUES 
 (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(lore)}, ${prepare(weaponTypeHash)}, ${prepare(ammoType)} , ${prepare(frameHash)}, ${prepare(damageType)} , ${prepare(tierType)}
 , ${prepare(impact)}, ${prepare(range)}, ${prepare(stability)} , ${prepare(handling)}, ${prepare(reloadSpeed)} , ${prepare(aimAssistence)}
@@ -208,7 +225,6 @@ VALUES
             armorSQL.push(sql)
             armorHash.push(object.hash)
             armor.push(object)
-            console.log(object)
         }
     })
 
@@ -218,6 +234,8 @@ VALUES
 
     var weaponFrom = []
     var armorFrom = []
+    var armorFromHash = []
+
 
     data.collectible.map(object => {
         source.push({
@@ -234,12 +252,14 @@ VALUES
             })
         }
 
-        if (armorHash.includes(object.itemHash)) {
+        if (armorHash.includes(object.itemHash) && !armorFromHash.includes(object.itemHash)) {
 
             armorFrom.push({
                 armorHash: object.itemHash,
                 sourceHash: object.sourceHash,
             })
+
+            armorFromHash.push(object.itemHash)
         }
     })
 
@@ -269,7 +289,7 @@ VALUES
                         weaponHash: object.hash,
                     }
 
-                    const sql = `INSERT INTO CanMod (wID, mID) VALUES (${prepare(canModObject.weaponHash)}, ${canModObject.modHash})`
+                    const sql = `INSERT INTO CanMod (wID, mID) VALUES (${prepare(canModObject.weaponHash)}, ${canModObject.modHash});`
 
                     canMod.push(canModObject)
                     canModSQL.push(sql)
@@ -291,6 +311,8 @@ VALUES
 
             var socketIndexes = []
 
+            mod = []
+
             sockets.socketCategories.map(socket => {
                 if (armorModCat.includes(socket.socketCategoryHash)) {
                     socketIndexes = socket.socketIndexes
@@ -299,16 +321,18 @@ VALUES
                     socketIndexes.map(index => {
                         const entry = sockets.socketEntries[index]
 
-                        if (entry.singleInitialItemHash) {
+                        if (entry.singleInitialItemHash && !mod.includes(entry.singleInitialItemHash)) {
                             const armorModObject = {
                                 modHash: entry.singleInitialItemHash,
                                 armorHash: object.hash,
                             }
 
-                            const sql = `INSERT INTO ArmorMod (aID, mID) VALUES (${prepare(armorModObject.armorHash)}, ${armorModObject.modHash})`
+                            const sql = `INSERT INTO ArmorMod (aID, mID) VALUES (${prepare(armorModObject.armorHash)}, ${armorModObject.modHash});`
 
                             armorMod.push(armorModObject)
                             armorModSQL.push(sql)
+
+                            mod.push(entry.singleInitialItemHash)
                         }
                     })
                 }
@@ -317,35 +341,58 @@ VALUES
     })
 
     //--------------- INSERT --------------------
-    appendSQL('# INSERT TierType')
+    appendSQL('-- INSERT TierType')
     data.tierType.map(object => {
         const sql = `INSERT INTO TierType (TierName, ttID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
     })
 
-    appendSQL('# INSERT DamageType')
+    appendSQL('-- INSERT DamageType')
     data.damageType.map(object => {
         const sql = `INSERT INTO DamageType (DamageName, dID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
     })
 
-    appendSQL('# INSERT WeaponType')
+    appendSQL('-- INSERT WeaponType')
     weaponTypes.map(object => {
         const sql = `INSERT INTO WeaponType (WeaponName, tID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
         appendSQL(sql)
 
     })
 
-    appendSQL('# INSERT AmmoType')
-    data.presentationNode.map(object => {
-        if (['Primary', 'Heavy', 'Special'].includes(object.name)) {
+    appendSQL('-- INSERT AmmoType')
+    ammoTypes = [
+        {
+            name: 'None',
+            hash: 0,
+        },
+        {
+            name: 'Primary',
+            hash: 1,
+        },
+        {
+            name: 'Special',
+            hash: 2,
+        },
+        {
+            name: 'Heavy',
+            hash: 3,
+        },
+        {
+            name: 'Unknown',
+            hash: 4,
+        },
+    ]
 
-            const sql = `INSERT INTO AmmoType (AmmoName, aaID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
-            appendSQL(sql)
-        }
+
+    ammoTypes.map(object => {
+
+        const sql = `INSERT INTO AmmoType (AmmoName, amID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
+        appendSQL(sql)
+
     })
 
-    appendSQL('# INSERT Mods')
+    appendSQL('-- INSERT Mods')
     data.inventoryItem.map(object => {
         const modsHash = 59
         if (object.itemCategoryHashes && object.itemCategoryHashes.includes(modsHash)) {
@@ -355,7 +402,7 @@ VALUES
         }
     })
 
-    appendSQL('# INSERT Frame')
+    appendSQL('-- INSERT Frame')
     const frameModHash = 3708671066
     data.inventoryItem.map(object => {
         if (object.itemCategoryHashes && object.itemCategoryHashes.includes(frameModHash)) {
@@ -367,7 +414,7 @@ VALUES
 
 
 
-    appendSQL('# INSERT Source')
+    appendSQL('-- INSERT Source')
     var sourceHashSet = []
     source.map(object => {
         if (!sourceHashSet.includes(object.hash)) {
@@ -378,7 +425,7 @@ VALUES
         }
     })
 
-    appendSQL('# INSERT Perks')
+    appendSQL('-- INSERT Perks')
     data.sandbox.map(object => {
         const sql = `INSERT INTO Perks (Name, pID, Description) VALUES (${prepare(object.name)}, ${prepare(object.hash)}, ${prepare(object.description)});`
         appendSQL(sql)
@@ -386,29 +433,29 @@ VALUES
 
     })
 
-    appendSQL('# INSERT Armor')
+    appendSQL('-- INSERT Armor')
     armorSQL.map(sql => {
         appendSQL(sql)
     })
 
-    appendSQL('# INSERT Weapon')
+    appendSQL('-- INSERT Weapon')
     weaponSQL.map(sql => {
         appendSQL(sql)
     })
 
 
-    appendSQL('# INSERT CanMod')
+    appendSQL('-- INSERT CanMod')
     canModSQL.map(sql => {
         appendSQL(sql)
     })
 
-    appendSQL('# INSERT ArmorMod')
+    appendSQL('-- INSERT ArmorMod')
     armorModSQL.map(sql => {
         appendSQL(sql)
     })
 
 
-    appendSQL('# INSERT CanRoll')
+    appendSQL('-- INSERT CanRoll')
     weapon.map(object => {
         if (object.perks && object.perks.length > 0) {
             object.perks.map(perk => {
@@ -419,15 +466,15 @@ VALUES
 
     })
 
-    appendSQL('# INSERT WeaponFrom')
+    appendSQL('-- INSERT WeaponFrom')
     weaponFrom.map(object => {
-        const sql = `INSERT INT WeaponFrom (wID, sID) VALUES (${object.weaponHash}, ${object.sourceHash})`
+        const sql = `INSERT INTO WeaponFrom (wID, sID) VALUES (${object.weaponHash}, ${object.sourceHash});`
         appendSQL(sql)
     })
 
-    appendSQL('# INSERT ArmorForm')
+    appendSQL('-- INSERT ArmorForm')
     armorFrom.map(object => {
-        const sql = `INSERT INT WeaponFrom (aID, sID) VALUES (${object.armorHash}, ${object.sourceHash})`
+        const sql = `INSERT INTO ArmorForm (aID, sID) VALUES (${object.armorHash}, ${object.sourceHash});`
         appendSQL(sql)
     })
 }
@@ -486,7 +533,7 @@ const appendSQL = (line) => {
 
 const prepare = (param) => {
     if (!param && typeof param !== 'number') {
-        return ''
+        return "''"
     }
     if (typeof param === 'string' || param instanceof String) {
         const prepared = "'" + param.replaceAll("'", "''") + "'"

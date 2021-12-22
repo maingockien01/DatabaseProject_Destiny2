@@ -151,6 +151,25 @@ const populate = (data) => {
         
     ]
 
+
+    const getFrameHash = (weapon) => {
+        if (weapon.sockets) {
+            const socketEntries = weapon.sockets.socketEntries
+            var itemHash = -1
+            socketEntries.map (entry => {
+                //WEAPON MOD: INSTRINCT 3956125808
+                //WEAPON MOD: FRAME 3708671066
+                if (entry.socketTypeHash === 3956125808) {
+                    itemHash = entry.singleInitialItemHash
+                }
+            })
+
+            return itemHash
+        } else {
+            throw new Error()
+        }
+    }
+
     var weaponsHash = []
     var weaponSQL = []
     var weapon = []
@@ -163,7 +182,7 @@ const populate = (data) => {
             const lore = object.flavorText
             const weaponTypeHash = object.itemSubType;
             const ammoType = object.equippingBlock.ammoType
-            const frameHash = 2179934441 //TODO: connect with Frame table -> just a random id
+            const frameHash = getFrameHash(object) //TODO: connect with Frame table -> just a random id
             const damageType = object.damageTypeHashes[0] || -1
             const tierType = object.inventory.tierTypeHash
 
@@ -189,6 +208,7 @@ VALUES
             weaponsHash.push(id)
         }
     })
+
 
 
     //Get armor
@@ -404,8 +424,11 @@ VALUES
 
     appendSQL('-- INSERT Frame')
     const frameModHash = 3708671066
+    
+    const instrictModHash = 2237038328
     data.inventoryItem.map(object => {
-        if (object.itemCategoryHashes && object.itemCategoryHashes.includes(frameModHash)) {
+        if (object.itemCategoryHashes && 
+            (object.itemCategoryHashes.includes(frameModHash) || object.itemCategoryHashes.includes(instrictModHash))) {
 
             const sql = `INSERT INTO Frame (Description, fID) VALUES (${prepare(object.name)}, ${prepare(object.hash)});`
             appendSQL(sql)

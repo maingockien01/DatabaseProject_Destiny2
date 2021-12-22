@@ -67,7 +67,14 @@ function getValues()
             }
         }
     }
-    console.log("Damage List: "+damage_list)
+    if(damage_list.length!=0)
+    {
+        console.log("Damage List: "+damage_list)
+    }
+    else{
+        damage_list.push("NULL")
+        console.log("Damage List: "+damage_list)
+    }
 
     const slot_list = []
     var slot = document.getElementsByName("slot");
@@ -90,7 +97,14 @@ function getValues()
             }
         }
     }
-    console.log("Slot List: "+slot_list);
+    if(slot_list.length!=0)
+    {
+        console.log("Slot List: "+slot_list);
+    }
+    else{
+        slot_list.push("NULL")
+        console.log("Slot List: "+slot_list);
+    }
 
     const rarity_list = []
     var rarity = document.getElementsByName("rarity");
@@ -113,7 +127,15 @@ function getValues()
             }
         }
     }
-    console.log("Rarity List: "+rarity_list);
+    if(rarity_list.length!=0)
+    {
+        console.log("Rarity List: "+rarity_list);
+    }
+    else{
+        rarity_list.push("NULL")
+        console.log("Rarity List: "+rarity_list);
+    }
+
 
     const weapon_list = []
     var weapon = document.getElementsByName("weapon");
@@ -137,8 +159,15 @@ function getValues()
             
         }
     }
-    console.log("Weapon List: "+weapon_list);
-
+    if(weapon_list.length!=0)
+    {
+        console.log("Weapon List: "+weapon_list);
+    }
+    else{
+        weapon_list.push("NULL")
+        console.log("Weapon List: "+weapon_list);
+    }
+    
     let weapon_name = document.getElementById('weapon_input').value;
     if(weapon_name!='')
     {
@@ -146,7 +175,7 @@ function getValues()
     }
     else
     {
-        weapon_name="null";
+        weapon_name="NULL";
         console.log("Weapon Name: "+weapon_name);
     }
     
@@ -156,7 +185,7 @@ function getValues()
         console.log("Armor Name: "+armor_name);
     }
     else{
-        armor_name="null"
+        armor_name="NULL"
         console.log("Armor Name: "+armor_name);
     }
 

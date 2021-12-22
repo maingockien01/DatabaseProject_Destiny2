@@ -99,9 +99,9 @@ CREATE TABLE Armor (
 
 
 CREATE TABLE Perks (
+    Name        TEXT,
     pID         BIGINT             NOT NULL,
     Description TEXT,
-    ttID        BIGINT,
     PRIMARY KEY (pID)
 );
 
@@ -147,11 +147,6 @@ FOREIGN KEY (dID)
     REFERENCES DamageType (dID);
 
 ALTER TABLE  Weapons
-ADD CONSTRAINT fk_ttid
-FOREIGN KEY (ttID)
-    REFERENCES TierType (ttID);
-
-ALTER TABLE Perks
 ADD CONSTRAINT fk_ttid
 FOREIGN KEY (ttID)
     REFERENCES TierType (ttID);
